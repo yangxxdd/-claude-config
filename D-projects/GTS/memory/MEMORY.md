@@ -1,0 +1,4 @@
+- [仪表盘配置与工作流](gts-dashboard-setup.md) — ⭐ Base 结构/字段映射/公式/简报模板/关停规则/完整工作流
+- [两次测试分析](gts-test-analysis.md) — 2月+4月测试数据、17支素材方向分析、KPI 基准
+- [竞品分析报告](gts-competitive-analysis.md) — Mafia City/指尖无双/Gods Chaos 等竞品投放策略
+- [文件索引](gts-reference-files.md) — 本地文件路径、飞书 URL、Sheet Token、lark-cli 命令

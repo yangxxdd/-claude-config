@@ -1,0 +1,9 @@
+- [用户角色与职责](user_role.md) — UA投放负责人，仅负责GTS，向王总/秦总/制作人汇报
+- [Writing style balance](feedback_writing_style.md) — Professional but natural Chinese docs: not AI-formulaic, not overly colloquial
+- [God Weapons project context](project_godweapons.md) — 已归档，用户不再负责此项目
+- [GTS game analysis project](project_gts_analysis.md) — GTS投放分析：两次测试数据(Sheet逐格验证)、17支素材内容分析、素材规划
+- [GTS file index](reference_gts_files.md) — GTS所有文件路径、飞书URL、Sheet token、lark-cli命令、素材目录
+- [lark-cli tooling](tooling_lark_cli.md) — lark-cli v1.0.26 避坑：docs +update/+create 正确flag、markdown转换bug
+- [GTS竞品分析报告状态](project_gts_competitive_analysis.md) — 竞品报告v3已完成，三大核心竞品+买量策略为主，附素材链接
+- [Lands of Jail报告修改建议](project_loj_report_feedback.md) — 4点补充：3-5分钟闭环映射、四大感觉框架、合规checklist、炸鸡割裂感强化
+- [竞品广告素材调研工作流](workflow_ad_creative_research.md) — 广大大登录→搜索→iframe提取→去重排序→Qwen分析→飞书同步的完整SOP，含规模化策略

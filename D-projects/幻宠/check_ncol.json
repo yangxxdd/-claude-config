@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "revision": 223,
+    "spreadsheetToken": "VVyysuupBhkUcqtrPEqcFm8Pn5e",
+    "valueRange": {
+      "majorDimension": "ROWS",
+      "range": "QPbYJe!N2:N19",
+      "revision": 223,
+      "values": [
+        [
+          "P0首屏|A/B：A版女牛仔强主角，B版弱化人物放大炸鸡店与秘密交易|禁区：无毒品用underground deal|画风V3b已与制作人对齐"
+        ],
+        [
+          "P0 首图对照|假设：城市行动/载具/街头冲突流量更大格局承接|禁区：不复制GTA Logo/字体/角色服装/海报构图|夜景只做后续定向"
+        ],
+        [
+          "P0 次图|A/B：A=房间解锁 B=街区解锁|禁区：不混战斗投钱复活和经营解锁"
+        ],
+        [
+          "同03-A|A/B：B=街区产业解锁(室外)"
+        ],
+        [
+          "P0 次图/图3|A/B：A=人群3→12 B=门徒入队|禁区：不画传统十连抽/不画成音乐游戏/避免01/04/09同组三主角"
+        ],
+        [
+          "同04-A|A/B：B=特色门徒加入三人阵容"
+        ],
+        [
+          "P0 次图/图3|A/B：A=规模 B=结果|禁区：拒绝单人决斗/纯立绘/纯数值UI/避免血腥特写"
+        ],
+        [
+          "同05-A|A/B：B=强调结果(变色放大/战利品更醒目)"
+        ],
+        [
+          "P1 定向|A/B：A=芝加哥密度 B=版图扩张|禁区：避免纯卫星地图/纯城市名/无动作旗帜/不用现实警务App"
+        ],
+        [
+          "同06-A|A/B：B=版图扩张为主"
+        ],
+        [
+          "P1 定向|A/B：A=杰克罗素 B=德牧|禁区：不把真实狗照片直接拼进画面/避免动物受伤/女牛仔不出现"
+        ],
+        [
+          "同07-A|A/B：B=德牧(战力感)"
+        ],
+        [
+          "P1 定向|A/B：A=救援紧迫 B=复仇火并|禁区：不用束缚/暴露/性暗示/改成受伤被围困犯罪现场"
+        ],
+        [
+          "同08-A|A/B：B=强调复仇火并"
+        ],
+        [
+          "P1 定向|A/B：A=阵营组合 B=玩法组合|禁区：拒绝整页十连抽/纯立绘海报/无法解释的战力数字/女牛仔最后一次强露出"
+        ],
+        [
+          "同09-A|A/B：B=玩法任务组合"
+        ],
+        [
+          "P2 补强|A/B：A=豪宅 B=炸鸡店|禁区：不用纯白色线框/云雾/BUILD\u0026UPGRADE泛文案/差异不明显不进前五"
+        ],
+        [
+          "同10-A|A/B：B=炸鸡店/产业升级"
+        ]
+      ]
+    }
+  },
+  "_notice": {
+    "deprecated_command": {
+      "action": "lark-cli update",
+      "command": "+read",
+      "message": "+read is a pre-refactor compatibility alias; use +cells-get instead; update your lark-sheets skill, run: lark-cli update",
+      "replacement": "+cells-get",
+      "skill": "lark-sheets"
+    },
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.85",
+      "message": "lark-cli 1.0.85 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

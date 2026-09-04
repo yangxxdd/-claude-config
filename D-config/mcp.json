@@ -1,0 +1,27 @@
+﻿{
+  "mcpServers": {
+    "browser-use": {
+      "command": "C:/Users/yangxd/AppData/Local/Programs/Python/Python312/Scripts/mcp-server-browser-use.exe",
+      "args": [],
+      "env": {
+        "MCP_LLM_PROVIDER": "deepseek",
+        "MCP_LLM_API_KEY": "{{DEEPSEEK_API_KEY}}",
+        "MCP_LLM_DEEPSEEK_API_KEY": "{{DEEPSEEK_API_KEY}}",
+        "DEEPSEEK_API_KEY": "{{DEEPSEEK_API_KEY}}",
+        "MCP_LLM_MODEL_NAME": "deepseek-v4-pro",
+        "MCP_LLM_DEEPSEEK_ENDPOINT": "https://api.deepseek.com",
+        "MCP_LLM_TEMPERATURE": "0.2",
+        "MCP_BROWSER_HEADLESS": "false",
+        "MCP_BROWSER_USE_OWN_BROWSER": "true",
+        "MCP_BROWSER_CDP_URL": "http://localhost:9222",
+        "MCP_AGENT_TOOL_USE_VISION": "false",
+        "MCP_AGENT_TOOL_MAX_STEPS": "200"
+      }
+    },
+    "singular": {
+      "type": "http",
+      "url": "https://mcp.singular.net/mcp-server/mcp"
+    }
+  }
+}
+

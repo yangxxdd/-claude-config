@@ -1,0 +1,478 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "sheets": {
+      "sheets": [
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 3
+          },
+          "hidden": false,
+          "index": 0,
+          "resource_type": "sheet",
+          "sheet_id": "NIMDip",
+          "title": "NIMDip"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 1,
+          "resource_type": "sheet",
+          "sheet_id": "Ia2ZtS",
+          "title": "Ia2ZtS"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 2,
+          "resource_type": "sheet",
+          "sheet_id": "FvgHwG",
+          "title": "FvgHwG"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 5
+          },
+          "hidden": false,
+          "index": 3,
+          "resource_type": "sheet",
+          "sheet_id": "YRyMxQ",
+          "title": "YRyMxQ"
+        },
+        {
+          "grid_properties": {
+            "column_count": 5,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 6
+          },
+          "hidden": false,
+          "index": 4,
+          "resource_type": "sheet",
+          "sheet_id": "hDLWtb",
+          "title": "hDLWtb"
+        },
+        {
+          "grid_properties": {
+            "column_count": 3,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 8
+          },
+          "hidden": false,
+          "index": 5,
+          "merges": [
+            {
+              "end_column_index": 2,
+              "end_row_index": 7,
+              "start_column_index": 0,
+              "start_row_index": 7
+            }
+          ],
+          "resource_type": "sheet",
+          "sheet_id": "lLrtgS",
+          "title": "lLrtgS"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 5
+          },
+          "hidden": false,
+          "index": 6,
+          "resource_type": "sheet",
+          "sheet_id": "fI0JbE",
+          "title": "fI0JbE"
+        },
+        {
+          "grid_properties": {
+            "column_count": 4,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 7,
+          "resource_type": "sheet",
+          "sheet_id": "3AYbti",
+          "title": "3AYbti"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 8,
+          "resource_type": "sheet",
+          "sheet_id": "UvBYVQ",
+          "title": "UvBYVQ"
+        },
+        {
+          "grid_properties": {
+            "column_count": 4,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 6
+          },
+          "hidden": false,
+          "index": 9,
+          "resource_type": "sheet",
+          "sheet_id": "pUzTBY",
+          "title": "pUzTBY"
+        },
+        {
+          "grid_properties": {
+            "column_count": 4,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 9
+          },
+          "hidden": false,
+          "index": 10,
+          "resource_type": "sheet",
+          "sheet_id": "QTe2nb",
+          "title": "QTe2nb"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 11,
+          "resource_type": "sheet",
+          "sheet_id": "wK4ctd",
+          "title": "wK4ctd"
+        },
+        {
+          "grid_properties": {
+            "column_count": 5,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 7
+          },
+          "hidden": false,
+          "index": 12,
+          "resource_type": "sheet",
+          "sheet_id": "hgvoGa",
+          "title": "hgvoGa"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 3
+          },
+          "hidden": false,
+          "index": 13,
+          "resource_type": "sheet",
+          "sheet_id": "m1YVWt",
+          "title": "m1YVWt"
+        },
+        {
+          "grid_properties": {
+            "column_count": 5,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 6
+          },
+          "hidden": false,
+          "index": 14,
+          "resource_type": "sheet",
+          "sheet_id": "DUo7UK",
+          "title": "DUo7UK"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 3
+          },
+          "hidden": false,
+          "index": 15,
+          "resource_type": "sheet",
+          "sheet_id": "YqZ6us",
+          "title": "YqZ6us"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 16,
+          "resource_type": "sheet",
+          "sheet_id": "hIhfKo",
+          "title": "hIhfKo"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 11
+          },
+          "hidden": false,
+          "index": 17,
+          "resource_type": "sheet",
+          "sheet_id": "YIIzQO",
+          "title": "YIIzQO"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 4
+          },
+          "hidden": false,
+          "index": 18,
+          "resource_type": "sheet",
+          "sheet_id": "T5O3pu",
+          "title": "T5O3pu"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 19,
+          "resource_type": "sheet",
+          "sheet_id": "5vRjdT",
+          "title": "5vRjdT"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 3
+          },
+          "hidden": false,
+          "index": 20,
+          "resource_type": "sheet",
+          "sheet_id": "SDEEfN",
+          "title": "SDEEfN"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 21,
+          "resource_type": "sheet",
+          "sheet_id": "WreYKH",
+          "title": "WreYKH"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 22,
+          "resource_type": "sheet",
+          "sheet_id": "jjmbXO",
+          "title": "jjmbXO"
+        },
+        {
+          "grid_properties": {
+            "column_count": 4,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 23,
+          "resource_type": "sheet",
+          "sheet_id": "w2fyVx",
+          "title": "w2fyVx"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 3
+          },
+          "hidden": false,
+          "index": 24,
+          "resource_type": "sheet",
+          "sheet_id": "4r1fDM",
+          "title": "4r1fDM"
+        },
+        {
+          "grid_properties": {
+            "column_count": 5,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 7
+          },
+          "hidden": false,
+          "index": 25,
+          "merges": [
+            {
+              "end_column_index": 4,
+              "end_row_index": 6,
+              "start_column_index": 0,
+              "start_row_index": 6
+            }
+          ],
+          "resource_type": "sheet",
+          "sheet_id": "UDgfHN",
+          "title": "UDgfHN"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 26,
+          "resource_type": "sheet",
+          "sheet_id": "VCkl0n",
+          "title": "VCkl0n"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 27,
+          "resource_type": "sheet",
+          "sheet_id": "uelCrx",
+          "title": "uelCrx"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 28,
+          "resource_type": "sheet",
+          "sheet_id": "CZB1ty",
+          "title": "CZB1ty"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 29,
+          "resource_type": "sheet",
+          "sheet_id": "7o6pr9",
+          "title": "7o6pr9"
+        },
+        {
+          "grid_properties": {
+            "column_count": 1,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 30,
+          "resource_type": "sheet",
+          "sheet_id": "Wuw4Wg",
+          "title": "Wuw4Wg"
+        },
+        {
+          "grid_properties": {
+            "column_count": 2,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 1
+          },
+          "hidden": false,
+          "index": 31,
+          "resource_type": "sheet",
+          "sheet_id": "olKVJq",
+          "title": "olKVJq"
+        },
+        {
+          "grid_properties": {
+            "column_count": 20,
+            "frozen_column_count": 0,
+            "frozen_row_count": 0,
+            "row_count": 200
+          },
+          "hidden": false,
+          "index": 32,
+          "resource_type": "sheet",
+          "sheet_id": "3b24d9",
+          "title": "Sheet1"
+        }
+      ]
+    },
+    "spreadsheet": {
+      "spreadsheet": {
+        "owner_id": "ou_3d07729b92889ea29fc2ef180e79fc02",
+        "title": "",
+        "token": "CxAssmZXahzoqFtwPCJcHo9rnuc",
+        "url": "https://my.feishu.cn/sheets/CxAssmZXahzoqFtwPCJcHo9rnuc"
+      }
+    }
+  },
+  "_notice": {
+    "deprecated_command": {
+      "action": "lark-cli update",
+      "command": "+info",
+      "message": "+info is a pre-refactor compatibility alias; use +workbook-info instead; update your lark-sheets skill, run: lark-cli update",
+      "replacement": "+workbook-info",
+      "skill": "lark-sheets"
+    },
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.84",
+      "message": "lark-cli 1.0.84 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

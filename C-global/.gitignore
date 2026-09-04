@@ -1,0 +1,53 @@
+# ===== 缓存 & 临时文件（不需要同步） =====
+telemetry/
+temp/
+cache/
+file-history/
+shell-snapshots/
+backups/
+paste-cache/
+downloads/
+sessions/
+session-env/
+tasks/
+
+# ===== 含 API Key 的原始配置文件（用模板替代） =====
+settings.json
+settings.local.json
+settings-deepseek.json
+mcp.json
+.mcp.json
+.credentials.json
+
+# ===== 含本机路径的文件（用模板替代） =====
+CLAUDE.md
+
+# ===== 日志 & 历史 =====
+*.log
+history.jsonl
+
+# ===== 运行时生成 =====
+.last-cleanup
+.last-update-result.json
+temp_*.txt
+
+# ===== 浏览器 Profile（体积大） =====
+playwright-profile/
+
+# ===== 联结目标（实体在 D 盘，不从 C 盘同步） =====
+skills/
+plugins/
+
+# ===== 备份目录 =====
+*.bak/
+skills.bak/
+plugins.bak/
+
+# ===== Python 虚拟环境 =====
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ===== Node 依赖（如果有） =====
+node_modules/

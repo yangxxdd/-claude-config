@@ -1,0 +1,9 @@
+<table>
+<thead><tr><th background-color="light-gray">Campaign</th><th background-color="light-gray">出价</th><th background-color="light-gray">结构</th><th background-color="light-gray">量级</th><th background-color="light-gray">单价</th><th background-color="light-gray">成本</th></tr></thead>
+<tbody>
+<tr><td>US Install 视频主导量</td><td>CBO</td><td>4 组</td><td>1620</td><td>$2.5</td><td>$4,050</td></tr>
+<tr><td>US Install 图片主导量</td><td>CBO</td><td>4 组</td><td>1080</td><td>$2.5</td><td>$2,700</td></tr>
+<tr><td>US 清洁复测</td><td>ABO</td><td>3 支</td><td>300</td><td>$2.5</td><td>$750</td></tr>
+<tr><td><b>合计</b></td><td></td><td></td><td><b>3000</b></td><td></td><td><b>$7,500</b></td></tr>
+</tbody>
+</table>

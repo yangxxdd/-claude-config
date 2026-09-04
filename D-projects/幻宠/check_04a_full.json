@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "revision": 223,
+    "spreadsheetToken": "VVyysuupBhkUcqtrPEqcFm8Pn5e",
+    "valueRange": {
+      "majorDimension": "ROWS",
+      "range": "QPbYJe!A6:N6",
+      "revision": 223,
+      "values": [
+        [
+          "04-A",
+          "涂鸦公园演奏招募·人群聚集",
+          "商店图",
+          "吸引人群，组建帮派",
+          "DRAW A CROWD. BUILD A CREW.",
+          "【制作人意图】'在涂鸦公园举办街头摇滚演出，吸引玩家参与乐队招募'；中心街头乐队/演奏门徒，外圈市民聚集；用三段轮廓变化表达'路人→受吸引→小弟列队'；不是传统抽卡\n【场景落地】中心街头乐队/演奏门徒；外圈市民三段轮廓变化(路人→吸引→小弟列队)；明亮涂鸦/滑板坡/炸鸡桶贴纸背景；A版强调人群数量3→12",
+          "美漫写实+明亮犯罪喜剧；涂鸦高饱和色彩；街头文化活力",
+          "同01",
+          "涂鸦公园场景；演奏门徒3D模型；市民→小弟轮廓变化序列；涂鸦/滑板坡/炸鸡桶贴纸；image28涂鸦公园；image38街头演奏",
+          "04-PDF构图-涂鸦招募.png / 04-研发参考-涂鸦招募A/B / image28/38",
+          "为GTS黑帮SLG游戏生成一张Google Play商店图（1080×1920竖屏），主题：涂鸦公园演奏招募·人群聚集。风格：美漫写实（类似《蝙蝠侠：阿卡姆》《看门狗》游戏美术）× 明亮犯罪喜剧 × 霓虹黑色城市氛围；暖金/橙红前景 vs 冷紫蓝夜晚背景、电影级布光、真实材质；绝不是Q版萌系、不是扁平卡通。暴力只暗示、不血腥。不用真实明星脸。不复制GTA/浴血黑帮的Logo、字体、服装。\n\n[中心] 涂鸦公园中央，一支街头乐队/一名演奏门徒在弹电吉他，能量波向外扩散。[外圈] 市民从四面八方聚拢，以三段轮廓变化呈现：普通路人→被吸引的围观者→加入列队的新小弟（人群从3人增长到12人）。[背景] 明亮的涂鸦公园：彩色喷绘涂鸦墙、滑板坡道、墙上的炸鸡桶贴纸，充满城市活力。本版重点是人群数量变化。\n\n[UI] 完整集成手游SLG商店截图UI：顶部资源条（粉钻+3K/银币+200K/金币+500K+/齿轮设置/信封邮件，黑底白字圆角芯片）；左上角圆形玩家头像（紫色描边）+昵称+粉色星星等级30+紫色拳头战斗力数字；右上角俯视城市小地图+城堡据点图标；左侧竖排按钮ACTIVITY/PASS/STARTER（红色通知点）；右侧RANKING/SHOP/OPSS/BAG；底部居中大字标题\\\"DRAW A CROWD. BUILD A CREW.\\\"（白色粗体无衬线全大写，深色底衬，占底部15-20%）。",
+          "Create a Google Play store featured image (1080x1920 vertical) for a mafia SLG mobile game called GTS. Theme: draw a crowd, build a crew - street band recruiting disciples in a graffiti park (crowd focus). in the style of American comic realism with neon-noir crime city energy (like Batman: Arkham / Watch Dogs game art), bright crime-comedy mood, warm golden/orange/red foreground contrasting with cool purple-blue night background, cinematic lighting, realistic materials, NOT cute/chibi, NOT flat cartoon. Keep violence implied, not gory. No realistic celebrity faces. Do not copy GTA or Peaky Blinders logos, fonts, or exact costumes.\n\n[CENTER] A street band / a musical disciple performs at the center of a graffiti park, playing an electric guitar, energy waves radiating outward. [OUTER RING] Citizens gather from all sides, shown in three stages of transformation: normal passersby -\u003e curious onlookers drawn in -\u003e converts joining as a row of new disciples (crowd growing from 3 to 12 people). [BACKGROUND] A bright graffiti park: colorful spray-paint murals, a skateboard half-pipe, fried chicken bucket stickers on the walls, urban playfulness. Crowd density and numbers are the focus of this version.\n\n[UI] Standard mobile SLG store screenshot UI, fully integrated: top resource bar (pink diamond +3K, silver coin +200K, gold bar +500K+, gear settings, envelope mail, dark-bg white-text rounded chips); top-left circular player avatar with purple border, nickname, pink star level 30, purple fist power number; top-right top-down city minimap with castle base icon; left vertical buttons ACTIVITY / PASS / STARTER with red notification dots; right vertical buttons RANKING / SHOP / OPSS / BAG; bottom-center large title \\\"DRAW A CROWD. BUILD A CREW.\\\" in white bold sans-serif uppercase on a dark backdrop, occupying the bottom 15-20%.",
+          "180px可读；人群变化清晰；不画成十连抽/音乐游戏",
+          "P0 次图/图3|A/B：A=人群3→12 B=门徒入队|禁区：不画传统十连抽/不画成音乐游戏/避免01/04/09同组三主角"
+        ]
+      ]
+    }
+  },
+  "_notice": {
+    "deprecated_command": {
+      "action": "lark-cli update",
+      "command": "+read",
+      "message": "+read is a pre-refactor compatibility alias; use +cells-get instead; update your lark-sheets skill, run: lark-cli update",
+      "replacement": "+cells-get",
+      "skill": "lark-sheets"
+    },
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.85",
+      "message": "lark-cli 1.0.85 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,1248 @@
+[
+  [
+    {
+      "value": "需求人",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "孔祥建（投放/UA）",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "核心卖点",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "宠物抚养权法庭parody · 三层反转 · 机制punchline",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "目标受众",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "美国18-45岁SLG玩家",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "视频尺寸",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "720*1280",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "视频时长",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "~50s（可剪30s/15s版）",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "参考图",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "本地: 分镜参考素材/（15组AI已生成）",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "备注",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "咒语: Everyone's catchable. | CTA双版AB | 合规清单见v3",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "口播要求",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "英文配音+英文字幕（75%静音用户对策：关键信息全部字幕覆盖）",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "BGM",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "法庭真人秀风铜管stinger→悬疑弦乐铺底→轻快收尾（原创罐头授权，禁sound-alike）",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "音效/特效",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "法槌x3 + 捕捉吸入(buzhuo1游戏原声) + 读条(buzhuo2游戏原声) + 闭合震动+原创确认音(battle_win变调或音效库)",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "参考视频",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "竞品: Last Asylum_Plague(BGM参考) / Guns of Glory_Lost Island(角色) / Game of Vampires_Twilight Sun(交互格式)",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "资产警示",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "horizontal_alignment": "center",
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "幽飘模型目录含宝可梦字样→制作前核实来源; Logo需向发行索取",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "分镜一：开场钩子 + 幽飘登场  |  S0-S2（~9s）",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "【制作】AI(法庭场景+法官) + AE(片头包装) + DCC(幽飘FBX渲染)\n★ 本镜为Pipeline Test镜头，先做通再批量\n\n【画面】\n① 首帧即法庭全景：深木色调+金色法徽(原创，嵌捕捉球剪影替代鹰徽)+大字钩子\n   字幕条: CASE #4847 — Thompson v. Thompson\n   大字钩子: They agree on everything... except ONE.\n② 法官(50+女性，灰白短发，黑法官袍+白领，主动避开Sheindlin特征)看卷宗抬眼\n   台词: The Thompsons are divorcing. House, car, money — settled. They agree on EVERYTHING... except one thing.\n③ 镜头缓缓推向当事人席——幽飘端坐大木椅上，戴小领结，眼神无辜，耳朵轻抖\n   人类夫妻站两边讲台。观众席窃语渐起+滑稽高音弦乐\n\n【参考图】美式法庭全景(带法徽).png + 法官定妆参考图.png + 幽飘(可爱生物)参考.png\n【资产】幽飘模型 Y:/.../木少女一阶10111/mod_10111_high.fbx | 立绘: 帕基截图/11【幽飘】10111WoodGril.png",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "分镜二：法庭对决（妻控诉 → 夫反击）  |  S3-S6（~12s）",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "【制作】AI(妻子+丈夫+群演) → 人类角色全部AI生成，配音+口型同步两步走\n\n【画面】\n① 妻子站起(ice-cold冷怒毒舌，不哭闹！)\n   字幕条: KAREN THOMPSON — Plaintiff\n   台词: \"Your Honor — he used her as FUSION FODDER. I HATCHED her. I was there for her first evolution... and he tried to feed her to a FUSION MACHINE.\"\n   观众低声惊呼\n② 观众席大妈捂嘴倒吸凉气\n③ 丈夫拍桌而起(委屈爆发)\n   字幕条: DOUG THOMPSON — Defendant\n   台词: \"I was THERE when she evolved! THREE A.M.! Where were YOU?! Oh, right — BOOK CLUB.\"\n   观众爆笑+拍腿声\n\n★ 孵化/进化/融合=三个真实游戏机制。全片最地道一句: THREE A.M. + BOOK CLUB\n【参考图】妻子(Karen Thompson)定妆.png + 丈夫(Doug Thompson)定妆.png + 法庭观众席反应(多样性).png",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "分镜三：法官裁决 + 选择悬念  |  S7-S10（~11s）",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "【制作】AI(法官) + DCC(幽飘) + AE(屏幕文字)\n\n【画面】\n① 法官连敲法槌，全场安静，看向幽飘\n   台词: \"ENOUGH. I have ONE ruling... the creature CHOOSES.\"\n   槌声后骤静，低音提琴紧张铺底\n② 三方特写快切: 妻子期待→丈夫咽口水→幽飘面无表情\n   屏幕文字: Who will it choose?  心跳声渐强\n③ 幽飘跳下椅子，小短腿走向法庭中央(正常速度，不用慢镜头！)\n   放大脚步声+滑稽配乐点\n④ 幽飘抬头看妻子→转头看丈夫→停顿半秒。音乐戛然抽空，只剩底噪\n\n★ 原10s无台词压至6s+屏幕文字(静音用户对策); 法官腔改第一人称I have\n【参考图】法官正面特写(法槌时刻).png + 幽飘正面面部特写.png + 幽飘走向法庭中央(全身).png",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "分镜四：收服法官 + 法警补刀（全片高潮）  |  S11-S13（~12s）",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "【制作】DCC(幽飘举球转身) + AE(吸入光效+法官消散+读条UI+球体震动) + AI(法警+单人反应)\n\n【画面】\n① 幽飘转身——0.3s身体遮挡帧球出现于爪中——转身对准法官席\n   全场凝固拆为单人反应快切(规避多角色同框AI脸漂移)。音乐抽空+球体机械音\n② 光束从球中卷出→包裹法官(卡通光效，不做痛苦挣扎)→吸入球中(AI冻结帧+AE粒子消散)→读条UI闪现→球体闭合震动一次\n   音效: buzhuo1(吸入)→buzhuo2(读条)→闭合+原创确认音\n③ 死寂中法警缓缓站起，面无表情，从腰带解下自己的捕捉球\n   台词: \"...Everyone's catchable.\" (停顿) \"Court's adjourned.\"\n   法警低音+尾音鼓点。全片记忆锚点\n\n★ v3核心: 弃用晃三下+叮(任天堂trade dress)→游戏真实收服(吸入+读条); 遮挡剪辑替代掏球(无资产+穿模); Court's adjourned回收法庭格式叠笑点\n【参考图】捕捉球道具设计参考.png + 法庭空景(无法官).png + 法警(Bailiff)定妆.png\n【音效】Y:/.../Audios/audio_sfx_buzhuo1.mp3 + audio_sfx_buzhuo2.mp3 + audio_sfx_battle_win.mp3",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "分镜五：结尾卡 + CTA  |  S14-S15（~5s）",
+      "cell_styles": {
+        "background_color": "rgb(216,216,216)",
+        "font_weight": "bold",
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ],
+  [
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "【制作】AE(字幕动效+结尾卡) + 游戏UI截图\n\n【画面】\n① 硬切黑屏，白色打字机字体逐行砸出(每行配打字机敲击声)\n   字幕: Catch pets. Catch feelings. Catch... everyone.（末行稍大）\n② 游戏捕捉界面UI定格1.5s(看得清这是手游)→Logo+下载按钮+CTA\n   CTA A版: Who Will You Catch First?\n   CTA B版: Your SSR Is Waiting — Play Free\n   底部全程小字: Dramatization. Not actual gameplay footage.\n\n★ UI露出0.5s→1.5s(低于识别阈值); CTA双版AB; 免责声明=FTC减责+平台申诉\n【资产】UI/C_宠物捕捉.psd(2.08GB) | Logo: 需向发行/美术索取\n【参考图】结尾黑屏字幕风格参考.png",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    },
+    {
+      "value": "",
+      "cell_styles": {
+        "font_size": 13,
+        "vertical_alignment": "middle"
+      }
+    }
+  ]
+]

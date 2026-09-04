@@ -1,0 +1,80 @@
+# -*- coding: utf-8 -*-
+"""Generate stylized 3D Gemini prompts and write to Feishu sheet"""
+
+import json
+
+NUM_COLS = 14
+
+def pad_row(cells, n=NUM_COLS):
+    while len(cells) < n:
+        cells.append({"value": ""})
+    return cells[:n]
+
+rows = []
+
+# Section header
+rows.append(pad_row([{"value": "=== 统一风格化3D Gemini生图提示词（Pixar/DreamWorks风格）==="}]))
+rows.append(pad_row([{"value": "说明：以下15组提示词全部统一为 stylized 3D animation 风格。人类角色=Pixar式夸张有辨识度，幽飘=原创3D生物（脱离宝可梦既视感），法庭=风格化暖调建筑。关键词: Pixar-style, expressive, polished 3D, stylized realism, warm cinematic lighting."}]))
+
+prompts_3d = [
+    ("G01-S3D 法官定妆（Stylized 3D）",
+     "A 55-year-old female judge character in Pixar-style 3D animation. She has sharp intelligent gray eyes, short silver-white hair in a clean modern cut (NOT a dark bob — actively avoiding any Sheindlin resemblance). She wears a simple black judge's robe with a plain white collar (no lace, no ruffles). Her face has character — defined cheekbones, slight wrinkles around the eyes, an expression of dry wit with one eyebrow slightly raised. Stylized realism: proportions are slightly exaggerated for expressiveness but grounded enough to feel premium. Warm studio lighting with soft shadows. Clean 3D animation character design, polished surfaces, subsurface scattering on skin. 9:16 vertical. Pixar/DreamWorks quality. The character should feel like she could exist in The Incredibles universe."),
+
+    ("G02-S3D 法官举槌（Stylized 3D）",
+     "Same stylized 3D female judge character, now leaning forward over her bench with her wooden gavel raised mid-air. Close-up on her expressive face and hand. Her mouth is open mid-speech saying 'ENOUGH' — the expression is intense but with a subtle comedic undertone (this is a comedy). The gavel is sharp in the foreground with motion blur suggesting it's about to strike. Courtroom background is stylized warm wood tones, softly blurred. Polished 3D animation look, cinematic composition, shallow depth of field, warm amber lighting. 9:16 vertical. The moment should feel dramatic but the character design keeps it playful — this is a parody, not a real legal drama."),
+
+    ("G03-S3D 幽飘——原创小精灵生物（Stylized 3D）",
+     "A cute small round fantasy creature in polished 3D animation style (Pixar-quality). It has large expressive eyes with visible catchlights, tiny stubby arms and legs, leaf-shaped ears that droop slightly, and a soft woodland color palette of muted sage green and warm brown. It wears a tiny black bow tie that looks slightly too big for it. The creature sits upright on a large wooden defendant's chair inside a stylized courtroom — the chair dwarfs it comedically. IMPORTANT: This creature must NOT resemble any Pokémon — no flower crown, no red/green color blocking, no elemental typing indicators. Think original Pixar sidekick character design. Soft rim lighting, warm ambiance, 9:16 vertical. The design should read as 'original fantasy pet' not 'Pokémon knockoff.'"),
+
+    ("G04-S3D 幽飘面部特写（Stylized 3D）",
+     "Extreme close-up of the same original small fantasy creature's face. Large expressive eyes looking slightly upward with a completely blank, unreadable expression — the comedy comes from how impossible it is to tell what it's thinking. The black bow tie is visible at the bottom edge of frame. Soft studio-quality lighting with beautiful catchlights in the eyes, very shallow depth of field blurring the courtroom behind. Polished 3D animation rendering, subtle fur/skin texture. 9:16 vertical. The expression (or lack thereof) should be funny — this is the 'who will it choose?' suspense moment played for comedy."),
+
+    ("G05-S3D 妻子 Karen Thompson（Stylized 3D）",
+     "A polished American woman character in her early 30s, Pixar-style 3D animation design. She has sharp, angular features with high cheekbones, medium-length dark hair pulled back in a severe low ponytail. She wears a tailored navy blue blazer over a cream blouse — the outfit is sharp and intimidating. Her expression is ice-cold controlled fury: lips pressed into a thin line, eyes narrowed but absolutely not crying, one eyebrow slightly arched. She stands at a courtroom lectern, one manicured hand resting on it. Stylized realism — proportions are 85% realistic with 15% caricature for expressiveness. Cool color temperature for her lighting. 9:16 vertical. She should look like she could verbally eviscerate someone and enjoy it. NOT hysterical, NOT weepy — cold and dangerous."),
+
+    ("G06-S3D 丈夫 Doug Thompson（Stylized 3D）",
+     "An American man character in his early 30s, Pixar-style 3D animation. He has slightly disheveled brown hair, a visible 5 o'clock shadow, and wears a rumpled plaid shirt with rolled-up sleeves and a loosened tie. His posture is defensive — both hands gripping the courtroom lectern, leaning forward. His expression is a mix of indignation and wounded pride: mouth open mid-protest, eyebrows furrowed, the look of a guy who has been WRONGED and is about to unleash his side of the story. Stylized realism with slightly exaggerated facial features for comedic expressiveness. Warm lighting. 9:16 vertical. He should look sympathetic but also slightly ridiculous — the audience should feel he might have a point but he's also kind of a mess."),
+
+    ("G07-S3D 法警 Bailiff（Stylized 3D）",
+     "A tall African American male bailiff character in his 40s, Pixar-style 3D animation. He wears a crisp tan sheriff's deputy uniform with a polished badge. His expression is COMPLETELY deadpan — stone-faced, unreadable, the ultimate straight man in this absurd situation. He stands at the side of the courtroom with perfect posture, one hand resting on his duty belt. His design should have gravitas and authority — which makes his deadpan humor land harder. Stylized realism: strong jaw, broad shoulders, slightly exaggerated solidity. Slight low camera angle to give him presence. Neutral warm lighting. 9:16 vertical. The comedy comes from his absolute seriousness in the face of total absurdity."),
+
+    ("G08-S3D 法庭全景（Stylized 3D）",
+     "A stylized 3D American courtroom interior, Pixar-quality architectural visualization. Dark wood paneling with warm amber tones, raised judge's bench center-back, two lecterns facing the bench, wooden spectator benches in the foreground. Above the bench: a custom-designed circular emblem featuring a stylized capture-ball silhouette (subtle fantasy-legal fusion, NOT a traditional eagle or government seal). The architecture should feel grand but approachable — simplified ornamentation compared to real courtrooms, warmer color palette, softer edges. Wall sconces cast warm golden light. No people visible. The room should feel like it belongs in a premium animated film, not a real government building. Wide angle, 9:16 vertical. This is the comedic stage — it needs to look legitimate enough for the parody to work but stylized enough to signal 'this is going to be fun.'"),
+
+    ("G09-S3D 法庭空景——法官消失后（Stylized 3D）",
+     "Same stylized 3D courtroom but the judge's bench is now conspicuously empty. The large leather judge's chair is vacant and slightly askew. The wooden gavel lies alone on the bench. Same warm amber lighting but now with a subtle magical quality — dust motes floating visibly in the light beams, the custom capture-ball emblem above the bench glowing with a very soft blue-green energy. The emptiness should feel both funny and slightly wondrous. Wide shot, polished 3D rendering, 9:16 vertical. The shot should read as 'something absurd just happened here' without any characters present."),
+
+    ("G10-S3D 法庭观众席（Stylized 3D）",
+     "A row of diverse American courtroom spectators in Pixar-style 3D animation — a natural mix of ages (30s-60s), ethnicities, and body types in casual to business-casual attire. Currently reacting with comedic shock: an older woman with hand over mouth and wide eyes, a middle-aged man mid-gasp, a younger person leaning forward with raised eyebrows. Shallow depth of field focused on the 2-3 most expressive faces. Warm natural light from courtroom windows. 9:16 vertical. The reactions should be exaggerated enough to read as comedy but grounded enough to feel like real people — think the audience reactions in Ratatouille. This is NOT a crowd shot — it's 2-3 specific character moments."),
+
+    ("G11-S3D 捕捉球道具（Stylized 3D）",
+     "A fantasy capture device in polished 3D product-shot style. A metallic sphere about the size of a baseball, with intricate steampunk-inspired mechanical engravings along the seam lines. A subtle blue-green energy glow emanates from within the seams. The sphere is partially open, with a soft golden light beam emerging from the center. NOT red and white. NOT a Poké Ball design in any way. The material reads as brushed antique metal with glass elements and magical energy. Clean product-shot composition on a dark gradient background. 9:16 vertical. The design should feel like a premium magical artifact — something that belongs in the same visual universe as the stylized courtroom characters."),
+
+    ("G12-S3D 幽飘走向法庭中央（Stylized 3D）",
+     "The same small original fantasy creature (with bow tie) walking on tiny stubby legs down the center aisle of the grand stylized courtroom. Camera is at floor level, making the creature look both comically small and oddly determined — like a toddler on a mission. The polished wooden floor reflects warm amber light. The empty judge's bench looms in the distant background, slightly out of focus. Low angle, cinematic composition with beautiful volumetric lighting. 9:16 vertical, polished 3D animation quality. Slight motion blur on the tiny feet. The contrast between the creature's smallness and the courtroom's grandeur IS the joke."),
+
+    ("G13-S3D 片头包装设计（Stylized 3D + Graphic Design）",
+     "A broadcast-style graphic package for a premium streaming show. Top section: a stylized gold circular emblem featuring a simple capture-ball icon in the center, surrounded by elegant geometric patterns (NOT traditional eagle or lion heraldry). The emblem should feel like a modern streaming service logo — clean, iconic, memorable. Bottom section: a dark navy gradient text bar with clean white sans-serif text reading 'CASE #4847 — Thompson v. Thompson'. The overall look is premium reality TV opening — think Netflix true crime documentary aesthetic but warmer and more playful. Vector/graphic design style with subtle 3D depth. Dark navy and warm gold palette. 9:16 vertical. This is the title card that opens the ad — it needs to feel high-production-value and set the tone."),
+
+    ("G14-S3D 结尾黑屏字幕（Typography Design）",
+     "A completely black background with three lines of white typewriter-font text, as a single final-frame still. First line: 'Catch pets.' Second line: 'Catch feelings.' Third line: 'Catch... everyone.' — the word 'everyone' is slightly larger. The typewriter font should feel warm and literary — think classic mid-century American paperback novel, not horror typewriter. Clean minimalist design, high contrast black and white. 9:16 vertical. This is the final text frame before the CTA card. It should feel like a punchline landing."),
+
+    ("G15-S3D 法庭全员参考构图（Stylized 3D）",
+     "A wide cinematic shot of the complete courtroom cast in unified Pixar-style 3D animation. Center-back: the female judge (silver-white short hair, black robe) on her raised bench, looking down with barely-suppressed amusement. Center-foreground: the small round fantasy creature with bow tie on a comically large wooden chair. Left lectern: the polished woman in navy blazer (Karen) with ice-cold expression. Right lectern: the rumpled man in plaid shirt (Doug) mid-protest. Side corner: the stone-faced bailiff in tan uniform. ALL characters in the SAME stylized 3D visual language — same rendering quality, same lighting temperature, same level of detail. The composition should feel like a Renaissance painting reimagined as a Pixar scene. Warm dramatic chiaroscuro lighting. 9:16 vertical. THIS IS THE KEY REFERENCE: if this image works, the entire ad's visual coherence is proven. All other shots derive from this unified look."),
+]
+
+for title, content in prompts_3d:
+    rows.append(pad_row([{"value": title}]))
+    rows.append(pad_row([{"value": content}]))
+
+# Save JSON
+json_path = "feishu_prompts_3d.json"
+with open(json_path, 'w', encoding='utf-8') as f:
+    json.dump(rows, f, ensure_ascii=False, indent=2)
+
+range_end = len(rows) + 35  # start after storyboard at row 35
+range_str = f"A36:N{35 + len(rows)}"
+print(f"Prepared {len(rows)} rows starting at A36")
+print(f"Range: {range_str}")
+print(f"JSON saved to: {json_path}")
+print(f"\nRun: lark-cli sheets +cells-set --spreadsheet-token LbOEwi3q5ivsAMkA45JcJbtXnac --sheet-id WE2gvc --range '{range_str}' --cells @feishu_prompts_3d.json")

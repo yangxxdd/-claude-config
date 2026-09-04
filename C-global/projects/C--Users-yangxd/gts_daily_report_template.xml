@@ -1,0 +1,519 @@
+<title>GTS第二次留存测试 · 日报模板</title>
+
+<callout emoji="📅" background-color="light-blue" border-color="blue">
+  <h3>测试信息（已预设，无需每次填写）</h3>
+  <p><b>测试名称：</b>GTS第二次留存测试 · Meta US AEO+Install 双线</p>
+  <p><b>投放时间：</b>美西 2026.07.09 08:00 → 07.12 00:00（约3.5天）</p>
+  <p><b>预算：</b>~$5,700（US Install $2,800 + US AEO $2,730 + PH冒烟 $100）</p>
+  <p><b>素材量：</b>14套（11视频 + 3图片），Install 14支 + AEO 9支</p>
+  <p><b>目标 DNU：</b>Install ~1,120 + AEO ~840 = 合计约 1,960</p>
+  <p><b>出价方式：</b>Install（应用安装量最大化）+ AEO（D1次留事件优化）</p>
+  <p><b>数据源：</b>Meta 广告后台（前端实时）+ Singular MMP（后端延迟）</p>
+</callout>
+
+<hr/>
+
+<h1>日报使用说明</h1>
+
+<callout emoji="❗" background-color="light-yellow" border-color="yellow">
+  <p><b>日报定位：每日健康简报，不是复盘报告。</b>目的是确认 Campaign 在正常跑 + 发现异常信号。深度分析（留存拆分、素材公式提取、ROI测算）留给测试结束后的总复盘报告。</p>
+</callout>
+
+<h2>每天什么时候写</h2>
+<ul>
+  <li><b>建议时间：</b>每天美西时间晚上 / 北京时间次日上午（Meta 数据基本稳定后）</li>
+  <li><b>时长控制：</b>15 分钟内写完，不要陷入细节</li>
+  <li><b>发布形式：</b>在日报文档里追加当日内容 + 同步到项目群</li>
+</ul>
+
+<h2>留存数据什么时候能看到</h2>
+<table>
+  <colgroup><col width="80"/><col width="180"/><col width="180"/><col width="180"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>数据</b></p></th>
+    <th background-color="light-gray"><p><b>Day 1 日报（7/9晚）</b></p></th>
+    <th background-color="light-gray"><p><b>Day 2 日报（7/10晚）</b></p></th>
+    <th background-color="light-gray"><p><b>Day 3 日报（7/11晚）</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td><p>Meta 前端（花费/展示/点击/安装/CPI/CTR/CVR/CPM）</p></td>
+      <td><p>✅ 当天实时</p></td>
+      <td><p>✅ 当天实时</p></td>
+      <td><p>✅ 当天实时</p></td>
+    </tr>
+    <tr>
+      <td><p>Singular 安装数（校验）</p></td>
+      <td><p>⚠️ 延迟 2-4h</p></td>
+      <td><p>✅ 可对比</p></td>
+      <td><p>✅ 可对比</p></td>
+    </tr>
+    <tr>
+      <td><p>D1 次留（Singular）</p></td>
+      <td><p>❌ 不可用</p></td>
+      <td><p>⚠️ Day1 用户部分 D1 数据出现</p></td>
+      <td><p>✅ Day1 完整 D1 + Day2 部分 D1</p></td>
+    </tr>
+    <tr>
+      <td><p>D3 三留（Singular）</p></td>
+      <td><p>❌ 不可用</p></td>
+      <td><p>❌ 不可用</p></td>
+      <td><p>⚠️ Day1 用户极少量可能出现</p></td>
+    </tr>
+    <tr>
+      <td><p>收入/付费（Singular）</p></td>
+      <td><p>❌ 不可用</p></td>
+      <td><p>⚠️ 少量</p></td>
+      <td><p>⚠️ Day1 部分数据</p></td>
+    </tr>
+  </tbody>
+</table>
+
+<callout emoji="💡" background-color="light-green" border-color="green">
+  <p><b>核心原则：没数据就写"数据未出"，不编不猜。</b>Leader 自己也投过广告，知道留存有延迟。空着比瞎填强。</p>
+</callout>
+
+<h2>两份数据源怎么用</h2>
+<table>
+  <colgroup><col width="100"/><col width="200"/><col width="200"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>维度</b></p></th>
+    <th background-color="light-gray"><p><b>Meta 后台</b></p></th>
+    <th background-color="light-gray"><p><b>Singular（MMP）</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p><b>用途</b></p></td><td><p>投放优化决策（关停/放量/调预算）</p></td><td><p>留存和 ROI 判断（真实用户质量）</p></td></tr>
+    <tr><td><p><b>优势</b></p></td><td><p>实时、分素材/分版位、可操作</p></td><td><p>归因准确、留存/收入数据完整</p></td></tr>
+    <tr><td><p><b>日报用法</b></p></td><td><p>每天必填，判断跑量健康度</p></td><td><p>有数据就填，没数据标注"待出"</p></td></tr>
+    <tr><td><p><b>注意</b></p></td><td><p>SKAN 和 Meta 归因可能有差异，安装数以 Meta 为准做决策，但留存以 Singular 为准</p></td><td><p>数据有 24-72h 延迟，日报期间不要因 Singular 数据不全而关停 Campaign</p></td></tr>
+  </tbody>
+</table>
+
+<hr/>
+
+<h1>Day 1 日报（7/9 周四）</h1>
+
+<callout emoji="🎯" background-color="light-gray" border-color="gray">
+  <p><b>今日重点：确认 Campaign 正常启动、花费在消耗、CPI 在预期范围、素材没有大面积 0 激活。菲律宾冒烟同日启动。</b></p>
+</callout>
+
+<h2>1. 30 秒总览</h2>
+<table>
+  <colgroup><col width="130"/><col width="80"/><col width="80"/><col width="80"/><col width="100"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>指标</b></p></th>
+    <th background-color="light-gray"><p><b>今日</b></p></th>
+    <th background-color="light-gray"><p><b>目标</b></p></th>
+    <th background-color="light-gray"><p><b>状态</b></p></th>
+    <th background-color="light-gray"><p><b>数据源</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>消耗</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>安装 (Install)</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CPI (Install)</p></td><td><p>[ ]</p></td><td><p>≤$2.00</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>安装 (AEO)</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CPI (AEO)</p></td><td><p>[ ]</p></td><td><p>≤$2.60</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CTR</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CVR</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CPM</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>D1 次留 (Install)</p></td><td><p>⏳ 明日可看</p></td><td><p>≥25%</p></td><td><p>—</p></td><td><p>Singular</p></td></tr>
+    <tr><td><p>D1 次留 (AEO)</p></td><td><p>⏳ 明日可看</p></td><td><p>≥30%</p></td><td><p>—</p></td><td><p>Singular</p></td></tr>
+  </tbody>
+</table>
+<p><b>状态标注：</b>🟢=达标 🟡=偏离 &lt;20% 🔴=偏离 ≥20% ⏳=数据未出</p>
+
+<h2>2. Meta 前端 — Install Campaign（14支素材）</h2>
+<table>
+  <colgroup><col width="110"/><col width="70"/><col width="60"/><col width="60"/><col width="60"/><col width="60"/><col width="60"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>素材</b></p></th>
+    <th background-color="light-gray"><p><b>花费</b></p></th>
+    <th background-color="light-gray"><p><b>安装</b></p></th>
+    <th background-color="light-gray"><p><b>CPI</b></p></th>
+    <th background-color="light-gray"><p><b>CTR</b></p></th>
+    <th background-color="light-gray"><p><b>CVR</b></p></th>
+    <th background-color="light-gray"><p><b>标记</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>V-模拟经营（原版）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-晋级失败被捕</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>P-炸鸡店</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-浴血黑帮</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-跟谁混</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-爽感战斗（改版）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-鸡公大侠（改结局）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-模拟经营（新版）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>P-披萨店</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>P-美漫分镜</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-赌场博弈</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-特殊设备视角</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-招募表演</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-立绘展示</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+<p><b>标记：</b>🟢正常 🟡观察 🔴超标 ⚠️0激活</p>
+
+<h2>3. Meta 前端 — AEO Campaign（9支素材）</h2>
+<table>
+  <colgroup><col width="110"/><col width="70"/><col width="60"/><col width="60"/><col width="60"/><col width="60"/><col width="60"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>素材</b></p></th>
+    <th background-color="light-gray"><p><b>花费</b></p></th>
+    <th background-color="light-gray"><p><b>安装</b></p></th>
+    <th background-color="light-gray"><p><b>CPI</b></p></th>
+    <th background-color="light-gray"><p><b>CTR</b></p></th>
+    <th background-color="light-gray"><p><b>CVR</b></p></th>
+    <th background-color="light-gray"><p><b>标记</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>V-模拟经营（原版）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-浴血黑帮</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-爽感战斗（改版）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-鸡公大侠（改结局）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-模拟经营（新版）</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-赌场博弈</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-特殊设备视角</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-招募表演</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>V-立绘展示</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+
+<h2>4. 菲律宾冒烟（PH_Smoke）</h2>
+<table>
+  <colgroup><col width="100"/><col width="80"/><col width="80"/><col width="80"/><col width="200"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>素材</b></p></th>
+    <th background-color="light-gray"><p><b>花费</b></p></th>
+    <th background-color="light-gray"><p><b>安装</b></p></th>
+    <th background-color="light-gray"><p><b>CPI</b></p></th>
+    <th background-color="light-gray"><p><b>备注</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>P-炸鸡店</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>验证 SDK 数据链路是否通畅</p></td></tr>
+  </tbody>
+</table>
+
+<h2>5. Singular 后端数据</h2>
+<callout emoji="⏳" background-color="light-gray" border-color="gray">
+  <p><b>Day 1 留存数据尚未生成。</b>D1 次留需等用户安装后 24h 才有数据，预计 Day 2 日报开始出现。此处先留结构，后续每天有数据则填，无数据则标注"待出"。</p>
+</callout>
+<table>
+  <colgroup><col width="90"/><col width="90"/><col width="90"/><col width="90"/><col width="90"/><col width="120"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>素材</b></p></th>
+    <th background-color="light-gray"><p><b>Singular安装</b></p></th>
+    <th background-color="light-gray"><p><b>vs Meta安装</b></p></th>
+    <th background-color="light-gray"><p><b>D1次留</b></p></th>
+    <th background-color="light-gray"><p><b>D3三留</b></p></th>
+    <th background-color="light-gray"><p><b>备注</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>汇总</p></td><td><p>⏳</p></td><td><p>⏳</p></td><td><p>⏳ 预计7/11</p></td><td><p>⏳ 预计7/13</p></td><td><p>数据未出</p></td></tr>
+  </tbody>
+</table>
+
+<h2>6. 异常 / 问题追踪</h2>
+<table>
+  <colgroup><col width="30"/><col width="220"/><col width="80"/><col width="80"/><col width="150"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>#</b></p></th>
+    <th background-color="light-gray"><p><b>问题描述</b></p></th>
+    <th background-color="light-gray"><p><b>发现</b></p></th>
+    <th background-color="light-gray"><p><b>状态</b></p></th>
+    <th background-color="light-gray"><p><b>处理</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>1</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>🔴</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+<p><b>状态流转：</b>🔴待解决 → 🟡处理中 → 🟢已解决。Day 3 前尽量全部 🟢。</p>
+
+<h2>7. 明日动作</h2>
+<checkbox done="false">素材 CPI 正常则维持，冷启动期内不急于调整</checkbox>
+<checkbox done="false">花费 &gt;$50 且激活=0 的 Install Ad Set → 关停</checkbox>
+<checkbox done="false">花费 &gt;$80 且激活=0 的 AEO Ad Set → 关停</checkbox>
+<checkbox done="false">菲律宾冒烟确认 Singular 后台有激活数据回传</checkbox>
+<checkbox done="false">[ 其他 ]</checkbox>
+
+<h2>8. 一句话结论</h2>
+<callout emoji="📌" background-color="light-blue" border-color="blue">
+  <p><b>[ ]</b></p>
+  <p>（格式：CPI 在 XX 范围 + 素材状况 + 整体判断。Leader 看这一句就够了。）</p>
+</callout>
+
+<hr/>
+
+<h1>Day 2 日报（7/10 周五）</h1>
+
+<callout emoji="🎯" background-color="light-gray" border-color="gray">
+  <p><b>今日重点：观察 Day 1→Day 2 趋势变化（CPI是否稳定？素材是否分化？），Day 1 用户 D1 次留开始出现，是第一波留存信号。</b></p>
+</callout>
+
+<h2>1. 30 秒总览（含环比）</h2>
+<table>
+  <colgroup><col width="130"/><col width="70"/><col width="70"/><col width="60"/><col width="80"/><col width="60"/><col width="80"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>指标</b></p></th>
+    <th background-color="light-gray"><p><b>今日</b></p></th>
+    <th background-color="light-gray"><p><b>昨日</b></p></th>
+    <th background-color="light-gray"><p><b>环比</b></p></th>
+    <th background-color="light-gray"><p><b>目标</b></p></th>
+    <th background-color="light-gray"><p><b>状态</b></p></th>
+    <th background-color="light-gray"><p><b>数据源</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>消耗</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CPI (Install)</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>≤$2.00</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CPI (AEO)</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>≤$2.60</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CTR</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>CVR</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+    <tr><td><p>D1 次留 (Install)</p></td><td><p>Day1用户: [ ]</p></td><td><p>—</p></td><td><p>—</p></td><td><p>≥25%</p></td><td><p>[ ]</p></td><td><p>Singular</p></td></tr>
+    <tr><td><p>D1 次留 (AEO)</p></td><td><p>Day1用户: [ ]</p></td><td><p>—</p></td><td><p>—</p></td><td><p>≥30%</p></td><td><p>[ ]</p></td><td><p>Singular</p></td></tr>
+    <tr><td><p>AEO vs Install 次留差</p></td><td><p>[ ]pp</p></td><td><p>—</p></td><td><p>—</p></td><td><p>&gt;+5pp</p></td><td><p>[ ]</p></td><td><p>Singular</p></td></tr>
+    <tr><td><p>D3 三留</p></td><td><p>⏳ 预计7/12</p></td><td><p>—</p></td><td><p>—</p></td><td><p>≥13%/15%</p></td><td><p>—</p></td><td><p>Singular</p></td></tr>
+    <tr><td><p>学习阶段</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>—</p></td><td><p>结束 ≥50 事件</p></td><td><p>[ ]</p></td><td><p>Meta</p></td></tr>
+  </tbody>
+</table>
+
+<h2>2. Meta 前端（分素材，环比视角）</h2>
+<p><b>Install Campaign（14支）:</b> 复制 Day 1 表格，填入今日数据，增加"环比"列标注 ↑↓→</p>
+<p><b>AEO Campaign（9支）:</b> 同上</p>
+<p><b>频次监控:</b> 关注是否有素材频次 &gt;2.5（预警素材疲劳）</p>
+
+<h2>3. Singular 后端 — Day 1 用户 D1 次留</h2>
+<callout emoji="⚠️" background-color="light-yellow" border-color="yellow">
+  <p><b>注意：此为 Day 1 安装用户的 D1 次留。</b>数据可能仍不完整（用户安装时间分散在 Day 1 全天，24h 窗口陆续到期）。标注数据截止时间。</p>
+</callout>
+<table>
+  <colgroup><col width="90"/><col width="80"/><col width="60"/><col width="60"/><col width="70"/><col width="100"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>素材</b></p></th>
+    <th background-color="light-gray"><p><b>S安装</b></p></th>
+    <th background-color="light-gray"><p><b>D1人数</b></p></th>
+    <th background-color="light-gray"><p><b>D1%</b></p></th>
+    <th background-color="light-gray"><p><b>vs目标</b></p></th>
+    <th background-color="light-gray"><p><b>判定</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>汇总</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+<p>分素材明细：[ 逐素材填入，标出留存 Top 3 🥇和 Bottom 3 🔻]</p>
+<p>数据截止时间：[ ]</p>
+
+<h2>4. 关键变化分析</h2>
+<p><b>✅ 向好：</b></p>
+<ul><li>[ ]</li></ul>
+<p><b>⚠️ 警惕：</b></p>
+<ul><li>[ ]</li></ul>
+<p><b>🔍 观察中：</b></p>
+<ul><li>[ ]</li></ul>
+
+<h2>5. 异常 / 问题追踪（承接 Day 1）</h2>
+<table>
+  <colgroup><col width="30"/><col width="220"/><col width="80"/><col width="80"/><col width="150"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>#</b></p></th>
+    <th background-color="light-gray"><p><b>问题描述</b></p></th>
+    <th background-color="light-gray"><p><b>发现</b></p></th>
+    <th background-color="light-gray"><p><b>状态</b></p></th>
+    <th background-color="light-gray"><p><b>处理</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>1</p></td><td><p>[承接Day1]</p></td><td><p>[ ]</p></td><td><p>[🔴🟡🟢]</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>2</p></td><td><p>[新增]</p></td><td><p>[ ]</p></td><td><p>[🔴🟡🟢]</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+
+<h2>6. 明日动作</h2>
+<checkbox done="false">CPI 超标素材关停（参照关停规则）</checkbox>
+<checkbox done="false">根据 Day 1 D1 次留调整素材预算分配</checkbox>
+<checkbox done="false">AEO 次留低于同素材 Install 次留的 Ad Set → 关停</checkbox>
+<checkbox done="false">[ 其他 ]</checkbox>
+
+<h2>7. 一句话结论</h2>
+<callout emoji="📌" background-color="light-blue" border-color="blue">
+  <p><b>[ ]</b></p>
+</callout>
+
+<hr/>
+
+<h1>Day 3 日报（7/11 周六）</h1>
+
+<callout emoji="🎯" background-color="light-gray" border-color="gray">
+  <p><b>今日重点：三天数据汇总，为测试结束做准备。Day 1 用户 D1 次留完整，素材分化趋势明确。D3 三留数据极少（72h窗口未到），终报再分析。本日是日报的最后一天。</b></p>
+</callout>
+
+<h2>1. 30 秒总览（三日趋势）</h2>
+<table>
+  <colgroup><col width="120"/><col width="60"/><col width="60"/><col width="60"/><col width="60"/><col width="80"/><col width="60"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>指标</b></p></th>
+    <th background-color="light-gray"><p><b>Day1</b></p></th>
+    <th background-color="light-gray"><p><b>Day2</b></p></th>
+    <th background-color="light-gray"><p><b>Day3</b></p></th>
+    <th background-color="light-gray"><p><b>累计</b></p></th>
+    <th background-color="light-gray"><p><b>目标</b></p></th>
+    <th background-color="light-gray"><p><b>状态</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>消耗</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>~$5,700</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>CPI (Install)</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>≤$2.00</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>CPI (AEO)</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>≤$2.60</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>D1 次留 (Install)</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>≥25%</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>D1 次留 (AEO)</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>≥30%</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>AEO vs Install 次留差</p></td><td><p>—</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>&gt;+5pp</p></td><td><p>[ ]</p></td></tr>
+    <tr><td><p>D3 三留</p></td><td><p>—</p></td><td><p>—</p></td><td><p>⏳</p></td><td><p>⏳ 终报出</p></td><td><p>见速查</p></td><td><p>—</p></td></tr>
+  </tbody>
+</table>
+
+<h2>2. Meta 前端（分素材，累计视角）</h2>
+<p><b>Install Campaign（14支）:</b> [ 累计花费 + 累计CPI + 每日CPI趋势箭头 ]</p>
+<p><b>AEO Campaign（9支）:</b> [ 同上 ]</p>
+<p><b>频次终报:</b> [ 标注频次最高素材，是否有疲劳信号 ]</p>
+
+<h2>3. Singular 后端 — Day 1-2 用户 D1 次留</h2>
+<callout emoji="⚠️" background-color="light-yellow" border-color="yellow">
+  <p><b>Day 1 安装用户的 D1 次留已基本完整。Day 2 用户部分可用。</b>按素材拆分，为终报素材分级做准备。D3 三留数据极少，不在此呈现。</p>
+</callout>
+<table>
+  <colgroup><col width="90"/><col width="70"/><col width="60"/><col width="60"/><col width="70"/><col width="80"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>素材</b></p></th>
+    <th background-color="light-gray"><p><b>安装(总)</b></p></th>
+    <th background-color="light-gray"><p><b>D1人数</b></p></th>
+    <th background-color="light-gray"><p><b>D1%</b></p></th>
+    <th background-color="light-gray"><p><b>vs目标</b></p></th>
+    <th background-color="light-gray"><p><b>初步判定</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>汇总</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+<p>分素材明细：[ 逐素材填入，🟢保留 🟡再测 🔴淘汰 ]</p>
+
+<h2>4. 关键变化分析</h2>
+<p><b>✅ 三天向好：</b></p>
+<ul><li>[ ]</li></ul>
+<p><b>⚠️ 需要关注：</b></p>
+<ul><li>[ ]</li></ul>
+<p><b>📋 留给终报：</b></p>
+<ul><li>D3 留存完整数据回收（预计 7/14-15）</li><li>分素材 ROI 测算</li><li>素材公式提取与复用建议</li><li>AEO vs Install 全维度对比</li></ul>
+
+<h2>5. 异常 / 问题追踪（最终状态）</h2>
+<table>
+  <colgroup><col width="30"/><col width="220"/><col width="80"/><col width="80"/><col width="150"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>#</b></p></th>
+    <th background-color="light-gray"><p><b>问题描述</b></p></th>
+    <th background-color="light-gray"><p><b>发现</b></p></th>
+    <th background-color="light-gray"><p><b>状态</b></p></th>
+    <th background-color="light-gray"><p><b>处理</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td><td><p>[ ]</p></td></tr>
+  </tbody>
+</table>
+
+<h2>6. 测试结束后动作</h2>
+<checkbox done="false">全部 Campaign 暂停或降预算（测试结束）</checkbox>
+<checkbox done="false">等待 D3 留存数据完整回收（预计 7/14-15）</checkbox>
+<checkbox done="false">准备总复盘报告</checkbox>
+<checkbox done="false">[ 其他 ]</checkbox>
+
+<h2>7. 一句话结论（测试结束判断）</h2>
+<callout emoji="📌" background-color="light-blue" border-color="blue">
+  <p><b>[ ]</b></p>
+  <p>（格式：D1次留 X% + CPI X + 方向判断 + 下一步建议。这是三天日报唯一会被截图转发的一句。）</p>
+</callout>
+
+<hr/>
+
+<h1>数据标准速查</h1>
+<callout emoji="📊" background-color="light-gray" border-color="gray">
+  <p>每次填日报时对照此表标 🟢🟡🔴，不要凭感觉。以下数据来自测试规划文档。</p>
+</callout>
+
+<h2>D1 / D3 留存分级</h2>
+<table>
+  <colgroup><col width="80"/><col width="60"/><col width="80"/><col width="80"/><col width="80"/><col width="80"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>指标</b></p></th>
+    <th background-color="light-gray"><p><b>出价</b></p></th>
+    <th background-color="rgb(232,255,217)"><p><b>优秀 🟢</b></p></th>
+    <th background-color="rgb(255,250,210)"><p><b>合格 🟡</b></p></th>
+    <th background-color="rgb(255,235,235)"><p><b>待改进 🔴</b></p></th>
+    <th background-color="light-gray"><p><b>4月基线</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td rowspan="2" vertical-align="middle"><p><b>D1 次留</b></p></td><td><p>Install</p></td><td><p><b>≥30%</b></p></td><td><p>25~30%</p></td><td><p>20~25%</p></td><td><p>21.29%</p></td></tr>
+    <tr><td><p>AEO</p></td><td><p><b>≥35%</b></p></td><td><p>30~35%</p></td><td><p>25~30%</p></td><td><p>30.14%</p></td></tr>
+    <tr><td rowspan="2" vertical-align="middle"><p><b>D3 三留</b></p></td><td><p>Install</p></td><td><p><b>≥13%</b></p></td><td><p>10~13%</p></td><td><p>8~10%</p></td><td><p>11.69%</p></td></tr>
+    <tr><td><p>AEO</p></td><td><p><b>≥15%</b></p></td><td><p>12~15%</p></td><td><p>10~12%</p></td><td><p><b>15.77%</b></p></td></tr>
+  </tbody>
+</table>
+
+<h2>CPI 分级</h2>
+<table>
+  <colgroup><col width="60"/><col width="90"/><col width="90"/><col width="90"/><col width="80"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>出价</b></p></th>
+    <th background-color="rgb(232,255,217)"><p><b>优秀 🟢</b></p></th>
+    <th background-color="rgb(255,250,210)"><p><b>合格 🟡</b></p></th>
+    <th background-color="rgb(255,235,235)"><p><b>待改进 🔴</b></p></th>
+    <th background-color="light-gray"><p><b>4月基线</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>Install</p></td><td><p><b>≤$1.50</b></p></td><td><p>$1.50~2.80</p></td><td><p>&gt;$2.80</p></td><td><p>$1.58</p></td></tr>
+    <tr><td><p>AEO</p></td><td><p><b>≤$2.00</b></p></td><td><p>$2.00~2.60</p></td><td><p>&gt;$2.60</p></td><td><p>$2.30</p></td></tr>
+  </tbody>
+</table>
+
+<h2>关停规则（日报期间执行）</h2>
+<table>
+  <colgroup><col width="300"/><col width="180"/></colgroup>
+  <thead><tr>
+    <th background-color="light-gray"><p><b>条件</b></p></th>
+    <th background-color="light-gray"><p><b>动作</b></p></th>
+  </tr></thead>
+  <tbody>
+    <tr><td><p>Install：花费 &gt;$50 且激活=0</p></td><td><p>关停该 Ad Set</p></td></tr>
+    <tr><td><p>Install：CPI &gt;$3.50 达到一定量级</p></td><td><p>关停该 Ad Set</p></td></tr>
+    <tr><td><p>AEO：花费 &gt;$80 且激活=0</p></td><td><p>关停该 Ad Set</p></td></tr>
+    <tr><td><p>AEO：CPI &gt;$4.00 达到一定量级</p></td><td><p>关停该 Ad Set</p></td></tr>
+    <tr><td><p>AEO：次留低于同素材 Install 次留</p></td><td><p>关停（AEO无效）</p></td></tr>
+  </tbody>
+</table>
+
+<h2>其他参考指标</h2>
+<ul>
+  <li>三秒播放率 &gt;30% 优秀，&lt;20% 较差</li>
+  <li>AEO vs Install 次留差 ≥ +5pp 为有效增益</li>
+  <li>频次 &gt;2.5 预警素材疲劳，需准备替换素材</li>
+  <li>CTR/CVR 4月基线：Install CTR 约 1.6%-2.3%，CVR 约 22%-30%；AEO CPI 更高但此处不做直接对比</li>
+</ul>
+
+<hr/>
+
+<h1>日报写作要点</h1>
+
+<callout emoji="💡" background-color="light-green" border-color="green">
+  <h3>每日 15 分钟核心原则</h3>
+</callout>
+
+<ol>
+  <li seq="auto"><b>先填表，后写字。</b>数据表填完，Leader 已经能判断 80%。文字只是补充他们看不到的信息。</li>
+  <li seq="auto"><b>留白不可怕，瞎猜才可怕。</b>留存数据没出来就写"数据未出，预计 X 日可用"。写了"数据未出"说明你专业，写了不准的数字说明你不靠谱。</li>
+  <li seq="auto"><b>"一句话结论"是唯一会被记住的。</b>正面例子："D1次留 28% 达标但 CPI $2.1 略超，明天优先关停高价素材，整体方向乐观。"反面例子："今日数据基本正常，继续观察。"</li>
+  <li seq="auto"><b>问题追踪到清零。</b>每个问题必须有状态（🔴→🟡→🟢），Day 3 前尽量全部 🟢。同一问题连提三天没进展 = Leader 会问"你到底在干什么"。</li>
+  <li seq="auto"><b>Meta 和 Singular 有差异正常。</b>日报以 Meta 做投放决策，以 Singular 判断用户质量。差异 &gt;20% 才需要注明。</li>
+  <li seq="auto"><b>篇幅上限 2 屏。</b>超过了就是在写复盘报告。Leader 用手机看。翻 3 屏还没看到结论就会关掉。</li>
+  <li seq="auto"><b>每天必须回答三个问题（哪怕只写一句话）：</b>① 钱花得正常吗？② 有没有需要立刻处理的事？③ 明天做什么？</li>
+</ol>
+
+<callout emoji="📋" background-color="light-gray" border-color="gray">
+  <h3>日报 vs 终报分工</h3>
+  <p><b>日报管"现在发生了什么"</b>——确认 Campaign 健康、发现异常、做当天决策。</p>
+  <p><b>终报管"这意味着什么"</b>——D3留存归因、素材公式提取、ROI测算、AEO vs Install对比、第二轮建议。</p>
+  <p>终报预计在测试结束后 3-5 天（D3 完整回收后）输出。日报里标注"留给终报"的内容，Leader 就知道你会后续跟进，不会催。</p>
+</callout>

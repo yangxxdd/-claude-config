@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "revision": 221,
+    "spreadsheetToken": "VVyysuupBhkUcqtrPEqcFm8Pn5e",
+    "valueRange": {
+      "majorDimension": "ROWS",
+      "range": "QPbYJe!L5:L5",
+      "revision": 221,
+      "values": [
+        [
+          "Create a Google Play store featured image (1080x1920 vertical) for a mafia SLG mobile game called GTS. Theme: put cash to work - submit cash to unlock an industry (street block unlock). in the style of American comic realism with neon-noir crime city energy (like Batman: Arkham / Watch Dogs game art), bright crime-comedy mood, warm golden/orange/red foreground contrasting with cool purple-blue night background, cinematic lighting, realistic materials, NOT cute/chibi, NOT flat cartoon. Keep violence implied, not gory. No realistic celebrity faces. Do not copy GTA or Peaky Blinders logos, fonts, or exact costumes.\n\n[FOREGROUND-LEFT] A finger drags a thick stack of dollar bills from the bottom-left corner, a green glowing money trail arcing into the center. [CENTER] The glowing green cash trajectory flows into a locked outdoor street-industry building; the lock breaks and the block lights up. [FOREGROUND-RIGHT] The unlocked street block pops out production - cash, resources, and an output panel. Same three-stage causal chain as version A but with the unlock target being an outdoor street industry instead of an indoor room. [BACKGROUND] A modern city block exterior with purple-blue ambient tone.\n\n[UI] Standard mobile SLG store screenshot UI, fully integrated: top resource bar (pink diamond +3K, silver coin +200K, gold bar +500K+, gear settings, envelope mail, dark-bg white-text rounded chips); top-left circular player avatar with purple border, nickname, pink star level 30, purple fist power number; top-right top-down city minimap with castle base icon; left vertical buttons ACTIVITY / PASS / STARTER with red notification dots; right vertical buttons RANKING / SHOP / OPSS / BAG; bottom-center large title \\\"PUT CASH TO WORK.\\\" in white bold sans-serif uppercase on a dark backdrop, occupying the bottom 15-20%."
+        ]
+      ]
+    }
+  },
+  "_notice": {
+    "deprecated_command": {
+      "action": "lark-cli update",
+      "command": "+read",
+      "message": "+read is a pre-refactor compatibility alias; use +cells-get instead; update your lark-sheets skill, run: lark-cli update",
+      "replacement": "+cells-get",
+      "skill": "lark-sheets"
+    },
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.85",
+      "message": "lark-cli 1.0.85 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

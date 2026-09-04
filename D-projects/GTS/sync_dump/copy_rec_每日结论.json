@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "data": [
+      [
+        "NO.001",
+        null,
+        "2026-07-09T00:00:00.000+08:00",
+        "🔴特殊设备视角 D1 0% · 🟡爽感战斗 16.7% · 披萨店 11.5% · 美漫分镜 14.8%（均\u003c20%）",
+        "Install CPI $2.82 略超标，Day1 冷启动偏高正常；晋级失败被捕 $1.82 一支独秀",
+        "等 D1 回传；特殊设备视角、爽感战斗若再弱即关",
+        "晋级失败被捕 CPI $1.82 全场最低、浴血黑帮 D1 40.9% 双达标",
+        "Install CPI $2.82 略超 $2.80 合格线；D1 待 BI 回传"
+      ],
+      [
+        "NO.002",
+        null,
+        "2026-07-10T00:00:00.000+08:00",
+        "🔴特殊设备视角 D1 0% + CPI $3.98 双杀 · 🔴爽感战斗 16.7%",
+        "D1 分化明显，4 支留存不达标，模拟经营方向崩盘",
+        "关停爽感战斗、特殊设备视角；晋级失败被捕、浴血黑帮加量",
+        "鸡公大侠 41.2% · 浴血黑帮 40.9% · 晋级失败 35.7%，是加量候选",
+        "Install CPI $2.98 超标；7/9 D1 整体 24.6% 略低于 25% 目标"
+      ],
+      [
+        "NO.003",
+        null,
+        "2026-07-11T00:00:00.000+08:00",
+        "🟡模拟经营 D1 12.5% 偏弱 · 🟡招募表演 CPI $3.95 高需控价",
+        "CBO 首日强者吃量，完成第一轮优胜劣汰",
+        "继续强者恒强；模拟经营减量；补测新素材",
+        "晋级失败被捕、浴血黑帮 CBO 起量，D1 稳定在 25-29%",
+        "Install CPI $3.18 超标；7/10 D1 整体 24.2% 仍低于目标"
+      ]
+    ],
+    "field_id_list": [
+      "fldor0Mx7t",
+      "fld0NrGgCE",
+      "fldDUnGcdH",
+      "fldFyck6Zr",
+      "fldjb58Qqh",
+      "fldklViuw0",
+      "fldtZmDyxb",
+      "fldVBTT5xE"
+    ],
+    "field_type_list": [
+      "auto_number",
+      "text",
+      "datetime",
+      "text",
+      "text",
+      "text",
+      "text",
+      "text"
+    ],
+    "fields": [
+      "ID",
+      "环比",
+      "日期",
+      "警惕信号",
+      "一句话结论",
+      "明日动作",
+      "向好信号",
+      "达标情况"
+    ],
+    "has_more": false,
+    "query_context": {
+      "field_scope": "all_fields",
+      "record_scope": "all_records"
+    },
+    "record_id_list": [
+      "recvtW3RZj45nk",
+      "recvtW3RZjNu93",
+      "recvtW3RZjMWZ5"
+    ],
+    "rev": 17,
+    "timezone": "Asia/Shanghai"
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.93",
+      "message": "lark-cli 1.0.93 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

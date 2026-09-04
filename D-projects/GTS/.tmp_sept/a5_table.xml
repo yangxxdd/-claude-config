@@ -1,0 +1,9 @@
+<table>
+<thead><tr><th background-color="light-gray">条件</th><th background-color="light-gray">动作</th></tr></thead>
+<tbody>
+<tr><td>Install 花费 &gt; $50 且激活 = 0</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>Install CPI &gt; $3.75（待改进 $3.0 × 1.25）且量级 ≥ 15</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>Install CPI ≤ $2.0（优秀线内）</td><td>多放量，量级 ≥ 20 再判断</td></tr>
+<tr><td>单日 DNU &lt; 20</td><td>不关闭，标记观察</td></tr>
+</tbody>
+</table>

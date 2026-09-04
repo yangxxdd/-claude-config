@@ -1,0 +1,229 @@
+- generic [ref=f5e1]:
+  - banner [ref=f5e2]:
+    - navigation "页面标题" [ref=f5e3]:
+      - link "Google Play 徽标" [ref=f5e4] [cursor=pointer]:
+        - /url: /store/games
+        - generic [ref=f5e12]: google_logo Play
+      - navigation "主导航栏" [ref=f5e14]:
+        - tablist [ref=f5e16]:
+          - generic [ref=f5e19]:
+            - tab "游戏" [ref=f5e20] [cursor=pointer]
+            - tab "应用" [selected] [ref=f5e22] [cursor=pointer]
+            - tab "图书" [ref=f5e24] [cursor=pointer]
+            - tab "儿童" [ref=f5e26] [cursor=pointer]
+      - generic [ref=f5e28]:
+        - button "搜索" [ref=f5e30] [cursor=pointer]:
+          - generic [ref=f5e31]: search
+        - button "帮助中心" [ref=f5e33] [cursor=pointer]:
+          - generic [ref=f5e34]: help_outline
+        - button "打开账号菜单" [ref=f5e39] [cursor=pointer]
+  - generic [ref=f5e45]:
+    - generic [ref=f5e48]:
+      - generic [ref=f5e53]:
+        - generic [ref=f5e56]:
+          - heading "Critter Arena" [level=1] [ref=f5e58]
+          - generic [ref=f5e59]:
+            - link "Chiseled Games Japan株式会社" [ref=f5e61] [cursor=pointer]:
+              - /url: /store/apps/developer?id=Chiseled+Games+Japan%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE
+            - generic [ref=f5e62]: 应用内购商品
+        - region "信息徽章" [ref=f5e65]:
+          - generic [ref=f5e67]:
+            - generic [ref=f5e68]: 5万+
+            - generic [ref=f5e69]: 次下载
+      - generic [ref=f5e71]:
+        - button "分享" [ref=f5e75] [cursor=pointer]
+        - button "添加到心愿单" [ref=f5e82] [cursor=pointer]
+    - generic [ref=f5e87]:
+      - generic [ref=f5e88]:
+        - generic [ref=f5e89]:
+          - list [ref=f5e93]:
+            - listitem [ref=f5e94]:
+              - button "屏幕截图图片" [ref=f5e96] [cursor=pointer]
+            - listitem [ref=f5e97]:
+              - button "屏幕截图图片" [ref=f5e99] [cursor=pointer]
+            - listitem [ref=f5e100]:
+              - button "屏幕截图图片" [ref=f5e102] [cursor=pointer]
+            - listitem [ref=f5e103]:
+              - button "屏幕截图图片" [ref=f5e105] [cursor=pointer]
+            - listitem [ref=f5e106]:
+              - button "屏幕截图图片" [ref=f5e108] [cursor=pointer]
+            - listitem [ref=f5e109]:
+              - button "屏幕截图图片" [ref=f5e111] [cursor=pointer]
+            - listitem [ref=f5e112]:
+              - button "屏幕截图图片" [ref=f5e114] [cursor=pointer]
+            - listitem [ref=f5e115]:
+              - button "屏幕截图图片" [ref=f5e117] [cursor=pointer]
+            - listitem [ref=f5e118]:
+              - button "屏幕截图图片" [ref=f5e120] [cursor=pointer]
+            - listitem [ref=f5e121]:
+              - button "屏幕截图图片" [ref=f5e123] [cursor=pointer]
+            - listitem [ref=f5e124]:
+              - button "屏幕截图图片" [ref=f5e126] [cursor=pointer]
+            - listitem [ref=f5e127]:
+              - button "屏幕截图图片" [ref=f5e129] [cursor=pointer]
+            - listitem [ref=f5e130]:
+              - button "屏幕截图图片" [ref=f5e132] [cursor=pointer]
+            - listitem [ref=f5e133]:
+              - button "屏幕截图图片" [ref=f5e135] [cursor=pointer]
+            - listitem [ref=f5e136]:
+              - button "屏幕截图图片" [ref=f5e138] [cursor=pointer]
+            - listitem [ref=f5e139]:
+              - button "屏幕截图图片" [ref=f5e141] [cursor=pointer]
+            - listitem [ref=f5e142]:
+              - button "屏幕截图图片" [ref=f5e144] [cursor=pointer]
+            - listitem [ref=f5e145]:
+              - button "屏幕截图图片" [ref=f5e147] [cursor=pointer]
+            - listitem [ref=f5e148]:
+              - button "屏幕截图图片" [ref=f5e150] [cursor=pointer]
+            - listitem [ref=f5e151]:
+              - button "屏幕截图图片" [ref=f5e153] [cursor=pointer]
+            - listitem [ref=f5e154]:
+              - button "屏幕截图图片" [ref=f5e156] [cursor=pointer]
+          - generic [ref=f5e159]:
+            - generic [ref=f5e161]:
+              - heading "游戏简介" [level=2] [ref=f5e163]
+              - button "查看“游戏简介”的更多相关信息" [ref=f5e165] [cursor=pointer]:
+                - generic [ref=f5e166]: arrow_forward
+            - generic [ref=f5e167]:
+              - generic [ref=f5e168]: 在这个充满各种神秘生物的世界里，你将扮演一位动物驯兽师，探索未知的荒野，捕捉神奇的生物，并陪伴它们成长进化。建造你的房车之家，遨游荒野，对抗偷猎团伙和邪教徒，并在动物竞技场中争夺最高排名。一路上，你将与更多稀有生物相遇，揭开这些生物的起源、进化以及这个世界的秘密。捕捉并收集神奇的生物：荒野中充满了可爱、强大且稀有的生物。捕捉它们，将它们变成你的宠物！陪伴小动物成长：在旅途中，看着这些神奇的小动物逐渐成长进化。见证并催化它们进化的过程，让它们变得更强大！轻松有趣的战斗：你培育的小动物们可以帮助你对抗凶猛的野兽、偷猎者，或与其他玩家进行友谊赛！参与竞技比赛：想成为声名显赫的小动物驯兽师，就加入小动物竞技场，角逐冠军吧！激动人心的探索之旅：驾驶房车探索广阔的世界，成为环游世界的驯兽师和冒险家！结成联盟：与其他玩家组队，共同探索荒野，揭开真相，获得改变世界的力量。在“小动物竞技场”开启冒险之旅，创造你的传奇，改变未来。立即下载游戏，开启你的奇幻之旅！
+              - generic [ref=f5e171]:
+                - generic [ref=f5e172]: 更新日期
+                - generic [ref=f5e173]: 2026年7月22日
+              - generic [ref=f5e176]:
+                - generic [ref=f5e178]: 角色扮演
+                - link "角色扮演" [ref=f5e179] [cursor=pointer]:
+                  - /url: /store/apps/category/GAME_ROLE_PLAYING
+          - generic [ref=f5e181]:
+            - generic [ref=f5e183]:
+              - heading "数据安全" [level=2] [ref=f5e185]
+              - generic [ref=f5e186] [cursor=pointer]:
+                - generic [ref=f5e187]: arrow_forward
+                - link "查看“数据安全”的更多相关信息" [ref=f5e188]:
+                  - /url: /store/apps/datasafety?id=com.games.gp.eden
+            - generic [ref=f5e189]:
+              - text: 安全始于了解开发者如何收集和分享数据。数据隐私保护和安全措施可能会因您的使用情况、所在地区和用户年龄而异。此类信息由开发者提供，可能会随时间更新。
+              - generic [ref=f5e190]:
+                - generic [ref=f5e193]:
+                  - text: 此应用可能会与第三方分享这些类型的数据
+                  - generic [ref=f5e194]: 个人信息、应用活动和另外 2 种数据
+                - generic [ref=f5e197]:
+                  - text: 此应用可能会收集这些类型的数据
+                  - generic [ref=f5e198]: 位置信息、个人信息和另外 5 种数据
+                - generic [ref=f5e199]: 数据在传输过程中会加密
+                - generic [ref=f5e202]: 您可以要求开发者删除数据
+                - generic [ref=f5e207]:
+                  - generic [ref=f5e209]: 查看详情
+                  - link "查看关于数据安全的更多详情" [ref=f5e210] [cursor=pointer]:
+                    - /url: /store/apps/datasafety?id=com.games.gp.eden
+        - link "举报不当内容" [ref=f5e214] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/?p=report_content
+          - generic [ref=f5e215]: flag
+          - text: 举报不当内容
+      - generic [ref=f5e216]:
+        - generic [ref=f5e217]:
+          - img "内容分级" [ref=f5e218]
+          - generic [ref=f5e219]:
+            - generic [ref=f5e220]: 12 岁以上
+            - generic [ref=f5e221]: 恐怖
+            - generic [ref=f5e222]: 游戏内购买(包括随机道具)
+            - link "详细了解内容分级" [ref=f5e223] [cursor=pointer]:
+              - /url: https://support.google.com/googleplay?p=appgame_ratings
+              - text: 了解详情
+        - generic [ref=f5e227]:
+          - heading "应用支持" [level=2] [ref=f5e229]
+          - button "展开" [ref=f5e231] [cursor=pointer]:
+            - generic [ref=f5e232]: expand_more
+        - generic [ref=f5e234]:
+          - generic [ref=f5e236]:
+            - heading "类似游戏" [level=2] [ref=f5e238]
+            - generic [ref=f5e240] [cursor=pointer]:
+              - generic [ref=f5e241]: arrow_forward
+              - link "查看“类似游戏”的更多相关信息" [ref=f5e242]:
+                - /url: /store/apps/collection/cluster?gsr=Sl5qGFk4QlV4RGpCcDg5bjZmMTIwOW1FM2c9PcICPgoVChFjb20uZ2FtZXMuZ3AuZWRlbhAHGAgwATgAShkIAhAAGg1Dcml0dGVyIEFyZW5hIAAoADAAUABYAWAAsBIA:S:ANO1ljIF5Rs
+          - generic [ref=f5e244]:
+            - link "Monster GO BOXI Interactive" [ref=f5e246] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.lemix.xplorers
+              - generic [ref=f5e249]:
+                - generic [ref=f5e250]: Monster GO
+                - generic [ref=f5e252]: BOXI Interactive
+            - link "小小动物Go! Mille Crepe Studios Co., Ltd. 获评 4.5 颗星（最高 5 颗星）" [ref=f5e255] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.chaijin.svendia.android
+              - generic [ref=f5e258]:
+                - generic [ref=f5e259]: 小小动物Go!
+                - generic [ref=f5e261]: Mille Crepe Studios Co., Ltd.
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f5e264]:
+                  - generic [ref=f5e265]: "4.5"
+                  - generic [ref=f5e266]: star
+            - link "Battlemons：怪物角色扮演游戏 FDG Entertainment GmbH & Co.KG 获评 4.4 颗星（最高 5 颗星）" [ref=f5e269] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.FDGEntertainment.Battlemons
+              - generic [ref=f5e272]:
+                - generic [ref=f5e273]: Battlemons：怪物角色扮演游戏
+                - generic [ref=f5e275]: FDG Entertainment GmbH & Co.KG
+                - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f5e278]:
+                  - generic [ref=f5e279]: "4.4"
+                  - generic [ref=f5e280]: star
+            - link "放置军团 - 策略塔防放置RPG Gooplin Studio 获评 3.9 颗星（最高 5 颗星）" [ref=f5e283] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.gooplin.ilsea
+              - generic [ref=f5e286]:
+                - generic [ref=f5e287]: 放置军团 - 策略塔防放置RPG
+                - generic [ref=f5e289]: Gooplin Studio
+                - generic "获评 3.9 颗星（最高 5 颗星）" [ref=f5e292]:
+                  - generic [ref=f5e293]: "3.9"
+                  - generic [ref=f5e294]: star
+            - link "山海輪迴 IMIYOO 获评 4.3 颗星（最高 5 颗星）" [ref=f5e297] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.imi.pmb.and
+              - generic [ref=f5e300]:
+                - generic [ref=f5e301]: 山海輪迴
+                - generic [ref=f5e303]: IMIYOO
+                - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f5e306]:
+                  - generic [ref=f5e307]: "4.3"
+                  - generic [ref=f5e308]: star
+            - 'link "Beast Bumpers: PvP Arena Roll SUPER PICKLE GAMES" [ref=f5e311] [cursor=pointer]':
+              - /url: /store/apps/details?id=com.SuperPickleGames.Smash
+              - generic [ref=f5e314]:
+                - generic [ref=f5e315]: "Beast Bumpers: PvP Arena Roll"
+                - generic [ref=f5e317]: SUPER PICKLE GAMES
+  - contentinfo [ref=f5e320]:
+    - generic [ref=f5e322]:
+      - generic [ref=f5e324]:
+        - text: Google Play
+        - link [ref=f5e326] [cursor=pointer]:
+          - /url: /store/pass/getstarted
+          - paragraph [ref=f5e327]: Play Pass
+        - link [ref=f5e329] [cursor=pointer]:
+          - /url: /store/points/enroll
+          - paragraph [ref=f5e330]: Play Points
+        - link [ref=f5e332] [cursor=pointer]:
+          - /url: https://play.google.com/about/giftcards
+          - paragraph [ref=f5e333]: 礼品卡
+        - link [ref=f5e335] [cursor=pointer]:
+          - /url: /redeem
+          - paragraph [ref=f5e336]: 兑换
+        - link [ref=f5e338] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/134336
+          - paragraph [ref=f5e339]: 退款政策
+      - generic [ref=f5e341]:
+        - text: 儿童与家庭
+        - link [ref=f5e343] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay?p=pff_parentguide
+          - paragraph [ref=f5e344]: 家长指南
+        - link [ref=f5e346] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/7007852
+          - paragraph [ref=f5e347]: 家庭共享
+    - generic [ref=f5e348]:
+      - link [ref=f5e350] [cursor=pointer]:
+        - /url: https://play.google.com/intl/zh-CN_hk/about/play-terms.html
+        - paragraph [ref=f5e351]: 服务条款
+      - link [ref=f5e353] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+        - paragraph [ref=f5e354]: 隐私权
+      - link [ref=f5e356] [cursor=pointer]:
+        - /url: https://support.google.com/googleplay/?p=about_play
+        - paragraph [ref=f5e357]: 关于 Google Play
+      - link [ref=f5e359] [cursor=pointer]:
+        - /url: http://developer.android.com/index.html
+        - paragraph [ref=f5e360]: 开发者
+      - link [ref=f5e362] [cursor=pointer]:
+        - /url: https://store.google.com/?playredirect=true&utm_source=play&utm_medium=google_oo&utm_campaign=GS106288
+        - paragraph [ref=f5e363]: Google Store
+      - generic [ref=f5e364]: 香港 (简体中文)

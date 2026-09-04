@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<string>", line 13, in <module>
+    print(df.head(10).to_string())
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f947' in position 2453: illegal multibyte sequence
+=== Sheet: 9ÔÂ²âÊÔËØ²ÄÍÆ¼öv2 ===
+Shape: (66, 16)

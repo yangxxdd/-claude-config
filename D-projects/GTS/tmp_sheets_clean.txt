@@ -1,0 +1,128 @@
+
+
+##### Wuw4Wg #####
+[ERR Unterminated string starting at: line 1 column 421 (char 420)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 鏍稿績鍒ゆ柇 7鏈圕VR涓嬮檷涓嶈兘鍏ㄩ儴褰掑洜浜庝簲鍥撅紝浣嗕簲鍥炬槸楂樻�傜巼鍏卞洜銆傛柊鐗堟妸鈥滈�氱敤KV + 璧屽満鈥濇斁鍦ㄧ敤鎴锋渶鍏堢湅鍒扮殑浣嶇疆锛屽急鍖栦簡宸查獙璇佹洿寮虹殑榛戝府韬�浠姐�佽崚璇
+
+
+##### w2fyVx #####
+[ERR Unterminated string starting at: line 1 column 394 (char 393)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:D1", "annotated_csv": "[row=1] 29.02%鈫�16.31%Install CVR锛�4鏈堚啋7鏈堝彲姣斿彛寰勶級,6.01% / 10.74%妯℃嫙缁忚惀 CTR楂� / CVR浣�,31.04%娴磋��榛戝府 Facebook CVR,39.
+
+
+##### T5O3pu #####
+[ERR Unterminated string starting at: line 1 column 493 (char 492)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B4", "annotated_csv": "[row=1] 鍙傝�冩柟妗堝仛瀵逛簡浠�涔�,鏈�鏂规�堣繘涓�姝ヨˉ寮篭n[row=2] 鎶婁簲鍥惧畾涔変负骞垮憡鍚庣殑绗�浜屾�靛垱鎰�,鐩存帴鎸塆TS绱犳潗鐨凜PI/CVR/D1淇″彿鍐冲畾鍥句綅锛屾槑纭�鐮嶆帀璧屽満鍓嶆
+
+
+##### hIhfKo #####
+[ERR Unterminated string starting at: line 1 column 392 (char 391)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 鏃х増棣栧浘铏戒笉澶熺湡瀹烇紝浣嗚嚦灏戠粰鍑衡�滄垚涓築oss銆佹嫢鏈夊湴鐩樷�濈殑娆叉湜锛涙柊鐗圞V鍙�缁欐皼鍥村拰鍦板浘閽堬紝浜斿紶瀹炴満鍙堜粠璧屽満寮�濮嬨�傜敤鎴峰湪鏈�鍏抽敭鐨勫墠涓ゅ睆浠嶆棤娉曠‘璁も�
+
+
+##### DUo7UK #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:E6", "annotated_csv": "[row=1] 鍥�,鏃х増鎵胯��,鍙�淇濈暀,涓昏�侀棶棰�,鍘诲悜\n[row=2] #1,Boss + 璞�瀹�/鍩庡競,楂樿川閲忚�掕壊鍜屸�滄帉鎺у煄甯傗�濇�叉湜鏄庣‘銆�,绾�娴锋姤銆佸井缂╁煄甯傝��瀵硷紱娌℃湁
+
+
+##### hgvoGa #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:E7", "annotated_csv": "[row=1] 鍥�,褰撳墠鎵胯��,鍙�淇濈暀,CVR椋庨櫓,寤鸿�甛n[row=2] #6 KV,榛戝府涓栫晫/鐩�鐨勫湴,鑹插僵缁熶竴銆佸搧鐗屽勾杞诲寲銆�,浜虹墿灏忋�佸湴鍥鹃拡鍚�涔夊急銆佹棤鐜╂硶璇佹槑锛涜嫢浣滈�栧浘
+
+
+##### QTe2nb #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:D9", "annotated_csv": "[row=1] 绾у埆,鍋囪��,褰撳墠璇佹嵁,淇�澶嶅姩浣淺n[row=2] P0,骞垮憡鈫掑晢搴楁剰鍥炬柇瑁�,娴磋��/鐐搁浮/鎷涘嫙甯︽潵鐐瑰嚮锛岄�栧睆鍗存槸KV鎴栬祵鍦恒��,鎸夌礌鏉愯矾鐢遍�栧浘锛涢粯璁ら〉铻嶅悎韬
+
+
+##### pUzTBY #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:D6", "annotated_csv": "[row=1] 浜у搧,褰撳墠鍟嗗簵鏍稿績鎵胯��,鍙�杩佺Щ瑙勫緥,GTS鍙栬垗\n[row=2] Mafia City,Become the Godfather锛涙姠閾惰�屻�佽仈鐩熴�佸湴鐩樻垬銆佽豹杞�,瑙掕壊鏉冨姏鎰熷拰
+
+
+##### UvBYVQ #####
+[ERR Unterminated string starting at: line 1 column 371 (char 370)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 鎺ㄨ崘瀹氫綅 榛戣壊骞介粯鐘�缃�缁忚惀 + 鏈夌敤鐨勯棬寰� + 鍩庡競鍦扮洏鎵╁紶銆傜敤鈥滀粠鐐搁浮搴楀埌鐘�缃�甯濆浗鈥濆缓绔嬬嫭鐗硅�板繂锛岀敤Boss/澶嶄粐缁存寔鐢锋�ч粦甯�骞绘兂锛岀敤闂ㄥ緬涓庡湴鐩
+
+
+##### 3AYbti #####
+[ERR Unterminated string starting at: line 1 column 366 (char 365)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:D1", "annotated_csv": "[row=1] 韬�浠絅obody 鈫� Don,缁忚惀Serve 鈫� Cash 鈫� Upgrade,闂ㄥ緬Recruit 鈫� Assign 鈫� Boost,鎵╁紶Fight 鈫� Loot 鈫� Turf", "col_
+
+
+##### fI0JbE #####
+[ERR Unterminated string starting at: line 1 column 492 (char 491)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B5", "annotated_csv": "[row=1] 涓诲崠鐐�,浠庝竴瀹剁牬璐ョ偢楦″簵璧锋�ワ紝缁忚惀鍦颁笅浜т笟锛屽缓绔嬬姱缃�甯濆浗銆俓n[row=2] 瑙掕壊鍗栫偣,鎷涘嫙鏉ヨ嚜Mafia銆乊akuza銆丆artel涓嶴treet Crew鐨勯棬寰掞紱浠栦滑
+
+
+##### lLrtgS #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:C8", "annotated_csv": "[row=1] 灞傜骇,鎺ㄨ崘鏂囨��,鐢ㄩ�擻n[row=2] 涓�鍙ヨ瘽瀹氫綅,FROM FRIED CHICKEN TO A CRIME EMPIRE,榛樿�ら�栧浘锛涚嫭鐗硅�板繂銆俓n[row=3] 鐭�鎻忚堪鍊欓��,
+
+
+##### hDLWtb #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:E6", "annotated_csv": "[row=1] 鍥�,浠诲姟,涓绘枃妗�,涓荤敾闈�,鎵挎帴绱犳潗\n[row=2] 1,鎵挎帴鐐瑰嚮,FROM FRIED CHICKEN TO A CRIME EMPIRE,Boss/闂ㄥ緬 + 鐐搁浮璧风偣 + 鐘�缃�鍩庡
+
+
+##### YRyMxQ #####
+[ERR Unterminated string starting at: line 1 column 445 (char 444)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A5", "annotated_csv": "[row=1] 1浣犱細鎴愪负浠�涔堬細鐐搁浮搴楄�佹澘 鈫� 鍩庡競Don\n[row=2] 2浣犲叿浣撴�庝箞鐜╋細鏈嶅姟銆佹敹閽便�佸崌绾�\n[row=3] 3涓轰粈涔堣�佹嫑浜猴細闂ㄥ緬璁╀骇涓氫笌鎴樻枟鏇村己\n[ro
+
+
+##### FvgHwG #####
+[ERR Unterminated string starting at: line 1 column 498 (char 497)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 涓绘枃妗� FROM FRIED CHICKEN TO A CRIME EMPIRE", "col_count": 1, "col_indices": ["A"], "current_region": "A1:A1
+
+
+##### Ia2ZtS #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B1", "annotated_csv": "[row=1] 鐜版湁鍙�澶嶇敤璧勪骇鍙傝��,鍥句綅浠诲姟鍦�1绉掑唴鍚屾椂璇存竻棰樻潗銆佸搧绫诲拰鎴愰暱缁堢偣锛涙浛浠ｇ函KV鍜岃祵鍦洪�栧浘銆傛瀯鍥炬柟鍚態oss鎴栨牳蹇冮棬寰掑崰鐢婚潰35%-45%锛涘乏涓嬩负鐮磋触鐐搁浮
+
+
+##### NIMDip #####
+[ERR Unterminated string starting at: line 1 column 383 (char 382)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A3", "annotated_csv": "[row=1] FROM FRIED CHICKEN / TO A CRIME EMPIRE\n[row=2] [鐮磋触鐐搁浮搴梋 鈫抂Boss + 闂ㄥ緬] 鈫� [闇撹櫣鐘�缃�鍩庡競]\n[row=3] 鐪熷疄缁忚惀UI璇佹
+
+
+##### wK4ctd #####
+[ERR Unterminated string starting at: line 1 column 500 (char 499)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 涓绘枃妗� RUN BUSINESSES. STACK CASH.", "col_count": 1, "col_indices": ["A"], "current_region": "A1:A1", "has_m
+
+
+##### olKVJq #####
+[ERR Unterminated string starting at: line 1 column 495 (char 494)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B1", "annotated_csv": "[row=1] 鐜版湁鍙�澶嶇敤璧勪骇鍙傝��,鍥句綅浠诲姟鎶娾�滃畠鏄�鍙�鐜╃殑缁忚惀娓告垙鈥濅粠姒傚康鍙樻垚鍗曚竴銆佸彲璇荤殑鎿嶄綔闂�鐜�銆傛瀯鍥炬柟鍚戜互鐐搁浮搴椾负涓诲満鏅�锛岃�佹帀澶ч儴鍒嗕晶杈硅彍鍗曪紱涓�澶�鍙
+
+
+##### m1YVWt #####
+[ERR Unterminated string starting at: line 1 column 367 (char 366)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A3", "annotated_csv": "[row=1] RUN BUSINESSES. STACK CASH.\n[row=2] [鐢熶骇] 鈫� [鏈嶅姟椤惧��] 鈫� [閲戝竵鐖嗗彂]\n[row=3] LEVEL 1 鈫� LEVEL 5 | +瀹㈡祦 | +鏀
+
+
+##### jjmbXO #####
+[ERR Unterminated string starting at: line 1 column 497 (char 496)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 涓绘枃妗� RECRUIT. ASSIGN. PROFIT.", "col_count": 1, "col_indices": ["A"], "current_region": "A1:A1", "has_more
+
+
+##### VCkl0n #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B1", "annotated_csv": "[row=1] 鐜版湁鍙�澶嶇敤璧勪骇鍙傝��,鍥句綅浠诲姟鎵挎帴鎷涘嫙绱犳潗涓庤�掕壊浠樿垂鍏磋叮锛屽苟鍥炵瓟鈥滄嫑鍒拌�掕壊涔嬪悗鏈変粈涔堢敤鈥濄�傛瀯鍥炬柟鍚戜笁鍚嶅樊寮傚寲闂ㄥ緬鍗犱笂鍗婇儴锛涗笅鍗婇儴鐢ㄨ繛绾胯繛鎺ョ偢楦
+
+
+##### YqZ6us #####
+[ERR Unterminated string starting at: line 1 column 377 (char 376)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A3", "annotated_csv": "[row=1] RECRUIT. ASSIGN. PROFIT.\n[row=2] [Mafia] [Yakuza] [Cartel][Street]\n[row=3] 椁愬巺 +20% CASH | 鎴樻枟 +CRIT | 寤洪
+
+
+##### 7o6pr9 #####
+[ERR Unterminated string starting at: line 1 column 493 (char 492)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 涓绘枃妗� FIGHT. LOOT. EXPAND.", "col_count": 1, "col_indices": ["A"], "current_region": "A1:A1", "has_more": f
+
+
+##### WreYKH #####
+[ERR Expecting property name enclosed in double quotes: line 1 column 501 (char 500)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B1", "annotated_csv": "[row=1] 鐜版湁鍙�澶嶇敤璧勪骇鍙傝��,鍥句綅浠诲姟鎶婃垬鏂椼�佽祫婧愬拰寤鸿�句覆鎴愪竴鏉″疄闄呭惊鐜�锛屾壙鎺ユ荡琛�/鐖芥劅/澶嶄粐绱犳潗銆傛瀯鍥炬柟鍚戠敾闈㈡枩鍒囷細宸︿笂涓烘竻鏅扮殑涓�瀵瑰�氭垨甯�娲惧啿绐侊紝
+
+
+##### SDEEfN #####
+[ERR Unterminated string starting at: line 1 column 372 (char 371)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A3", "annotated_csv": "[row=1] FIGHT. LOOT. EXPAND.\n[row=2] [鏁屽�瑰府娲惧啿绐乚 鈫� [鐜伴噾/鏉愭枡/鍦扮洏璇乚 鈫� [鏂颁骇涓氳В閿乚\n[row=3] WIN THE BLOCK | CLAIM THE
+
+
+##### CZB1ty #####
+[ERR Unterminated string starting at: line 1 column 498 (char 497)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 涓绘枃妗� TAKE TURF. RULE THE CITY.", "col_count": 1, "col_indices": ["A"], "current_region": "A1:A1", "has_mor
+
+
+##### 5vRjdT #####
+[ERR Unterminated string starting at: line 1 column 493 (char 492)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B1", "annotated_csv": "[row=1] 鐜版湁鍙�澶嶇敤璧勪骇鍙傝��,鍥句綅浠诲姟璁╃敤鎴风湅鍒扮粡钀ヤ箣澶栫殑闀挎湡鐩�鏍囷紝浣嗕笉鎶婁骇鍝佽��鍖呰�呮垚浼犵粺閲嶅害4X銆傛瀯鍥炬柟鍚戝垹闄ょ編鍥藉崼鏄熷簳鍥撅紝鏀圭敤娓告垙鍐呭煄甯傝�楀尯锛涚孩/
+
+
+##### 4r1fDM #####
+[ERR Unterminated string starting at: line 1 column 373 (char 372)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A3", "annotated_csv": "[row=1] TAKE TURF. RULE THE CITY.\n[row=2] [鎴戞柟琛楀尯] 鈫� [鏁屽�规嵁鐐筣 鈫� [鍩庡競鏍稿績]\n[row=3] FAMILY RALLY | +TURF INCOME |C
+
+
+##### UDgfHN #####
+[ERR Unterminated string starting at: line 1 column 85 (char 84)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:E7", "annotated_csv": "[row=1] 娴侀噺,鐐瑰嚮鐞嗙敱,棣栧浘鏂囨��,椤哄簭,鎵ц�屽�囨敞\n[row=2] 榛樿��/娣峰悎,榛戝府韬�浠�+缁忚惀,FROM FRIED CHICKEN TO A CRIME EMPIRE,1鈫�2鈫�3鈫�
+
+
+##### YIIzQO #####
+[ERR Unterminated string starting at: line 1 column 86 (char 85)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:B11", "annotated_csv": "[row=1] 楠屾敹椤�,鏍囧噯\n[row=2] 1绉掕瘑鍒�,180px瀹界缉鐣ュ浘鑳借瘑鍒�瑙掕壊銆佸姩浣滃拰鏀剁泭锛涗笉鏄�鍙�鐪嬪緱鍒板ぇ瀛椼�俓n[row=3] 鍗曞浘鍗曞懡棰�,姣忓紶鍙�璇佹槑涓�涓�闂�棰橈紱
+
+
+##### uelCrx #####
+[ERR Unterminated string starting at: line 1 column 423 (char 422)] {"ok": true, "identity": "user", "data": {"actual_range": "A1:A1", "annotated_csv": "[row=1] 涓�鍙ヨ瘽鍐崇瓥 涓嶈�佺户缁�寰�璋冪幇鏈夎祵鍦�/寤鸿��/鍦板浘浜斿紶鐨勬帓鐗堬紱鍏堥噸鍋氶�栧浘閫昏緫銆傞粯璁ら〉浠モ�淔ROM FRIED CHICKEN TO A CRIME EMPIRE鈥濅负鏍稿績锛

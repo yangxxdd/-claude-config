@@ -1,0 +1,25 @@
+<title>GTS 9月测试计划（纯留存 / 留存+付费 双方案）</title>
+
+<h1>一、测试目的</h1>
+<callout emoji="📌" background-color="light-yellow" border-color="yellow">
+<p><b>核心要点</b></p>
+<ul>
+<li>本轮重心从 7 月的「平均探索所有方向」转向「强者恒强、好素材吃量」，用 CBO 把预算集中到好素材，压低 CPI。</li>
+<li>渠道 Meta，仅 Android，主美国（付费版加菲律宾陪玩拉低 AEO 高单价）。</li>
+<li>测试类型未定案（纯留存 or 留存+付费），本方案两套并写，定案后删掉无用一套。</li>
+<li>主导量 CBO 模拟上线；清洁复测 ABO 隔离变量。</li>
+</ul>
+</callout>
+
+<h1>二、方案总览（定案后删一套）</h1>
+<table>
+<thead><tr><th background-color="light-gray">维度</th><th background-color="light-gray">方案A 纯留存</th><th background-color="light-gray">方案B 留存+付费</th></tr></thead>
+<tbody>
+<tr><td>周期</td><td>9/17-9/19（3天）</td><td>9/17-9/20（4天）</td></tr>
+<tr><td>量级</td><td>3000 安装</td><td>3000 安装</td></tr>
+<tr><td>预算</td><td>$7,500</td><td>$9,750</td></tr>
+<tr><td>地区</td><td>纯美国</td><td>美国 + 菲律宾陪玩</td></tr>
+<tr><td>出价方式</td><td>Install</td><td>Install + AEO付费</td></tr>
+<tr><td>核心监控</td><td>D1/D3 + CPI</td><td>D1/D3 + CPI + 付费</td></tr>
+</tbody>
+</table>

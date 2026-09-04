@@ -1,0 +1,9 @@
+- generic [ref=f15e2]:
+  - generic [ref=f15e3]: 抱歉，在此服务器上找不到所请求的网址。
+  - generic [ref=f15e4]:
+    - link "Google Play":
+      - /url: /store
+      - img "Google Play" [ref=f15e5] [cursor=pointer]
+    - generic [ref=f15e6]:
+      - textbox [ref=f15e7]
+      - button "搜索" [ref=f15e8]

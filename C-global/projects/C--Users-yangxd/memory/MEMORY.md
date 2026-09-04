@@ -1,0 +1,13 @@
+- [广告投放复盘：4月/6月宏观数据对比](ad-review-2026-06-17.md) — 世界杯冲击与账户风控分析
+- [Claude 双配置同步机制](claude-dual-config-sync.md) — D盘项目 bat 走独立配置目录，sync-model.js 桥接 cc switch；模型问题先查两处 env 块
+- [数据可视化偏好](data-visualization-preference.md) — 用户喜欢创意图表，应主动建议可视化方案
+- [幻宠帝国项目](fantasy-pet-empire-project.md) — 多版本测试记录（当前V1）。用户 UA 投放视角，运营方出具报告。留存/漏斗/AB测试/研运协作
+- [GTS 3留测试仪表盘](gts-dashboard-setup.md) — Base 结构/字段/公式/仪表盘配置全貌。虚拟数据已清空，等待真实数据导入
+- [Office 工具选择规则](office-tool-selection-rules.md) — OfficeCLI vs docx/xlsx/pdf skill 的分场景决策表，保证功能重叠时自动选对工具
+- [竞品-GTS-黑帮题材](竞品-GTS-黑帮题材.md) — Mafia City、The Grand Mafia、Idle Mafia 深度数据，含留存/收入/用户画像
+- [竞品-GTS-4x框架参考](竞品-GTS-4x框架参考.md) — 指尖无双及同类4X产品（WOS、Last War、Kingshot等）留存对比
+- [竞品-幻宠-宝可梦题材](竞品-幻宠-宝可梦题材.md) — 8款宝可梦IP游戏全析，Palmon: Survival 深度拆解（直接竞品）
+- [竞品-幻宠-WOS框架参考](竞品-幻宠-WOS框架参考.md) — Whiteout Survival 及 Survival 框架同类产品详细对比
+- [竞品-共享-4x赛道全景](竞品-共享-4x赛道全景.md) — 32款4X产品全列表，收入/DAU/发行商矩阵，GTS和幻宠共用
+- [幻宠AI生图提示词方法论](ai-image-prompt-methodology.md) — 明亮Q萌风格底座+七大原则，买量/商店图通用
+- [飞书报告排版规范](feishu-report-format-spec.md) — WorkBuddy式复盘报告的可提取优点（风格参考，未定为规范）

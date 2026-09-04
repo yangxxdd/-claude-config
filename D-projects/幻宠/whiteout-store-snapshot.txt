@@ -1,0 +1,510 @@
+- generic [ref=f29e1]:
+  - banner [ref=f29e2]:
+    - navigation "页面标题" [ref=f29e3]:
+      - link "Google Play 徽标" [ref=f29e4] [cursor=pointer]:
+        - /url: /store/games
+        - generic [ref=f29e12]: google_logo Play
+      - navigation "主导航栏" [ref=f29e14]:
+        - tablist [ref=f29e16]:
+          - generic [ref=f29e19]:
+            - tab "游戏" [ref=f29e20] [cursor=pointer]
+            - tab "应用" [selected] [ref=f29e22] [cursor=pointer]
+            - tab "图书" [ref=f29e24] [cursor=pointer]
+            - tab "儿童" [ref=f29e26] [cursor=pointer]
+      - generic [ref=f29e28]:
+        - button "搜索" [ref=f29e30] [cursor=pointer]:
+          - generic [ref=f29e31]: search
+        - button "帮助中心" [ref=f29e33] [cursor=pointer]:
+          - generic [ref=f29e34]: help_outline
+        - button "打开账号菜单" [ref=f29e39] [cursor=pointer]
+  - generic [ref=f29e45]:
+    - generic [ref=f29e48]:
+      - generic [ref=f29e53]:
+        - generic [ref=f29e56]:
+          - heading "寒霜启示录" [level=1] [ref=f29e58]
+          - generic [ref=f29e59]:
+            - link "Century Games PTE. LTD." [ref=f29e61] [cursor=pointer]:
+              - /url: /store/apps/dev?id=6832375891198423999
+            - generic [ref=f29e62]: 应用内购商品
+        - region "信息徽章" [ref=f29e65]:
+          - generic [ref=f29e66]:
+            - generic [ref=f29e67]:
+              - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f29e70]:
+                - text: "4.2"
+                - generic [ref=f29e71]: star
+              - generic [ref=f29e72]: 154万条评价
+            - generic [ref=f29e73]:
+              - generic [ref=f29e74]: 5,000万+
+              - generic [ref=f29e75]: 次下载
+      - generic [ref=f29e76]:
+        - generic [ref=f29e80]:
+          - button "安装 Windows 版" [ref=f29e86]
+          - button "安装" [ref=f29e93]:
+            - generic [ref=f29e96]: 在更多设备上安装
+        - generic [ref=f29e97]:
+          - button "分享" [ref=f29e101] [cursor=pointer]
+          - button "添加到心愿单" [ref=f29e108] [cursor=pointer]
+      - generic [ref=f29e114]:
+        - text: 若要在 Windows 设备上安装此游戏，您需要下载 Google Play 游戏电脑版。下载这款应用和此游戏即表示您同意接受
+        - link "Google 服务条款 " [ref=f29e115] [cursor=pointer]:
+          - /url: https://policies.google.com/terms
+        - text: 和
+        - link "Google Play 服务条款 " [ref=f29e116] [cursor=pointer]:
+          - /url: https://play.google.com/about/play-terms/index.html
+        - text: 。
+        - link "了解详情 " [ref=f29e117] [cursor=pointer]:
+          - /url: https://play.google.com/googleplaygames
+        - text: 。
+    - generic [ref=f29e119]:
+      - generic [ref=f29e120]:
+        - generic [ref=f29e121]:
+          - list [ref=f29e125]:
+            - listitem [ref=f29e126]:
+              - button "屏幕截图图片" [ref=f29e128] [cursor=pointer]
+            - listitem [ref=f29e129]:
+              - button "屏幕截图图片" [ref=f29e131] [cursor=pointer]
+            - listitem [ref=f29e132]:
+              - button "屏幕截图图片" [ref=f29e134] [cursor=pointer]
+            - listitem [ref=f29e135]:
+              - button "屏幕截图图片" [ref=f29e137] [cursor=pointer]
+            - listitem [ref=f29e138]:
+              - button "屏幕截图图片" [ref=f29e140] [cursor=pointer]
+            - listitem [ref=f29e141]:
+              - button "屏幕截图图片" [ref=f29e143] [cursor=pointer]
+            - listitem [ref=f29e144]:
+              - button "屏幕截图图片" [ref=f29e146] [cursor=pointer]
+            - listitem [ref=f29e147]:
+              - button "屏幕截图图片" [ref=f29e149] [cursor=pointer]
+            - listitem [ref=f29e150]:
+              - button "屏幕截图图片" [ref=f29e152] [cursor=pointer]
+            - listitem [ref=f29e153]:
+              - button "屏幕截图图片" [ref=f29e155] [cursor=pointer]
+            - listitem [ref=f29e156]:
+              - button "屏幕截图图片" [ref=f29e158] [cursor=pointer]
+            - listitem [ref=f29e159]:
+              - button "屏幕截图图片" [ref=f29e161] [cursor=pointer]
+            - listitem [ref=f29e162]:
+              - button "屏幕截图图片" [ref=f29e164] [cursor=pointer]
+            - listitem [ref=f29e165]:
+              - button "屏幕截图图片" [ref=f29e167] [cursor=pointer]
+            - listitem [ref=f29e168]:
+              - button "屏幕截图图片" [ref=f29e170] [cursor=pointer]
+            - listitem [ref=f29e171]:
+              - button "屏幕截图图片" [ref=f29e173] [cursor=pointer]
+            - listitem [ref=f29e174]:
+              - button "屏幕截图图片" [ref=f29e176] [cursor=pointer]
+            - listitem [ref=f29e177]:
+              - button "屏幕截图图片" [ref=f29e179] [cursor=pointer]
+            - listitem [ref=f29e180]:
+              - button "屏幕截图图片" [ref=f29e182] [cursor=pointer]
+            - listitem [ref=f29e183]:
+              - button "屏幕截图图片" [ref=f29e185] [cursor=pointer]
+            - listitem [ref=f29e186]:
+              - button "屏幕截图图片" [ref=f29e188] [cursor=pointer]
+            - listitem [ref=f29e189]:
+              - button "屏幕截图图片" [ref=f29e191] [cursor=pointer]
+            - listitem [ref=f29e192]:
+              - button "屏幕截图图片" [ref=f29e194] [cursor=pointer]
+            - listitem [ref=f29e195]:
+              - button "屏幕截图图片" [ref=f29e197] [cursor=pointer]
+          - generic [ref=f29e200]:
+            - generic [ref=f29e202]:
+              - heading "游戏简介" [level=2] [ref=f29e204]
+              - button "查看“游戏简介”的更多相关信息" [ref=f29e206] [cursor=pointer]:
+                - generic [ref=f29e207]: arrow_forward
+            - generic [ref=f29e208]:
+              - generic [ref=f29e209]: "全球原创冰雪手游！4亿人都在玩！暴风雪覆盖了旧日的世界，但全新的故事等待重启！而你，作为蓄势待发的幸存者，将召集上你的伙伴，带上免费的SSR伙伴「茉莉」，一起踏上这场趣味的冒险之旅，点起希望的火种，重新打造温馨的家园！【游戏特色】◆轻松建造，暖心经营从一座熔炉开始，融化冰雪、开拓领地。合理规划人力与资源，就能收获一个温馨繁荣的小镇！◆放置挂机，离线收益一键派遣英雄，自动积累资源。再忙也能稳步发展，享受从容不迫的生存节奏~◆简单开局，爽玩一下试试「冰钓」收集珍稀鱼类，或是「除雪」发掘隐藏的奖励——简单有趣，收获不停！◆英雄并肩，策略搭配所有伙伴等级共享，轻松培养不费力。如果灵活组合技能，就打造你最得力的制胜小队！◆协力合作，共同制胜与全球玩家组队互助，加速成长、共闯雪原。团结在一起，这个寒冬不再孤单~准备好闯荡这片冰雪世界了吗？立即下载《寒霜启示录》——集合团队协作、放置乐趣与策略深度的生存体验！【关注我们】游戏官网: https://whiteoutsurvival.centurygames.com/zh_cnFacebook: https://www.facebook.com/WhiteoutSurvival Discord: https://discord.gg/whiteoutsurvival YouTube: https://www.youtube.com/@WhiteoutSurvivalOfficialTikTok: https://www.tiktok.com/@whiteoutsurvivalofficialX: https://x.com/WOS_GlobalInstagram: https://www.instagram.com/whiteoutsurvivalThreads: https://www.threads.com/@whiteoutsurvival"
+              - generic [ref=f29e211]:
+                - generic [ref=f29e212]:
+                  - generic [ref=f29e213]: 更新日期
+                  - generic [ref=f29e214]: 2026年6月30日
+                - generic [ref=f29e215]:
+                  - generic [ref=f29e216]: 提供方
+                  - generic [ref=f29e217]:
+                    - text: Android、
+                    - link "Windows" [ref=f29e218] [cursor=pointer]:
+                      - /url: https://play.google.com/pc-store/games/details?id=com.gof.global
+              - generic [ref=f29e219]:
+                - generic [ref=f29e220]:
+                  - button "#1 创收最高策略" [disabled]
+                - generic [ref=f29e222]:
+                  - generic [ref=f29e224]: 策略
+                  - link "策略" [ref=f29e225] [cursor=pointer]:
+                    - /url: /store/apps/category/GAME_STRATEGY
+                - generic [ref=f29e227]:
+                  - generic [ref=f29e229]: 4X 游戏
+                  - link "4X 游戏" [ref=f29e230] [cursor=pointer]:
+                    - /url: /store/search?q=4X+%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f29e232]:
+                  - generic [ref=f29e234]: 单人
+                  - link "单人" [ref=f29e235] [cursor=pointer]:
+                    - /url: /store/search?q=%E5%8D%95%E4%BA%BA%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f29e237]:
+                  - generic [ref=f29e239]: 风格化
+                  - link "风格化" [ref=f29e240] [cursor=pointer]:
+                    - /url: /store/search?q=%E9%A3%8E%E6%A0%BC%E5%8C%96%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f29e242]:
+                  - generic [ref=f29e244]: 建造
+                  - link "建造" [ref=f29e245] [cursor=pointer]:
+                    - /url: /store/search?q=%E5%BB%BA%E9%80%A0%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f29e247]:
+                  - generic [ref=f29e249]: 苔原地带
+                  - link "苔原地带" [ref=f29e250] [cursor=pointer]:
+                    - /url: /store/search?q=%E8%8B%94%E5%8E%9F%E5%9C%B0%E5%B8%A6%E6%B8%B8%E6%88%8F&c=apps
+          - generic [ref=f29e252]:
+            - banner [ref=f29e253]:
+              - generic [ref=f29e254]: 活动和优惠
+            - list [ref=f29e257]:
+              - listitem [ref=f29e258]:
+                - link "4 天后结束 炮火与勇气，荣耀与掌声，强者们的角逐即将上演。" [ref=f29e262] [cursor=pointer]:
+                  - /url: /store/apps/eventdetails/4829025474661548130
+                  - generic [ref=f29e263]: 4 天后结束
+                  - generic [ref=f29e269]: 炮火与勇气，荣耀与掌声，强者们的角逐即将上演。
+              - listitem [ref=f29e271]:
+                - link "4 天后结束 在凛冽的寒风中攻城掠地，奏响不朽的战歌。" [ref=f29e275] [cursor=pointer]:
+                  - /url: /store/apps/eventdetails/4829745561435956228
+                  - generic [ref=f29e276]: 4 天后结束
+                  - generic [ref=f29e282]: 在凛冽的寒风中攻城掠地，奏响不朽的战歌。
+          - generic [ref=f29e285]:
+            - generic [ref=f29e287]:
+              - heading "数据安全" [level=2] [ref=f29e289]
+              - generic [ref=f29e290] [cursor=pointer]:
+                - generic [ref=f29e291]: arrow_forward
+                - link "查看“数据安全”的更多相关信息" [ref=f29e292]:
+                  - /url: /store/apps/datasafety?id=com.gof.global
+            - generic [ref=f29e293]:
+              - text: 安全始于了解开发者如何收集和分享数据。数据隐私保护和安全措施可能会因您的使用情况、所在地区和用户年龄而异。此类信息由开发者提供，可能会随时间更新。
+              - generic [ref=f29e294]:
+                - generic [ref=f29e297]:
+                  - text: 不与第三方分享任何数据
+                  - generic [ref=f29e298]:
+                    - link "详细了解" [ref=f29e299] [cursor=pointer]:
+                      - /url: https://support.google.com/googleplay?p=data-safety&hl=zh
+                    - text: 开发者如何声明数据分享事宜
+                - generic [ref=f29e302]:
+                  - text: 此应用可能会收集这些类型的数据
+                  - generic [ref=f29e303]: 位置信息、财务信息和另外 4 种数据
+                - generic [ref=f29e304]: 数据在传输过程中会加密
+                - generic [ref=f29e307]: 您可以要求开发者删除数据
+                - generic [ref=f29e312]:
+                  - generic [ref=f29e314]: 查看详情
+                  - link "查看关于数据安全的更多详情" [ref=f29e315] [cursor=pointer]:
+                    - /url: /store/apps/datasafety?id=com.gof.global
+          - generic [ref=f29e317]:
+            - generic [ref=f29e319]:
+              - heading "评分和评价" [level=2] [ref=f29e321]
+              - button "查看“评分和评价”的更多相关信息" [ref=f29e323] [cursor=pointer]:
+                - generic [ref=f29e324]: arrow_forward
+              - button "评分和评价已经过验证" [ref=f29e328]:
+                - generic [ref=f29e332]: info_outline
+            - generic [ref=f29e333]:
+              - list [ref=f29e337]:
+                - listitem [ref=f29e338]:
+                  - button "手机" [pressed] [ref=f29e339] [cursor=pointer]:
+                    - generic [ref=f29e341]:
+                      - generic [ref=f29e342]: phone_android
+                      - generic [ref=f29e344]: 手机
+                - listitem [ref=f29e345]:
+                  - button "Chromebook" [ref=f29e346] [cursor=pointer]:
+                    - generic [ref=f29e348]:
+                      - generic [ref=f29e349]: laptop
+                      - generic [ref=f29e351]: Chromebook
+                - listitem [ref=f29e352]:
+                  - button "平板电脑" [ref=f29e353] [cursor=pointer]:
+                    - generic [ref=f29e355]:
+                      - generic [ref=f29e356]: tablet_android
+                      - generic [ref=f29e358]: 平板电脑
+              - generic [ref=f29e359]:
+                - generic [ref=f29e362]:
+                  - generic [ref=f29e363]:
+                    - generic [ref=f29e364]: "4.2"
+                    - img "获评 4.2 颗星（最高 5 颗星）" [ref=f29e365]
+                    - generic [ref=f29e396]: 146万条评价
+                  - generic [ref=f29e397]:
+                    - img "916,963 条 5 星评价" [ref=f29e398]:
+                      - generic [ref=f29e399]: "5"
+                    - img "262,451 条 4 星评价" [ref=f29e402]:
+                      - generic [ref=f29e403]: "4"
+                    - img "83,619 条 3 星评价" [ref=f29e406]:
+                      - generic [ref=f29e407]: "3"
+                    - img "19,004 条 2 星评价" [ref=f29e410]:
+                      - generic [ref=f29e411]: "2"
+                    - img "178,641 条 1 星评价" [ref=f29e414]:
+                      - generic [ref=f29e415]: "1"
+                - generic [ref=f29e418]:
+                  - generic [ref=f29e419]:
+                    - generic [ref=f29e420]:
+                      - generic [ref=f29e421]: Kelvin Ling
+                      - button "更多评价操作" [ref=f29e427] [cursor=pointer]:
+                        - generic [ref=f29e428]: more_vert
+                    - generic [ref=f29e429]:
+                      - img "获评 5 颗星（最高 5 颗星）" [ref=f29e430]
+                      - text: 2026年6月28日
+                  - generic [ref=f29e461]: 可玩性挺高的，到后面慢慢更新应该会很多玩法。这种游戏也比较依赖联盟。建筑，练兵，采集，打怪，参加活动。不过我建议我有些东西可以出个跳过也比较好。也可以剩下玩家不少时间。流畅也是最重要的，能玩的过瘾。语言方面也不用担心，旁边有个小东西你点一下就翻译了。
+                  - generic [ref=f29e462]:
+                    - generic [ref=f29e463]: 5 人认为该评价有用
+                    - generic [ref=f29e464]:
+                      - generic [ref=f29e465]: 您认为该评价有用吗？
+                      - generic [ref=f29e467]:
+                        - button "是" [ref=f29e468] [cursor=pointer]
+                        - button "否" [ref=f29e472] [cursor=pointer]
+                - generic [ref=f29e476]:
+                  - generic [ref=f29e477]:
+                    - generic [ref=f29e478]:
+                      - generic [ref=f29e479]: Ryan Su
+                      - button "更多评价操作" [ref=f29e485] [cursor=pointer]:
+                        - generic [ref=f29e486]: more_vert
+                    - generic [ref=f29e487]:
+                      - img "获评 4 颗星（最高 5 颗星）" [ref=f29e488]
+                      - text: 2026年5月29日
+                  - generic [ref=f29e519]: 我通过这个游戏认识了台湾、意大利、墨西哥的朋友。它对我而言不止是游戏，还是社交软件😃但是这个游戏也有一些设计不合理的地方。部队不到目的地不能召回，召回需要消耗稀有资源；部队在外不能直接到达另一个目的地，需要先返回城镇才能前往下一个目的地，等等。希望你们能优化一下！还有就是充值内容过多，影响游戏体验，希望你们能隐藏一下
+                  - generic [ref=f29e520]:
+                    - generic [ref=f29e521]: 8 人认为该评价有用
+                    - generic [ref=f29e522]:
+                      - generic [ref=f29e523]: 您认为该评价有用吗？
+                      - generic [ref=f29e525]:
+                        - button "是" [ref=f29e526] [cursor=pointer]
+                        - button "否" [ref=f29e530] [cursor=pointer]
+                - generic [ref=f29e534]:
+                  - generic [ref=f29e535]:
+                    - generic [ref=f29e536]:
+                      - generic [ref=f29e537]: dun dun
+                      - button "更多评价操作" [ref=f29e543] [cursor=pointer]:
+                        - generic [ref=f29e544]: more_vert
+                    - generic [ref=f29e545]:
+                      - img "获评 1 颗星（最高 5 颗星）" [ref=f29e546]
+                      - text: 2026年6月23日
+                  - generic [ref=f29e577]: 广告欺诈 + 乱封小号 + 活动同质化，无实质性新内容更新。 无缘无故封号，如果去问客服原因，也说不出所以然，证据也拿不出来。应该去增强自己家产品的脚本检测，封号时提供对应的操作时间、原因等。有时候也很搞笑，很多人一起举报就可以封掉对面的账号了。 据说项目组已经在研发新的换皮游戏了，寒霜虽然赚挺多，但也只是维护性更新了？ ----- 回复：不会无故封号，那你倒是说原因呀。询问客服，也只会说为了保护隐私🤪
+                  - generic [ref=f29e578]:
+                    - generic [ref=f29e579]: 8 人认为该评价有用
+                    - generic [ref=f29e580]:
+                      - generic [ref=f29e581]: 您认为该评价有用吗？
+                      - generic [ref=f29e583]:
+                        - button "是" [ref=f29e584] [cursor=pointer]
+                        - button "否" [ref=f29e588] [cursor=pointer]
+                  - generic [ref=f29e592]:
+                    - generic [ref=f29e593]:
+                      - generic [ref=f29e594]: Century Games PTE. LTD.
+                      - generic [ref=f29e595]: 2026年6月21日
+                    - generic [ref=f29e596]: 非常抱歉给您带来不好的游戏体验。我们不会无故封号/禁言任何玩家的账号，你可以通过游戏内「登录界面（左上角）>客服协助」或者我们的官方社媒渠道给我们发送消息，我们将为您进一步核实。感谢您的支持。
+                - button "查看所有评价" [ref=f29e601]
+          - generic [ref=f29e606]:
+            - heading "新变化" [level=2] [ref=f29e610]
+            - generic [ref=f29e611]: 【新增内容】1、新增活动：全新【凛风攻城战】即将开启！领主将与盟友共同参与联盟据点攻防战，通过布置驻防部队、进攻敌方据点，为联盟赢取胜利与丰厚奖励。快来集结盟友，迎接全新的策略挑战吧！2、全新专家登场：“铁棘领主”加雷斯即将加入您的冒险旅程。作为雅恩维德群山中的年轻指挥官，他凭借卓越的指挥才能与灵活战术，多次击退莫德海姆的入侵，为群山赢得“铁荆棘”的传奇威名！温馨提醒：加雷斯将于7月20日00:00（UTC）于符合条件的王国上线。
+        - link "举报不当内容" [ref=f29e616] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/?p=report_content
+          - generic [ref=f29e617]: flag
+          - text: 举报不当内容
+      - generic [ref=f29e618]:
+        - generic [ref=f29e619]:
+          - img "内容分级" [ref=f29e620]
+          - generic [ref=f29e621]:
+            - generic [ref=f29e622]: 7 岁以上
+            - generic [ref=f29e623]: 轻微暴力
+            - generic [ref=f29e624]: 用户互动、游戏内购买(包括随机道具)
+            - link "详细了解内容分级" [ref=f29e625] [cursor=pointer]:
+              - /url: https://support.google.com/googleplay?p=appgame_ratings
+              - text: 了解详情
+        - generic [ref=f29e626]:
+          - generic [ref=f29e627]:
+            - heading "在 PC 上畅玩" [level=2] [ref=f29e637]
+            - generic [ref=f29e638]:
+              - paragraph [ref=f29e639]: 使用 Google Play 游戏在 Windows PC 上玩这款游戏
+              - link "详细了解 Google Play 游戏。" [ref=f29e640] [cursor=pointer]:
+                - /url: https://play.google.com/googleplaygames
+                - text: 了解详情
+          - generic [ref=f29e642]:
+            - paragraph [ref=f29e647]: 官方 Google 体验
+            - paragraph [ref=f29e652]: 屏幕更大
+            - paragraph [ref=f29e657]: 利用更易操控的设备闯关升级
+            - paragraph [ref=f29e662]: 支持在多部设备间无缝同步*
+            - paragraph [ref=f29e667]: 赚取 Google Play 积分
+          - generic [ref=f29e669]:
+            - paragraph [ref=f29e670]: 最低要求
+            - list [ref=f29e672]:
+              - listitem [ref=f29e673]:
+                - emphasis [ref=f29e674]: "操作系统:"
+                - emphasis [ref=f29e675]: Windows 10 (v2004)
+              - listitem [ref=f29e676]:
+                - emphasis [ref=f29e677]: "存储:"
+                - emphasis [ref=f29e678]: 具有 10 GB 可用存储空间的固态硬盘 (SSD)
+              - listitem [ref=f29e679]:
+                - emphasis [ref=f29e680]: "图片:"
+                - emphasis [ref=f29e681]: IntelⓇ UHD 显卡 630 GPU 或同等显卡
+              - listitem [ref=f29e682]:
+                - emphasis [ref=f29e683]: "处理器:"
+                - emphasis [ref=f29e684]: 4 个 CPU 实体内核
+              - listitem [ref=f29e685]:
+                - emphasis [ref=f29e686]: "内存:"
+                - emphasis [ref=f29e687]: 8 GB RAM
+              - listitem [ref=f29e688]:
+                - emphasis [ref=f29e689]: Windows 管理员账号
+              - listitem [ref=f29e690]:
+                - emphasis [ref=f29e691]: 必须开启硬件虚拟化功能
+            - generic [ref=f29e692]:
+              - paragraph [ref=f29e693]:
+                - text: 如需详细了解相关要求，请访问
+                - link "帮助中心" [ref=f29e694] [cursor=pointer]:
+                  - /url: https://support.google.com/googleplay?p=eligibility_requirements
+              - paragraph [ref=f29e695]: Intel 是 Intel Corporation 或其子公司的注册商标。Windows 是 Microsoft 公司集团的商标。
+              - paragraph [ref=f29e696]: "*可能不适用于此游戏"
+        - generic [ref=f29e700]:
+          - heading "应用支持" [level=2] [ref=f29e702]
+          - button "展开" [ref=f29e704] [cursor=pointer]:
+            - generic [ref=f29e705]: expand_more
+        - generic [ref=f29e707]:
+          - generic [ref=f29e709]:
+            - heading "Century Games PTE. LTD.的其他产品" [level=2] [ref=f29e711]
+            - generic [ref=f29e713] [cursor=pointer]:
+              - generic [ref=f29e714]: arrow_forward
+              - link "查看“Century Games PTE. LTD.的其他产品”的更多相关信息" [ref=f29e715]:
+                - /url: /store/apps/dev?id=6832375891198423999
+          - generic [ref=f29e717]:
+            - link "Kingshot Century Games PTE. LTD. 获评 4.5 颗星（最高 5 颗星）" [ref=f29e719] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.run.tower.defense
+              - generic [ref=f29e722]:
+                - generic [ref=f29e723]: Kingshot
+                - generic [ref=f29e725]: Century Games PTE. LTD.
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f29e728]:
+                  - generic [ref=f29e729]: "4.5"
+                  - generic [ref=f29e730]: star
+            - 'link "Tasty Travels: Merge Game Century Games PTE. LTD. 获评 4.6 颗星（最高 5 颗星）" [ref=f29e733] [cursor=pointer]':
+              - /url: /store/apps/details?id=com.fatmerge.global
+              - generic [ref=f29e736]:
+                - generic [ref=f29e737]: "Tasty Travels: Merge Game"
+                - generic [ref=f29e739]: Century Games PTE. LTD.
+                - generic "获评 4.6 颗星（最高 5 颗星）" [ref=f29e742]:
+                  - generic [ref=f29e743]: "4.6"
+                  - generic [ref=f29e744]: star
+            - link "放置黑帮大亨 Century Games PTE. LTD. 获评 4.7 颗星（最高 5 颗星）" [ref=f29e747] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.gamemaker5.idlemafia
+              - generic [ref=f29e750]:
+                - generic [ref=f29e751]: 放置黑帮大亨
+                - generic [ref=f29e753]: Century Games PTE. LTD.
+                - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f29e756]:
+                  - generic [ref=f29e757]: "4.7"
+                  - generic [ref=f29e758]: star
+            - link "卡车之星 Century Games PTE. LTD. 获评 4.5 颗星（最高 5 颗星）" [ref=f29e761] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.vm3.global
+              - generic [ref=f29e764]:
+                - generic [ref=f29e765]: 卡车之星
+                - generic [ref=f29e767]: Century Games PTE. LTD.
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f29e770]:
+                  - generic [ref=f29e771]: "4.5"
+                  - generic [ref=f29e772]: star
+            - link "Family Farm Match Century Games PTE. LTD. 获评 4.5 颗星（最高 5 颗星）" [ref=f29e775] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.ffm.global
+              - generic [ref=f29e778]:
+                - generic [ref=f29e779]: Family Farm Match
+                - generic [ref=f29e781]: Century Games PTE. LTD.
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f29e784]:
+                  - generic [ref=f29e785]: "4.5"
+                  - generic [ref=f29e786]: star
+            - link "Tango版天天农场 - 休闲模拟经营类游戏 Century Games PTE. LTD. 获评 3.2 颗星（最高 5 颗星）" [ref=f29e789] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.funplus.familyfarmtango
+              - generic [ref=f29e792]:
+                - generic [ref=f29e793]: Tango版天天农场 - 休闲模拟经营类游戏
+                - generic [ref=f29e795]: Century Games PTE. LTD.
+                - generic "获评 3.2 颗星（最高 5 颗星）" [ref=f29e798]:
+                  - generic [ref=f29e799]: "3.2"
+                  - generic [ref=f29e800]: star
+        - generic [ref=f29e803]:
+          - generic [ref=f29e805]:
+            - heading "类似游戏" [level=2] [ref=f29e807]
+            - generic [ref=f29e809] [cursor=pointer]:
+              - generic [ref=f29e810]: arrow_forward
+              - link "查看“类似游戏”的更多相关信息" [ref=f29e811]:
+                - /url: /store/apps/collection/cluster?gsr=Sl1qGFpXb0VuemhLWlkwODRicWo1QTBQYUE9PcICPQoSCg5jb20uZ29mLmdsb2JhbBAHGAgwATgAShsIAhAAGg_lr5LpnJzlkK_npLrlvZUgACgAMABQAFgBYACwEgA%3D:S:ANO1ljIwHj0
+          - generic [ref=f29e813]:
+            - link "XP Hero (XP英雄) Supercent, Inc. 获评 4.5 颗星（最高 5 颗星）" [ref=f29e815] [cursor=pointer]:
+              - /url: /store/apps/details?id=io.supercent.weaponrpg
+              - generic [ref=f29e818]:
+                - generic [ref=f29e819]: XP Hero (XP英雄)
+                - generic [ref=f29e821]: Supercent, Inc.
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f29e824]:
+                  - generic [ref=f29e825]: "4.5"
+                  - generic [ref=f29e826]: star
+            - link "Viking Rise IGG.COM 获评 4.4 颗星（最高 5 颗星）" [ref=f29e829] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.igg.android.vikingriseglobal
+              - generic [ref=f29e832]:
+                - generic [ref=f29e833]: Viking Rise
+                - generic [ref=f29e835]: IGG.COM
+                - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f29e838]:
+                  - generic [ref=f29e839]: "4.4"
+                  - generic [ref=f29e840]: star
+            - link "泰拉贝尔 Long Tech Network Limited 获评 4.3 颗星（最高 5 颗星）" [ref=f29e843] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.im30.ROE.gp
+              - generic [ref=f29e846]:
+                - generic [ref=f29e847]: 泰拉贝尔
+                - generic [ref=f29e849]: Long Tech Network Limited
+                - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f29e852]:
+                  - generic [ref=f29e853]: "4.3"
+                  - generic [ref=f29e854]: star
+            - link "口袋奇兵-超休闲的策略游戏 RiverGame 获评 4.6 颗星（最高 5 颗星）" [ref=f29e857] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.topwar.gp
+              - generic [ref=f29e860]:
+                - generic [ref=f29e861]: 口袋奇兵-超休闲的策略游戏
+                - generic [ref=f29e863]: RiverGame
+                - generic "获评 4.6 颗星（最高 5 颗星）" [ref=f29e866]:
+                  - generic [ref=f29e867]: "4.6"
+                  - generic [ref=f29e868]: star
+            - 'link "Army Tycoon : Idle Base Hello Games Team 获评 4.6 颗星（最高 5 颗星）" [ref=f29e871] [cursor=pointer]':
+              - /url: /store/apps/details?id=com.hg.armytycoonidlebase.android
+              - generic [ref=f29e874]:
+                - generic [ref=f29e875]: "Army Tycoon : Idle Base"
+                - generic [ref=f29e877]: Hello Games Team
+                - generic "获评 4.6 颗星（最高 5 颗星）" [ref=f29e880]:
+                  - generic [ref=f29e881]: "4.6"
+                  - generic [ref=f29e882]: star
+            - link "Idle Lumber Empire AppQuantum 获评 3.9 颗星（最高 5 颗星）" [ref=f29e885] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.lumber.inc
+              - generic [ref=f29e888]:
+                - generic [ref=f29e889]: Idle Lumber Empire
+                - generic [ref=f29e891]: AppQuantum
+                - generic "获评 3.9 颗星（最高 5 颗星）" [ref=f29e894]:
+                  - generic [ref=f29e895]: "3.9"
+                  - generic [ref=f29e896]: star
+  - contentinfo [ref=f29e899]:
+    - generic [ref=f29e901]:
+      - generic [ref=f29e903]:
+        - text: Google Play
+        - link [ref=f29e905] [cursor=pointer]:
+          - /url: /store/pass/getstarted
+          - paragraph [ref=f29e906]: Play Pass
+        - link [ref=f29e908] [cursor=pointer]:
+          - /url: /store/points/enroll
+          - paragraph [ref=f29e909]: Play Points
+        - link [ref=f29e911] [cursor=pointer]:
+          - /url: https://play.google.com/about/giftcards
+          - paragraph [ref=f29e912]: 礼品卡
+        - link [ref=f29e914] [cursor=pointer]:
+          - /url: /redeem
+          - paragraph [ref=f29e915]: 兑换
+        - link [ref=f29e917] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/134336
+          - paragraph [ref=f29e918]: 退款政策
+      - generic [ref=f29e920]:
+        - text: 儿童与家庭
+        - link [ref=f29e922] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay?p=pff_parentguide
+          - paragraph [ref=f29e923]: 家长指南
+        - link [ref=f29e925] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/7007852
+          - paragraph [ref=f29e926]: 家庭共享
+    - generic [ref=f29e927]:
+      - link [ref=f29e929] [cursor=pointer]:
+        - /url: https://play.google.com/intl/zh-CN_hk/about/play-terms.html
+        - paragraph [ref=f29e930]: 服务条款
+      - link [ref=f29e932] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+        - paragraph [ref=f29e933]: 隐私权
+      - link [ref=f29e935] [cursor=pointer]:
+        - /url: https://support.google.com/googleplay/?p=about_play
+        - paragraph [ref=f29e936]: 关于 Google Play
+      - link [ref=f29e938] [cursor=pointer]:
+        - /url: http://developer.android.com/index.html
+        - paragraph [ref=f29e939]: 开发者
+      - link [ref=f29e941] [cursor=pointer]:
+        - /url: https://store.google.com/?playredirect=true&utm_source=play&utm_medium=google_oo&utm_campaign=GS106288
+        - paragraph [ref=f29e942]: Google Store
+      - generic [ref=f29e943]: 香港 (简体中文)

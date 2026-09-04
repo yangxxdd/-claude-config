@@ -1,0 +1,91 @@
+<h1>方案B · 留存+付费测试（4天）</h1>
+
+<h2>B1 计划概述</h2>
+<table>
+<thead><tr><th background-color="light-gray">项目</th><th background-color="light-gray">内容</th></tr></thead>
+<tbody>
+<tr><td>核心目的</td><td>验证留存（D1/D3）+ 付费承接（首充/付费率/ARPPU/ROAS）</td></tr>
+<tr><td>导量周期</td><td>2026/9/17 - 9/20（4天）</td></tr>
+<tr><td>核心监控</td><td>D1/D3 次留、CPI、付费率、ARPPU、ROAS</td></tr>
+<tr><td>导入量级</td><td>3000 安装</td></tr>
+<tr><td>跑量地区</td><td>美国（主力）+ 菲律宾（陪玩拉低 AEO 单价）</td></tr>
+<tr><td>渠道与系统</td><td>Meta / Android</td></tr>
+<tr><td>归因</td><td>Singular</td></tr>
+<tr><td>计划预算</td><td>$9,750</td></tr>
+</tbody>
+</table>
+
+<h2>B2 数据目标</h2>
+<p><b>留存（同方案A）</b></p>
+<table>
+<thead><tr><th background-color="light-gray">指标</th><th background-color="light-gray">优秀</th><th background-color="light-gray">合格</th><th background-color="light-gray">待改进</th><th background-color="light-gray">7月基线</th></tr></thead>
+<tbody>
+<tr><td>D1 次留</td><td>≥30%</td><td>25-30%</td><td>&lt;25%</td><td>21-23%</td></tr>
+<tr><td>D3 三留</td><td>≥13%</td><td>10-13%</td><td>&lt;10%</td><td>~8-10%</td></tr>
+<tr><td>CPI（Install）</td><td>≤$2.5</td><td>$2.5-3.0</td><td>&gt;$3.0</td><td>$3.07-3.23</td></tr>
+</tbody>
+</table>
+<p><b>付费（待产品/运营给基准，以下按行业通用值占位）</b></p>
+<table>
+<thead><tr><th background-color="light-gray">指标</th><th background-color="light-gray">优秀</th><th background-color="light-gray">合格</th><th background-color="light-gray">待改进</th><th background-color="light-gray">备注</th></tr></thead>
+<tbody>
+<tr><td>付费率</td><td>≥3%</td><td>2-3%</td><td>&lt;2%</td><td>待确认</td></tr>
+<tr><td>首充率</td><td>≥20%</td><td>15-20%</td><td>&lt;15%</td><td>待确认</td></tr>
+<tr><td>ARPPU</td><td>≥$15</td><td>$10-15</td><td>&lt;$10</td><td>待确认</td></tr>
+<tr><td>D7 ROAS（AEO付费）</td><td>≥100%</td><td>70-100%</td><td>&lt;70%</td><td>待确认</td></tr>
+</tbody>
+</table>
+
+<h2>B3 投放配比</h2>
+<table>
+<thead><tr><th background-color="light-gray">Campaign</th><th background-color="light-gray">出价</th><th background-color="light-gray">结构</th><th background-color="light-gray">量级</th><th background-color="light-gray">单价</th><th background-color="light-gray">成本</th></tr></thead>
+<tbody>
+<tr><td>US Install 主导量</td><td>CBO</td><td>6 方向组</td><td>900</td><td>$2.5</td><td>$2,250</td></tr>
+<tr><td>US 清洁复测</td><td>ABO</td><td>3 支</td><td>300</td><td>$2.5</td><td>$750</td></tr>
+<tr><td>US AEO付费</td><td>CBO</td><td>3-4 支（Day1 筛）</td><td>300</td><td>$20</td><td>$6,000</td></tr>
+<tr><td>PH Install 主导量</td><td>CBO</td><td>4 组陪玩</td><td>1500</td><td>$0.5</td><td>$750</td></tr>
+<tr><td><b>合计</b></td><td></td><td></td><td><b>3000</b></td><td></td><td><b>$9,750</b></td></tr>
+</tbody>
+</table>
+
+<h3>分日量级（Day1 养数据，Day2 开 AEO付费）</h3>
+<table>
+<thead><tr><th background-color="light-gray">日期</th><th background-color="light-gray">US Install</th><th background-color="light-gray">复测</th><th background-color="light-gray">AEO付费</th><th background-color="light-gray">PH</th><th background-color="light-gray">合计 DNU</th></tr></thead>
+<tbody>
+<tr><td>9/17（Day1）</td><td>300</td><td>100</td><td>0</td><td>400</td><td>800</td></tr>
+<tr><td>9/18（Day2）</td><td>200</td><td>100</td><td>100</td><td>400</td><td>800</td></tr>
+<tr><td>9/19（Day3）</td><td>200</td><td>100</td><td>100</td><td>400</td><td>800</td></tr>
+<tr><td>9/20（Day4）</td><td>200</td><td>0</td><td>100</td><td>300</td><td>600</td></tr>
+</tbody>
+</table>
+
+<h2>B4 广告结构 + AEO 筛选机制</h2>
+<callout emoji="📐">
+<p><b>Campaign 1 · US Install 主导量（CBO，$2,250，保留 AN）</b></p>
+<p>6 方向组，模拟上线，Day1 全量跑、养数据。</p>
+<p><b>Campaign 2 · US 清洁复测（ABO，$750，剔除 AN）</b></p>
+<p>3 支固定变量复测。</p>
+<p><b>Campaign 3 · US AEO付费（CBO，$6,000，Day2-4 开启）</b></p>
+<p>素材由 Day1 美国 Install 数据筛出。</p>
+<p><b>Campaign 4 · PH Install 主导量（CBO，$750，保留 AN）</b></p>
+<p>4 组陪玩，拉低整体 CPI。</p>
+</callout>
+<p><b>AEO 素材筛选机制（动态，非预选）</b></p>
+<ol>
+<li seq="auto">Day1（9/17）全素材跑美国 Install，不跑 AEO，积累数据。</li>
+<li seq="auto">Day1 末按美国 Install 数据筛 AEO 素材：CPI ≤ $4.0、量级 ≥ 30 DNU、方向付费潜力排序（经营/角色/氛围 &gt; 战斗/恶搞/擦边）、图片也可入选。</li>
+<li seq="auto">取前 3-4 支，Day2-4 开 AEO付费，吃满 300 DNU。</li>
+</ol>
+
+<h2>B5 关停规则</h2>
+<table>
+<thead><tr><th background-color="light-gray">出价</th><th background-color="light-gray">条件</th><th background-color="light-gray">动作</th></tr></thead>
+<tbody>
+<tr><td>Install</td><td>花费 &gt; $50 且激活 = 0</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>Install</td><td>CPI &gt; $4.0 且达一定量级</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>AEO付费</td><td>花费 &gt; $80 且激活 = 0</td><td>关闭该 Ad Set</td></tr>
+<tr><td>AEO付费</td><td>CPI &gt; $35 且达一定量级</td><td>关闭该 Ad Set</td></tr>
+<tr><td>AEO付费</td><td>付费率/ROAS 明显差于 Install</td><td>关闭（无付费增益）</td></tr>
+<tr><td>通用</td><td>单日 DNU &lt; 20</td><td>不关闭，标记观察</td></tr>
+</tbody>
+</table>

@@ -1,0 +1,40 @@
+{
+ "出价方式": {
+  "default_value": null,
+  "id": "fldcLVA346",
+  "multiple": false,
+  "name": "出价方式",
+  "options": [
+   {
+    "hue": "Turquoise",
+    "lightness": "Lighter",
+    "name": "install"
+   },
+   {
+    "hue": "Lime",
+    "lightness": "Lighter",
+    "name": "AEO"
+   }
+  ],
+  "type": "select"
+ },
+ "严重度": {
+  "default_value": null,
+  "id": "fldSBunzGi",
+  "multiple": false,
+  "name": "严重度",
+  "options": [
+   {
+    "hue": "Lime",
+    "lightness": "Lighter",
+    "name": "🔴 严重"
+   },
+   {
+    "hue": "Turquoise",
+    "lightness": "Lighter",
+    "name": "🟡 观察"
+   }
+  ],
+  "type": "select"
+ }
+}

@@ -1,0 +1,18 @@
+- [项目总索引](gts-project-master.md) — ⭐ 角色定位、版本时间线、核心资源、子记忆导航
+- [2月吸量测试](gts-feb-test.md) — 美国/菲律宾吸量数据、素材CPI、用户画像
+- [4月留存测试](gts-apr-test.md) — Install/AEO出价对比、素材次留排名、留存衰减分析
+- [7月二测](gts-july-test.md) — 第二次留存测试计划、日报、CBO调整、关停决策
+- [项目版本/开发周志](gts-project-versions.md) — 程序/美术/策划周更新、功能进度、bug修复
+- [素材方向与素材库](gts-creative-materials.md) — 素材方向脑图、制作方式矩阵、分类规划
+- [竞品分析](gts-competitors.md) — 黑帮题材三巨头 + 4X框架标杆 + Lands of Jail
+- [题材扩展与发行策略](gts-publishing-strategy.md) — 丧尸/废土/海洋/监狱扩展方向、破圈→长留→变现模型
+- [日报工作流](gts-daily-workflow.md) — Base结构、字段映射、公式、简报模板、关停规则
+- [商店页分析](gts-store-analysis.md) — 商店五图需求方案、竞品参考、差异化卖点
+- [Wiki空间概览](gts-wiki-overview.md) — 飞书Wiki空间元数据、关键文档节点
+- [文件索引](gts-reference-files.md) — 本地文件路径、飞书URL、Sheet Token、Base表ID
+- [素材判断标准+打分卡](gts-creative-judgment.md) — 判断好素材的两层框架(创意v3+执行打分卡)、17条诊断→13条重写结论
+- [9月测试计划](gts-sept-test.md) — ⭐ 方案A纯留存(3天/3000安装/$7500)、CBO主导量+ABO复测、强者恒强
+- [7月Install逐素材基线](gts-july-baseline.md) — 10支素材的7月CPI/CPM/CTR/CVR/D1/D3，9月对比锚点，已交叉验证
+- [9月日报Base](gts-sept-base.md) — ⭐ 已建：token、5表ID、字段结构(m_/b_/s_)、公式、21支素材清单、每日工作流
+- [男女/平台占比基线](gts-demographics.md) — 7月install男女79%/平台FB59%基线 + 9月异常时男女/平台对比处理方式
+- [日报填数自审纪律](gts-self-review.md) — ⭐ 填完源数据后自审到100%才对外（数据+结论逻辑都要核）

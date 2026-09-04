@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "plugins": {
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\yangxd\\.claude\\plugins\\cache\\claude-plugins-official\\playwright\\bd7cf41fc8a4",
+        "version": "bd7cf41fc8a4",
+        "installedAt": "2026-05-06T05:57:01.512Z",
+        "lastUpdated": "2026-06-05T02:21:24.399Z",
+        "gitCommitSha": "bd7cf41fc8a468b136a9266633303ff4a011c7b4"
+      }
+    ],
+    "claude-mem@thedotmack": [
+      {
+        "scope": "user",
+        "installPath": "C:\\Users\\yangxd\\.claude\\plugins\\cache\\thedotmack\\claude-mem\\13.4.0",
+        "version": "13.4.0",
+        "installedAt": "2026-05-14T01:55:31.565Z",
+        "lastUpdated": "2026-06-01T02:31:40.779Z",
+        "gitCommitSha": "84636894740724cb424e993d2e37a5a06a2aff2e"
+      }
+    ]
+  }
+}

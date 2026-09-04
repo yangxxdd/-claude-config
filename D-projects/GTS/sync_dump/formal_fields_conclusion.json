@@ -1,0 +1,97 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "id": "fldor0Mx7t",
+        "name": "ID",
+        "style": {
+          "rules": [
+            {
+              "text": "NO.",
+              "type": "text"
+            },
+            {
+              "length": 3,
+              "type": "incremental_number"
+            }
+          ]
+        },
+        "type": "auto_number"
+      },
+      {
+        "default_value": null,
+        "id": "fldDUnGcdH",
+        "name": "日期",
+        "style": {
+          "format": "yyyy/MM/dd"
+        },
+        "type": "datetime"
+      },
+      {
+        "default_value": null,
+        "id": "fldtZmDyxb",
+        "name": "向好信号",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldFyck6Zr",
+        "name": "警惕信号",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldklViuw0",
+        "name": "明日动作",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldjb58Qqh",
+        "name": "一句话结论",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldral5bnb",
+        "name": "环比",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fld5lzEgG9",
+        "name": "达标情况",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      }
+    ],
+    "total": 8
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.93",
+      "message": "lark-cli 1.0.93 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

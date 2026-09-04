@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "total": 1,
+    "views": [
+      {
+        "_meta": {
+          "filter": null,
+          "group": [],
+          "sort": [],
+          "visible_fields": "9 fields"
+        },
+        "id": "vewpBKC6Q2",
+        "name": "Grid View",
+        "type": "grid"
+      }
+    ]
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.93",
+      "message": "lark-cli 1.0.93 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

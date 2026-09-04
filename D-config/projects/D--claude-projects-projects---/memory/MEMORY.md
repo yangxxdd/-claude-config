@@ -1,0 +1,17 @@
+- [项目总索引](huanchong-project-master.md) — ⭐ 版本线、数据源 Token、子表结构、导航
+- [6/11 测试](huanchong-611-test.md) — KPI、素材、留存、漏斗、渠道
+- [早期测试（1-4月）](huanchong-early-tests.md) — 吸量/留存/画风测试，3次完整报告
+- [V1 首测运营总结](huanchong-v1-launch.md) — 留存、SDK 漏斗、LQA、研运协作
+- [竞品分析](huanchong-competitors.md) — 19款竞品 + 曙光重临深度拆解
+- [帕基/啾啾编号体系](huanchong-palkie-numbering.md) — 帕基、啾啾、建筑、训练师编号
+- [素材方向与素材库](huanchong-creative-materials.md) — 素材方向、250+素材 ID、视频/图片详情
+- [商店页分析](huanchong-store-analysis.md) — 商店页文案、ICON/商店图
+- [项目版本记录](huanchong-project-versions.md) — Bitable 17 版本表 + 更新历史
+- [Wiki 空间概览](huanchong-wiki-overview.md) — 飞书 Wiki 空间元数据
+- [共享盘素材映射](huanchong-assets-share.md) — ⭐ 共享目录文件映射、立绘命名、UE 视频列表
+- [素材全量分析](huanchong-creative-full-analysis.md) — ⭐ 42素材标签体系、P:V对比、方向分类、9月推荐、文件重命名规则
+- [蹭超能勇士素材方向](huanchong-creative-beast-wars.md) — 2026-08定方向：30周年时效、5脚本、机械翻盖变身桥段、合规红线
+- [下次测试上下文简报](huanchong-next-test-briefing.md) — ⭐ 2026-08-10 交付：5数据源整合简报路径；记忆骨架实为指针、真数据在飞书
+- [GTS商店图AI提示词](huanchong-gts-store-ai-prompts.md) — ⭐ 2026-08-11启动：10方向具象化+Gemini提示词，01-05已验证，06待明天，单场景叙事写作教训
+- [9月投放测试计划](huanchong-9月-test-plan.md) — ⭐ 2026-09-03改期：9/17–9/19三天；新文档UDqOwXaumizZzdk2o6icKLAjnCd
+- [幻宠日报模板Base](huanchong-daily-report-template.md) — ⭐ 2026-09-03复刻GTS模板：Base URL、5表+6图+简报结构、基线改6月、素材方向待用户清单

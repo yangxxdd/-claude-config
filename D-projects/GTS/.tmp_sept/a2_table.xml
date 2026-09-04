@@ -1,0 +1,9 @@
+<table>
+<thead><tr><th background-color="light-gray">指标</th><th background-color="light-gray">优秀</th><th background-color="light-gray">合格</th><th background-color="light-gray">待改进</th><th background-color="light-gray">7月实测基线</th></tr></thead>
+<tbody>
+<tr><td>D1 次留</td><td>≥30%</td><td>25-30%</td><td>20-25%</td><td>24.10%</td></tr>
+<tr><td>D3 三留</td><td>≥16%</td><td>12-16%</td><td>8-12%</td><td>4.08%</td></tr>
+<tr><td>D7 七留</td><td>≥10%</td><td>7-10%</td><td>4-7%</td><td>—（首次验证）</td></tr>
+<tr><td>CPI（Install）</td><td>≤$2.0</td><td>$2.0-3.0</td><td>&gt;$3.0</td><td>$3.32</td></tr>
+</tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+<thead><tr><th background-color="light-gray">指标</th><th background-color="light-gray">优秀</th><th background-color="light-gray">合格</th><th background-color="light-gray">待改进</th><th background-color="light-gray">备注</th></tr></thead>
+<tbody>
+<tr><td>CPI（AEO付费）</td><td>≤$20</td><td>$20-25</td><td>&gt;$25</td><td>$20 为预算单价</td></tr>
+<tr><td>首日付费率</td><td>≥5%</td><td>3-5%</td><td>&lt;3%</td><td>行业占位（Lordrush 3.5%）</td></tr>
+<tr><td>首日 ROI</td><td>≥10%</td><td>5-10%</td><td>&lt;5%</td><td>行业占位（SLG 首日回收低）</td></tr>
+</tbody>
+</table>

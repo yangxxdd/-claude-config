@@ -1,0 +1,49 @@
+<h1>三、共同约定（两方案都适用）</h1>
+
+<h2>3.1 分组逻辑</h2>
+<callout emoji="⚙️">
+<p><b>主导量 = CBO（强者恒强）</b>：系统自动把预算喂给表现好的素材/方向，好素材吃量、CPI 被拉低。</p>
+<p><b>清洁复测 = ABO（隔离变量）</b>：固定商店页/版位/出价，保证每支都跑到固定样本。</p>
+</callout>
+
+<h2>3.2 版位</h2>
+<table>
+<thead><tr><th background-color="light-gray">层</th><th background-color="light-gray">Audience Network</th><th background-color="light-gray">原因</th></tr></thead>
+<tbody>
+<tr><td>主导量</td><td>保留</td><td>模拟上线，上线开什么版位就开什么</td></tr>
+<tr><td>清洁复测</td><td>剔除</td><td>固定版位隔离变量，AN 引入噪声</td></tr>
+</tbody>
+</table>
+
+<h2>3.3 素材方向分组（主导量）</h2>
+<table>
+<thead><tr><th background-color="light-gray">方向组</th><th background-color="light-gray">老素材（复用）</th><th background-color="light-gray">新素材（迭代/新方向）</th></tr></thead>
+<tbody>
+<tr><td>黑帮入会/氛围</td><td>V-浴血黑帮</td><td>V-浴血黑帮-叙事迭代</td></tr>
+<tr><td>角色展示/招募</td><td>V-招募表演</td><td>V-立绘展示-斩神片头、P-门徒立绘-单人、P-门徒立绘-多人</td></tr>
+<tr><td>复仇逆袭/命运反转</td><td>V-晋级失败被捕</td><td>P-美漫分镜-角色升级</td></tr>
+<tr><td>美漫分镜</td><td>P-美漫分镜</td><td>P-美漫分镜-帮派火并、P-美漫分镜-地盘争夺</td></tr>
+<tr><td>幽默反差经营</td><td>P-炸鸡店、P-披萨店</td><td>P-炸鸡店迭代</td></tr>
+<tr><td>战斗</td><td>V-鸡公大侠</td><td>V-玩法展示-打丧尸</td></tr>
+<tr><td>擦边</td><td>—</td><td>V-无厘头擦边、P-黑帮经营-擦边</td></tr>
+</tbody>
+</table>
+
+<h2>3.4 清洁复测说明（独立 Campaign）</h2>
+<callout emoji="🔬">
+<p><b>3 支复测素材</b>，各自独立 Ad Set，固定商店页/版位/出价，剔除 AN：</p>
+<ul>
+<li><b>V-模拟经营原版</b>：4月明星方向、7月翻车，单变量验证「素材问题 vs 承接问题」。</li>
+<li><b>V-爽感战斗</b>：Install D1 8.6% 异常（D1=D3 概率不可能），复测排查 BI 异常。</li>
+<li><b>V-特殊设备视角</b>：AEO D3 18.75% 全局最高，复测 D3 复现性。</li>
+</ul>
+</callout>
+<p>商店物料：商店五图 V4.0（10 方向 A/B 变种）已下单，本轮成套更新，不换 Icon/Logo。</p>
+
+<h1>四、待定项</h1>
+<ol>
+<li seq="auto">测试类型：纯留存 or 留存+付费，待定案（本方案两套并写，定案后删无用一套）。</li>
+<li seq="auto">付费 KPI 基准：付费率/首充率/ARPPU/ROAS 的目标值待产品/运营给，当前按行业通用值占位。</li>
+<li seq="auto">复测量级口径：300 DNU 是从菲律宾量级挪出，还是额外加 $750，待定。</li>
+<li seq="auto">AEO 素材筛选阈值（CPI ≤ $4.0、量级 ≥ 30 DNU）可按 Day1 实际数据调整。</li>
+</ol>

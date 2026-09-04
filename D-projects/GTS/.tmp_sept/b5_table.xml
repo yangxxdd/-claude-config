@@ -1,0 +1,10 @@
+<table>
+<thead><tr><th background-color="light-gray">出价</th><th background-color="light-gray">条件</th><th background-color="light-gray">动作</th></tr></thead>
+<tbody>
+<tr><td>Install</td><td>花费 &gt; $50 且激活 = 0</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>Install</td><td>CPI &gt; $3.75 且量级 ≥ 15</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>AEO付费</td><td>花费 &gt; $80 且激活 = 0</td><td>关闭该 Ad Set</td></tr>
+<tr><td>AEO付费</td><td>CPI &gt; $31（待改进 $25 × 1.25）且量级 ≥ 10</td><td>关闭该 Ad Set</td></tr>
+<tr><td>通用</td><td>单日 DNU &lt; 20</td><td>不关闭，标记观察</td></tr>
+</tbody>
+</table>

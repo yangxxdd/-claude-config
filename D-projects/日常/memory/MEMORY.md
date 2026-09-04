@@ -1,0 +1,2 @@
+- [数据可视化偏好](data-visualization-preference.md) — 用户喜欢创意图表，应主动建议可视化方案
+- [Office 工具选择规则](office-tool-selection-rules.md) — OfficeCLI vs docx/xlsx/pdf skill 的分场景决策表，保证功能重叠时自动选对工具

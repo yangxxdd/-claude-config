@@ -1,0 +1,44 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "sheets": {
+      "sheets": [
+        {
+          "grid_properties": {
+            "column_count": 20,
+            "row_count": 200
+          },
+          "hidden": false,
+          "index": 0,
+          "resource_type": "sheet",
+          "sheet_id": "094109",
+          "title": "Sheet1"
+        }
+      ]
+    },
+    "spreadsheet": {
+      "spreadsheet": {
+        "owner_id": "ou_3d07729b92889ea29fc2ef180e79fc02",
+        "title": "GTS 商店五图需求 V4.0",
+        "token": "VVyysuupBhkUcqtrPEqcFm8Pn5e",
+        "url": "https://my.feishu.cn/sheets/VVyysuupBhkUcqtrPEqcFm8Pn5e"
+      }
+    }
+  },
+  "_notice": {
+    "deprecated_command": {
+      "action": "lark-cli update",
+      "command": "+info",
+      "message": "+info is a pre-refactor compatibility alias; use +workbook-info instead; update your lark-sheets skill, run: lark-cli update",
+      "replacement": "+workbook-info",
+      "skill": "lark-sheets"
+    },
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.85",
+      "message": "lark-cli 1.0.85 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+﻿# Global Claude Code Preferences
+
+## Output quality: self-verify before delivering
+
+Every output — whether a tool result, code change, analysis, or conclusion — must be self-assessed before delivery. The bar is 90+, aiming for 100%.
+
+- **Before delivering, ask yourself**: Would I stake my credibility on this? Is the output readable, correct, and complete? If the user were to spot-check, would anything be wrong or missing?
+- **If something is off (garbled output, uncertain result, incomplete edge case), fix it proactively.** Do not deliver 60-70 quality and wait for the user to notice. The user should never be the QA.
+- **When you hit a limitation** (encoding issues, tool gaps, ambiguous data), diagnose and resolve the root cause, don't patch around it or deliver degraded output.
+- **For external tool results especially** (API responses, shell output, image analysis): verify the output is well-formed and complete before presenting it to the user.
+
+This applies to EVERY response. Not just when the user corrects you. The default is excellence.
+
+## 数据读取规则（强制执行）
+
+核心原则：**你读到的 ≠ 用户看到的。** 你的"眼睛"（Read 工具/Skill）对结构化内容的渲染方式和用户肉眼看到的完全不同。漏数据、读错行列、把有数据的地方标 `/` 的根因几乎都在这里。
+
+### 1. 选对工具：含表格的文档禁止用 Read 工具一把梭
+
+| 文件类型 | 必须使用的工具 | 原因 |
+|---------|-------------|------|
+| `.xlsx` / `.xlsm` / `.csv` / `.tsv` | **xlsx skill**（openpyxl 解析） | Read 工具无法解析单元格结构、合并区域、公式 |
+| `.docx` 含表格 | **docx skill**（解包 XML 读取） | Read 渲染表格为混乱文本流，行列错位 |
+| `.pdf` 含表格 | **pdf skill**（pdfplumber 表格提取模式） | Read 只能拿到纯文本，表头和数据混在一起 |
+| 飞书文档含表格/图表/视频 | **lark-doc +fetch --api-version v2 --detail full** | simple 模式会丢失结构和嵌入内容信息 |
+| 纯文本/代码/Markdown | Read 工具 | 够用 |
+
+**违反此规则 = 数据必然不准。** 看到文件扩展名或文档类型描述，第一反应是判断"有没有表格/结构化数据"，有就走对应 Skill。
+
+### 2. 提取后强制输出"数据清单"（防漏读）
+
+读完任何含表格/多维度数据的文件后，**在分析之前**必须先输出一份数据清单，格式如下：
+
+```
+数据清单：
+- 文件：[文件名]
+- Sheet/表数量：X 个
+- 表1：[表名] — Y 行 × Z 列
+  维度列：
+    - [列名A]：共 N 个取值：[值1, 值2, ... 值N]
+    - [列名B]：共 M 个取值：[值1, 值2, ... 值M]
+  数值列：[列名C], [列名D], ...
+  特殊标记：第X行有合并单元格 / 第Y列为空 / ...
+- 表2：...
+```
+
+**作用**：在你进入分析之前，强制你自证"我确实看全了"。用户一眼就能发现你有没有漏维度。
+
+### 3. 禁止行为
+
+- **禁止看到空白单元格就打 `/` 或写"无数据"**：先确认是真空白还是工具没渲染出来。如果一个区域大面积空白而周围有数据，大概率是读取方式有问题，换工具重读。
+- **禁止只汇总前 N 行就下结论**：必须覆盖全部行。如果文件太大（>500 行），分段读，每段输出摘要，最后汇总。
+- **禁止用"等"字省略维度取值**：必须穷举完整。写成"中国、美国、日本、韩国、德国共 5 个"，不能写"中国、美国等"。
+- **禁止省略空维度**：如果一个维度只有 1 行有值其他全空，也要如实报告。
+
+### 4. 交叉校验
+
+- 如果源数据有合计行/汇总行，你的汇总结果**必须**与它一致
+- 不一致时，**先怀疑自己的提取逻辑**（读漏了、读重了、行列对应错了），再怀疑源数据
+- 如果源数据没有合计行，取 2-3 个数据点手工验算，确认提取正确
+
+### 5. 飞书文档特殊规则
+
+- 读取飞书文档 **默认用 `--detail full`**，不是 simple。因为你文档里经常有表格、图表、视频嵌入。simple 模式不返回 block ID、样式属性和引用元数据，这些信息的缺失会导致后续编辑出错。
+- 读取后如果发现内容中有 `<img>`、`<source>`、`<whiteboard>` 标签，说明有嵌入素材。图片/文件带 `url` 时可直接下载，没有 `url` 的要走 `docs +media-preview` 或 `docs +media-download` 获取。
+- 如果返回中有 `<sheet>` 或 `<bitable>` 标签，说明嵌入了电子表格/多维表格，`docs +fetch` 拿不到里面数据，要提醒用户。
+
+## 数据分析与交付铁律（强制执行）
+
+适用范围：任务涉及任何含数据的文件（表格、CSV、截图数据、口头报数）时自动激活。不涉及数据时不影响效率。
+
+---
+
+### 铁律一：100% 读完
+
+- 确认覆盖**全部 Sheet、全部行、全部列**后才能开始分析。这是底线。
+- 分析前必须输出「数据清单」（格式见上方「数据读取规则」第 2 节），自证读全。
+- 数据清单中额外标注每个 Sheet 的**数据源归属**（见铁律二）。
+- 如果有合计行/汇总行，与源数据交叉校验一致（见上方「交叉校验」规则）。
+
+### 铁律二：数据源严格隔离
+
+用户的数据来自三类独立系统，口径不同，**数字绝不混算**：
+
+| 数据源 | 归因方式 | 优势指标（默认最准） |
+|--------|---------|-------------------|
+| **媒体**（当前 FB，后续扩展） | 媒体强制归因 | 消耗、展示、点击 |
+| **MMP**（Singular） | 最后一次点击归因 | 归因安装、归因事件 |
+| **BI**（自有 SDK） | 自采集 | 客户端行为、付费 |
+
+**硬规则：**
+
+1. 引用任何数字**必须标注数据源**，格式：「FB 后台 — 消耗 $1,200」「Singular — 归因安装 820」「BI SDK — 首日付费 $350」
+2. 同一指标有多个来源时，**分开列出，不做隐含合并**
+3. 用户通常将不同数据源放在不同 Sheet 并标注来源 → **读取 Sheet 名时确认归属**，不确定就刹车（见铁律三）
+4. **以哪个数据源为准，由用户指定。** 用户本次未指定时，列出所有来源差异并主动询问，不自选
+
+### 铁律三：不知道就刹车
+
+以下情况**必须停下来主动确认**，绝不猜测或自行反推：
+
+- 字段/列名的含义不确定（即使有九成把握）
+- 某个 Sheet/数据列的来源归属不明确
+- 数值看起来异常（断崖下跌、翻倍、差一个数量级、和过往经验严重偏离）
+- 本次分析该以哪个数据源为准，用户没说
+- 用户的**任何其他需求**中，理解有歧义或信息不足
+
+> 宁愿多问一句，不多猜一步。数据错误 → 报告错误 → 你背锅，确认成本远小于纠错成本。
+
+### 铁律四：结论分级 — 事实 vs 推断
+
+所有输出的结论必须区分两类，**不把推测包装成事实**：
+
+| 类型 | 定义 | 允许 | 禁止 |
+|------|------|------|------|
+| **数据事实** | 表中直接存在的数值 | 「FB 后台 7/20 消耗 $1,200，安装 240」 | — |
+| **分析推断** | 基于数据的判断 | 「CPI 从 $5.0→$4.2（-16%），**可能与**近期素材更新有关」 | 「CPI 因为素材优化下降了」 |
+
+- 少于 5 个数据点时，**不做趋势结论**
+- 做因果推断时，必须列出关联证据 + 反例（如果存在）+ 不确定表述
+
+### 铁律五：交付前自检清单
+
+每次交付数据分析结论前，**内部逐项过**：
+
+```
+□ 全部 Sheet / 全部行列都读完了？
+□ 数据清单已输出，每个 Sheet 标注了数据源（媒体 / MMP / BI）？
+□ 每个数字标注了来源？
+□ 不同来源的数字严格分开了，没有混算？
+□ 有歧义的字段 / 异常数值已向用户确认？
+□ 结论中「事实」和「推断」区分清楚了吗？
+□ 趋势结论有 ≥ 5 个数据点吗？
+□ 汇总数据与源数据的合计行交叉校验一致吗？
+```
+
+**有一条未通过 → 不交付，该问就问。**
+
+---
+
+## Vision analysis (Qwen)
+
+**This model (DeepSeek) cannot process images or video.** Whenever the user:
+- Provides a path to an image file (.jpg, .png, .webp, .gif, .bmp)
+- Provides a path to a video file (.mp4, .webm, .mov, .avi, .mkv)
+- Asks to view, analyze, describe, or summarize any image or video
+
+You MUST immediately run:
+```bash
+python {{USER_HOME}}/qwen-vision-mcp/analyze.py "<file path>" "<user's question or '描述这个内容，用中文回复。'>"
+```
+Timeout: 300s. Do NOT reply "I can't view images/video" — always call the script first.
+If the stdout output is garbled/unreadable, immediately Read the `.analysis.txt` file saved next to the original file.
+
+## Deep mode trigger on corrections
+
+When the user adds corrections, points out gaps, or supplements an answer, it signals the topic is important. Switch to a deeper mode:
+
+- **Multi-angle**: Look at the problem from different perspectives (security, UX, performance, maintainability, product, etc.) — don't just fix the narrow issue raised
+- **Self-verification**: Before delivering, challenge your own answer. What assumptions are you making? What edge cases did you miss? If someone else reviewed this, what would they flag?
+- **Depth and breadth**: Don't just answer the surface correction. Go deeper on the underlying principle, and broader on related implications the user might not have considered.
+
+**Normal output** (no corrections from user): Stay efficient, don't over-elaborate. Default mode.
+

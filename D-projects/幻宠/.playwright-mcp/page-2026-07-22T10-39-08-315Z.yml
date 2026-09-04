@@ -1,0 +1,345 @@
+- generic [ref=f24e1]:
+  - banner [ref=f24e2]:
+    - navigation "页面标题" [ref=f24e3]:
+      - link "Google Play 徽标" [ref=f24e4] [cursor=pointer]:
+        - /url: /store/games
+        - generic [ref=f24e12]: google_logo Play
+      - combobox [ref=f24e14]:
+        - generic [ref=f24e16]:
+          - generic [ref=f24e17]: search
+          - textbox "在 Google Play 中搜索" [ref=f24e19]:
+            - /placeholder: 搜索应用和游戏
+            - text: whiteout survival
+          - generic [ref=f24e20]: clear
+      - generic [ref=f24e22]:
+        - button "帮助中心" [ref=f24e24] [cursor=pointer]:
+          - generic [ref=f24e25]: help_outline
+        - button "打开账号菜单" [ref=f24e30] [cursor=pointer]
+  - generic [ref=f24e34]:
+    - list [ref=f24e38]:
+      - listitem [ref=f24e39]:
+        - link "应用和游戏" [ref=f24e40] [cursor=pointer]:
+          - /url: /store/search?q=whiteout+survival&c=apps
+      - listitem [ref=f24e44]:
+        - link "图书" [ref=f24e45] [cursor=pointer]:
+          - /url: /store/search?q=whiteout+survival&c=books
+    - generic [ref=f24e49]:
+      - generic [ref=f24e54]:
+        - link "寒霜启示录" [ref=f24e55] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.gof.global
+        - generic [ref=f24e56]:
+          - generic [ref=f24e57]:
+            - generic [ref=f24e59]:
+              - generic [ref=f24e60]: 寒霜启示录
+              - generic [ref=f24e61]: Century Games PTE. LTD.
+              - generic [ref=f24e62]: 应用内购商品
+            - generic [ref=f24e63]: 4亿人都在玩的原创冰雪手游
+            - generic [ref=f24e67]:
+              - generic [ref=f24e68]:
+                - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f24e71]:
+                  - text: "4.2"
+                  - generic [ref=f24e72]: star
+                - generic [ref=f24e73]: 154万条评价
+              - generic [ref=f24e74]:
+                - generic [ref=f24e75]: 5,000万+
+                - generic [ref=f24e76]: 次下载
+            - generic [ref=f24e78]:
+              - button "安装 Windows 版" [ref=f24e84]
+              - button "安装" [ref=f24e91]:
+                - generic [ref=f24e94]: 在更多设备上安装
+            - generic [ref=f24e95]:
+              - img "内容分级" [ref=f24e96]
+              - generic [ref=f24e97]:
+                - generic [ref=f24e98]: 7 岁以上
+                - generic [ref=f24e99]: 轻微暴力
+                - generic [ref=f24e100]: 用户互动、游戏内购买(包括随机道具)
+                - link "详细了解内容分级" [ref=f24e101] [cursor=pointer]:
+                  - /url: https://support.google.com/googleplay?p=appgame_ratings
+                  - text: 了解详情
+            - generic [ref=f24e105]:
+              - text: 若要在 Windows 设备上安装此游戏，您需要下载 Google Play 游戏电脑版。下载这款应用和此游戏即表示您同意接受
+              - link "Google 服务条款 " [ref=f24e106] [cursor=pointer]:
+                - /url: https://policies.google.com/terms
+              - text: 和
+              - link "Google Play 服务条款 " [ref=f24e107] [cursor=pointer]:
+                - /url: https://play.google.com/about/play-terms/index.html
+              - text: 。
+              - link "了解详情 " [ref=f24e108] [cursor=pointer]:
+                - /url: https://play.google.com/googleplaygames
+              - text: 。
+          - list [ref=f24e113]:
+            - listitem [ref=f24e114]:
+              - button "屏幕截图图片" [ref=f24e116] [cursor=pointer]
+            - listitem [ref=f24e117]:
+              - button "屏幕截图图片" [ref=f24e119] [cursor=pointer]
+            - listitem [ref=f24e120]:
+              - button "屏幕截图图片" [ref=f24e122] [cursor=pointer]
+            - listitem [ref=f24e123]:
+              - button "屏幕截图图片" [ref=f24e125] [cursor=pointer]
+            - listitem [ref=f24e126]:
+              - button "屏幕截图图片" [ref=f24e128] [cursor=pointer]
+            - listitem [ref=f24e129]:
+              - button "屏幕截图图片" [ref=f24e131] [cursor=pointer]
+            - listitem [ref=f24e132]:
+              - button "屏幕截图图片" [ref=f24e134] [cursor=pointer]
+            - listitem [ref=f24e135]:
+              - button "屏幕截图图片" [ref=f24e137] [cursor=pointer]
+            - listitem [ref=f24e138]:
+              - button "屏幕截图图片" [ref=f24e140] [cursor=pointer]
+            - listitem [ref=f24e141]:
+              - button "屏幕截图图片" [ref=f24e143] [cursor=pointer]
+            - listitem [ref=f24e144]:
+              - button "屏幕截图图片" [ref=f24e146] [cursor=pointer]
+            - listitem [ref=f24e147]:
+              - button "屏幕截图图片" [ref=f24e149] [cursor=pointer]
+            - listitem [ref=f24e150]:
+              - button "屏幕截图图片" [ref=f24e152] [cursor=pointer]
+            - listitem [ref=f24e153]:
+              - button "屏幕截图图片" [ref=f24e155] [cursor=pointer]
+            - listitem [ref=f24e156]:
+              - button "屏幕截图图片" [ref=f24e158] [cursor=pointer]
+            - listitem [ref=f24e159]:
+              - button "屏幕截图图片" [ref=f24e161] [cursor=pointer]
+            - listitem [ref=f24e162]:
+              - button "屏幕截图图片" [ref=f24e164] [cursor=pointer]
+            - listitem [ref=f24e165]:
+              - button "屏幕截图图片" [ref=f24e167] [cursor=pointer]
+            - listitem [ref=f24e168]:
+              - button "屏幕截图图片" [ref=f24e170] [cursor=pointer]
+            - listitem [ref=f24e171]:
+              - button "屏幕截图图片" [ref=f24e173] [cursor=pointer]
+            - listitem [ref=f24e174]:
+              - button "屏幕截图图片" [ref=f24e176] [cursor=pointer]
+            - listitem [ref=f24e177]:
+              - button "屏幕截图图片" [ref=f24e179] [cursor=pointer]
+            - listitem [ref=f24e180]:
+              - button "屏幕截图图片" [ref=f24e182] [cursor=pointer]
+            - listitem [ref=f24e183]:
+              - button "屏幕截图图片" [ref=f24e185] [cursor=pointer]
+      - list [ref=f24e194]:
+        - listitem [ref=f24e195]:
+          - link "Last War:Survival Game FUNFLY PTE. LTD. 获评 4.7 颗星（最高 5 颗星）" [ref=f24e200] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.fun.lastwar.gp
+            - generic [ref=f24e206]:
+              - generic [ref=f24e207]: Last War:Survival Game
+              - generic [ref=f24e209]: FUNFLY PTE. LTD.
+              - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f24e212]:
+                - generic [ref=f24e213]: "4.7"
+                - generic [ref=f24e214]: star
+        - listitem [ref=f24e216]:
+          - link "播放《七号堡垒》 七号堡垒 LIFE GAME PTE. LTD. 获评 3.7 颗星（最高 5 颗星）" [ref=f24e221] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.more.lastfortress.gp
+            - button "播放《七号堡垒》" [ref=f24e226]
+            - generic [ref=f24e233]:
+              - generic [ref=f24e234]: 七号堡垒
+              - generic [ref=f24e236]: LIFE GAME PTE. LTD.
+              - generic "获评 3.7 颗星（最高 5 颗星）" [ref=f24e239]:
+                - generic [ref=f24e240]: "3.7"
+                - generic [ref=f24e241]: star
+        - listitem [ref=f24e243]:
+          - 'link "State of Survival: Zombie War FunPlus International AG 获评 4.2 颗星（最高 5 颗星）" [ref=f24e248] [cursor=pointer]':
+            - /url: /store/apps/details?id=com.kingsgroup.sos
+            - generic [ref=f24e254]:
+              - generic [ref=f24e255]: "State of Survival: Zombie War"
+              - generic [ref=f24e257]: FunPlus International AG
+              - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f24e260]:
+                - generic [ref=f24e261]: "4.2"
+                - generic [ref=f24e262]: star
+        - listitem [ref=f24e264]:
+          - 'link "Guns of Glory: Lost Island FunPlus International AG 获评 4.1 颗星（最高 5 颗星）" [ref=f24e269] [cursor=pointer]':
+            - /url: /store/apps/details?id=com.diandian.gog
+            - generic [ref=f24e275]:
+              - generic [ref=f24e276]: "Guns of Glory: Lost Island"
+              - generic [ref=f24e278]: FunPlus International AG
+              - generic "获评 4.1 颗星（最高 5 颗星）" [ref=f24e281]:
+                - generic [ref=f24e282]: "4.1"
+                - generic [ref=f24e283]: star
+        - listitem [ref=f24e285]:
+          - 'link "Last Z: Survival Shooter Omnilojo Pte Ltd 获评 4.7 颗星（最高 5 颗星）" [ref=f24e290] [cursor=pointer]':
+            - /url: /store/apps/details?id=com.readygo.barrel.gp
+            - generic [ref=f24e296]:
+              - generic [ref=f24e297]: "Last Z: Survival Shooter"
+              - generic [ref=f24e299]: Omnilojo Pte Ltd
+              - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f24e302]:
+                - generic [ref=f24e303]: "4.7"
+                - generic [ref=f24e304]: star
+        - listitem [ref=f24e306]:
+          - link "播放《Doomsday × FAIRY TAIL》 Doomsday × FAIRY TAIL IGG.COM 获评 4.4 颗星（最高 5 颗星）" [ref=f24e311] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.igg.android.doomsdaylastsurvivors
+            - button "播放《Doomsday × FAIRY TAIL》" [ref=f24e316]
+            - generic [ref=f24e323]:
+              - generic [ref=f24e324]: Doomsday × FAIRY TAIL
+              - generic [ref=f24e326]: IGG.COM
+              - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f24e329]:
+                - generic [ref=f24e330]: "4.4"
+                - generic [ref=f24e331]: star
+        - listitem [ref=f24e333]:
+          - link "播放《王国纪元 (Lords Mobile)》 王国纪元 (Lords Mobile) IGG.COM 获评 4.1 颗星（最高 5 颗星）" [ref=f24e338] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.igg.android.lordsmobile
+            - button "播放《王国纪元 (Lords Mobile)》" [ref=f24e343]
+            - generic [ref=f24e350]:
+              - generic [ref=f24e351]: 王国纪元 (Lords Mobile)
+              - generic [ref=f24e353]: IGG.COM
+              - generic "获评 4.1 颗星（最高 5 颗星）" [ref=f24e356]:
+                - generic [ref=f24e357]: "4.1"
+                - generic [ref=f24e358]: star
+        - listitem [ref=f24e360]:
+          - link "Dark War Survival Omnilojo Pte Ltd 获评 4.5 颗星（最高 5 颗星）" [ref=f24e365] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.readygo.dark.gp
+            - generic [ref=f24e371]:
+              - generic [ref=f24e372]: Dark War Survival
+              - generic [ref=f24e374]: Omnilojo Pte Ltd
+              - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f24e377]:
+                - generic [ref=f24e378]: "4.5"
+                - generic [ref=f24e379]: star
+        - listitem [ref=f24e381]:
+          - link "播放《Savage Survival:Jurassic Isle》 Savage Survival:Jurassic Isle Phantix Games 获评 4.7 颗星（最高 5 颗星）" [ref=f24e386] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.slg.savagesurvival
+            - button "播放《Savage Survival:Jurassic Isle》" [ref=f24e391]
+            - generic [ref=f24e398]:
+              - generic [ref=f24e399]: Savage Survival:Jurassic Isle
+              - generic [ref=f24e401]: Phantix Games
+              - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f24e404]:
+                - generic [ref=f24e405]: "4.7"
+                - generic [ref=f24e406]: star
+        - listitem [ref=f24e408]:
+          - link "播放《小小蚁国》 小小蚁国 StarUnion 获评 4.1 颗星（最高 5 颗星）" [ref=f24e413] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.star.union.planetant
+            - button "播放《小小蚁国》" [ref=f24e418]
+            - generic [ref=f24e425]:
+              - generic [ref=f24e426]: 小小蚁国
+              - generic [ref=f24e428]: StarUnion
+              - generic "获评 4.1 颗星（最高 5 颗星）" [ref=f24e431]:
+                - generic [ref=f24e432]: "4.1"
+                - generic [ref=f24e433]: star
+        - listitem [ref=f24e435]:
+          - link "王国之歌（Top Heroes） RiverGame 获评 4.7 颗星（最高 5 颗星）" [ref=f24e440] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.greenmushroom.boomblitz.gp
+            - generic [ref=f24e446]:
+              - generic [ref=f24e447]: 王国之歌（Top Heroes）
+              - generic [ref=f24e449]: RiverGame
+              - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f24e452]:
+                - generic [ref=f24e453]: "4.7"
+                - generic [ref=f24e454]: star
+        - listitem [ref=f24e456]:
+          - link "播放《The Battle of Polytopia》 The Battle of Polytopia Midjiwan AB 获评 4.3 颗星（最高 5 颗星）" [ref=f24e461] [cursor=pointer]:
+            - /url: /store/apps/details?id=air.com.midjiwan.polytopia
+            - button "播放《The Battle of Polytopia》" [ref=f24e466]
+            - generic [ref=f24e473]:
+              - generic [ref=f24e474]: The Battle of Polytopia
+              - generic [ref=f24e476]: Midjiwan AB
+              - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f24e479]:
+                - generic [ref=f24e480]: "4.3"
+                - generic [ref=f24e481]: star
+        - listitem [ref=f24e483]:
+          - link "Kingshot Century Games PTE. LTD. 获评 4.5 颗星（最高 5 颗星）" [ref=f24e488] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.run.tower.defense
+            - generic [ref=f24e494]:
+              - generic [ref=f24e495]: Kingshot
+              - generic [ref=f24e497]: Century Games PTE. LTD.
+              - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f24e500]:
+                - generic [ref=f24e501]: "4.5"
+                - generic [ref=f24e502]: star
+        - listitem [ref=f24e504]:
+          - link "播放《《全军之战》：战争策略游戏》 《全军之战》：战争策略游戏 Scorewarrior 获评 4.4 颗星（最高 5 颗星）" [ref=f24e509] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.totalbattle
+            - button "播放《《全军之战》：战争策略游戏》" [ref=f24e514]
+            - generic [ref=f24e521]:
+              - generic [ref=f24e522]: 《全军之战》：战争策略游戏
+              - generic [ref=f24e524]: Scorewarrior
+              - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f24e527]:
+                - generic [ref=f24e528]: "4.4"
+                - generic [ref=f24e529]: star
+        - listitem [ref=f24e531]:
+          - link "播放《Frost World - Snow Survival》 Frost World - Snow Survival Estoty 获评 4.1 颗星（最高 5 颗星）" [ref=f24e536] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.winter.breaker
+            - button "播放《Frost World - Snow Survival》" [ref=f24e541]
+            - generic [ref=f24e548]:
+              - generic [ref=f24e549]: Frost World - Snow Survival
+              - generic [ref=f24e551]: Estoty
+              - generic "获评 4.1 颗星（最高 5 颗星）" [ref=f24e554]:
+                - generic [ref=f24e555]: "4.1"
+                - generic [ref=f24e556]: star
+        - listitem [ref=f24e558]:
+          - link "播放《万国觉醒-RoK》 万国觉醒-RoK LilithGames 获评 4.3 颗星（最高 5 颗星）" [ref=f24e563] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.lilithgame.roc.gp
+            - button "播放《万国觉醒-RoK》" [ref=f24e568]
+            - generic [ref=f24e575]:
+              - generic [ref=f24e576]: 万国觉醒-RoK
+              - generic [ref=f24e578]: LilithGames
+              - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f24e581]:
+                - generic [ref=f24e582]: "4.3"
+                - generic [ref=f24e583]: star
+        - listitem [ref=f24e585]:
+          - 'link "Misty Continent: Cursed Island FunPlus International AG 获评 4.2 颗星（最高 5 颗星）" [ref=f24e590] [cursor=pointer]':
+            - /url: /store/apps/details?id=com.funplus.mc
+            - generic [ref=f24e596]:
+              - generic [ref=f24e597]: "Misty Continent: Cursed Island"
+              - generic [ref=f24e599]: FunPlus International AG
+              - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f24e602]:
+                - generic [ref=f24e603]: "4.2"
+                - generic [ref=f24e604]: star
+        - listitem [ref=f24e606]:
+          - link "播放《部落冲突 (Clash of Clans)》 部落冲突 (Clash of Clans) Supercell 获评 4.3 颗星（最高 5 颗星）" [ref=f24e611] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.supercell.clashofclans
+            - button "播放《部落冲突 (Clash of Clans)》" [ref=f24e616]
+            - generic [ref=f24e623]:
+              - generic [ref=f24e624]: 部落冲突 (Clash of Clans)
+              - generic [ref=f24e626]: Supercell
+              - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f24e629]:
+                - generic [ref=f24e630]: "4.3"
+                - generic [ref=f24e631]: star
+        - listitem [ref=f24e633]:
+          - link "播放《Lost Prison - Shelter Survival》 Lost Prison - Shelter Survival SayGames Ltd 获评 4.4 颗星（最高 5 颗星）" [ref=f24e638] [cursor=pointer]:
+            - /url: /store/apps/details?id=com.finetosurvive.master
+            - button "播放《Lost Prison - Shelter Survival》" [ref=f24e643]
+            - generic [ref=f24e650]:
+              - generic [ref=f24e651]: Lost Prison - Shelter Survival
+              - generic [ref=f24e653]: SayGames Ltd
+              - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f24e656]:
+                - generic [ref=f24e657]: "4.4"
+                - generic [ref=f24e658]: star
+  - contentinfo [ref=f24e661]:
+    - generic [ref=f24e663]:
+      - generic [ref=f24e665]:
+        - text: Google Play
+        - link [ref=f24e667] [cursor=pointer]:
+          - /url: /store/pass/getstarted
+          - paragraph [ref=f24e668]: Play Pass
+        - link [ref=f24e670] [cursor=pointer]:
+          - /url: /store/points/enroll
+          - paragraph [ref=f24e671]: Play Points
+        - link [ref=f24e673] [cursor=pointer]:
+          - /url: https://play.google.com/about/giftcards
+          - paragraph [ref=f24e674]: 禮品卡
+        - link [ref=f24e676] [cursor=pointer]:
+          - /url: /redeem
+          - paragraph [ref=f24e677]: 兌換
+        - link [ref=f24e679] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/134336
+          - paragraph [ref=f24e680]: 退款政策
+      - generic [ref=f24e682]:
+        - text: 兒童與合家歡
+        - link [ref=f24e684] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay?p=pff_parentguide
+          - paragraph [ref=f24e685]: 家長指南
+        - link [ref=f24e687] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/7007852
+          - paragraph [ref=f24e688]: 家庭共享功能
+    - generic [ref=f24e689]:
+      - link [ref=f24e691] [cursor=pointer]:
+        - /url: https://play.google.com/intl/zh-HK_hk/about/play-terms.html
+        - paragraph [ref=f24e692]: 服務條款
+      - link [ref=f24e694] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+        - paragraph [ref=f24e695]: 私隱權
+      - link [ref=f24e697] [cursor=pointer]:
+        - /url: https://support.google.com/googleplay/?p=about_play
+        - paragraph [ref=f24e698]: 關於 Google Play
+      - link [ref=f24e700] [cursor=pointer]:
+        - /url: http://developer.android.com/index.html
+        - paragraph [ref=f24e701]: 開發人員
+      - link [ref=f24e703] [cursor=pointer]:
+        - /url: https://store.google.com/?playredirect=true&utm_source=play&utm_medium=google_oo&utm_campaign=GS106288
+        - paragraph [ref=f24e704]: Google Store
+      - generic [ref=f24e705]: 香港 (中文（香港）)

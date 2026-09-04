@@ -1,0 +1,259 @@
+- generic [ref=f16e1]:
+  - banner [ref=f16e2]:
+    - navigation "页面标题" [ref=f16e3]:
+      - link "Google Play 徽标" [ref=f16e4] [cursor=pointer]:
+        - /url: /store/games
+        - generic [ref=f16e12]: google_logo Play
+      - combobox [ref=f16e14]:
+        - generic [ref=f16e16]:
+          - generic [ref=f16e17]: search
+          - textbox "在 Google Play 中搜索" [ref=f16e19]:
+            - /placeholder: 搜索应用和游戏
+            - text: pet collection monster catch simulation game
+          - generic [ref=f16e20]: clear
+      - generic [ref=f16e22]:
+        - button "帮助中心" [ref=f16e24] [cursor=pointer]:
+          - generic [ref=f16e25]: help_outline
+        - button "打开账号菜单" [ref=f16e30] [cursor=pointer]
+  - generic [ref=f16e34]:
+    - list [ref=f16e38]:
+      - listitem [ref=f16e39]:
+        - link "应用和游戏" [ref=f16e40] [cursor=pointer]:
+          - /url: /store/search?q=pet+collection+monster+catch+simulation+game&c=apps
+      - listitem [ref=f16e44]:
+        - link "图书" [ref=f16e45] [cursor=pointer]:
+          - /url: /store/search?q=pet+collection+monster+catch+simulation+game&c=books
+    - generic [ref=f16e56]:
+      - listitem [ref=f16e57]:
+        - link "播放《怪兽世界：捕捉与照顾》 怪兽世界：捕捉与照顾 Take Top Entertainment 获评 4.2 颗星（最高 5 颗星）" [ref=f16e62] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.taketop.monster.world.pocket
+          - button "播放《怪兽世界：捕捉与照顾》" [ref=f16e67]
+          - generic [ref=f16e74]:
+            - generic [ref=f16e75]: 怪兽世界：捕捉与照顾
+            - generic [ref=f16e77]: Take Top Entertainment
+            - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f16e80]:
+              - generic [ref=f16e81]: "4.2"
+              - generic [ref=f16e82]: star
+      - listitem [ref=f16e84]:
+        - 'link "Monster Trainer: Pet Simulator NEGAXY" [ref=f16e89] [cursor=pointer]':
+          - /url: /store/apps/details?id=ngx.monster.trainer.pet.simulator.fight
+          - generic [ref=f16e95]:
+            - generic [ref=f16e96]: "Monster Trainer: Pet Simulator"
+            - generic [ref=f16e98]: NEGAXY
+      - listitem [ref=f16e100]:
+        - link "Monster Catch Run Alpha Hit" [ref=f16e105] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.xia.monstercatchrun
+          - generic [ref=f16e111]:
+            - generic [ref=f16e112]: Monster Catch Run
+            - generic [ref=f16e114]: Alpha Hit
+      - listitem [ref=f16e116]:
+        - link "Pet Collector Simulator OOX LIMITED" [ref=f16e121] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.ooxlimited.petcollector
+          - generic [ref=f16e127]:
+            - generic [ref=f16e128]: Pet Collector Simulator
+            - generic [ref=f16e130]: OOX LIMITED
+      - listitem [ref=f16e132]:
+        - link "Pet Frenzy：Master Legend YUYU Games" [ref=f16e137] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.redfsdh.nfgjwek
+          - generic [ref=f16e143]:
+            - generic [ref=f16e144]: Pet Frenzy：Master Legend
+            - generic [ref=f16e146]: YUYU Games
+      - listitem [ref=f16e148]:
+        - link "播放《Monster Box》 Monster Box Yso Corp 获评 3.9 颗星（最高 5 颗星）" [ref=f16e153] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.YsoCorp.MonsterBall
+          - button "播放《Monster Box》" [ref=f16e158]
+          - generic [ref=f16e165]:
+            - generic [ref=f16e166]: Monster Box
+            - generic [ref=f16e168]: Yso Corp
+            - generic "获评 3.9 颗星（最高 5 颗星）" [ref=f16e171]:
+              - generic [ref=f16e172]: "3.9"
+              - generic [ref=f16e173]: star
+      - listitem [ref=f16e175]:
+        - link "播放《嗨皮精灵3》 嗨皮精灵3 Haypi Inc 获评 4.3 颗星（最高 5 颗星）" [ref=f16e180] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.haypi.monster
+          - button "播放《嗨皮精灵3》" [ref=f16e185]
+          - generic [ref=f16e192]:
+            - generic [ref=f16e193]: 嗨皮精灵3
+            - generic [ref=f16e195]: Haypi Inc
+            - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f16e198]:
+              - generic [ref=f16e199]: "4.3"
+              - generic [ref=f16e200]: star
+      - listitem [ref=f16e202]:
+        - link "Spoon Pet Collector Hit-Point Co.,Ltd. 获评 4.3 颗星（最高 5 颗星）" [ref=f16e207] [cursor=pointer]:
+          - /url: /store/apps/details?id=jp.co.hit_point.spoonpetatsume
+          - generic [ref=f16e213]:
+            - generic [ref=f16e214]: Spoon Pet Collector
+            - generic [ref=f16e216]: Hit-Point Co.,Ltd.
+            - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f16e219]:
+              - generic [ref=f16e220]: "4.3"
+              - generic [ref=f16e221]: star
+      - listitem [ref=f16e223]:
+        - link "Catch and Tame Animal Explorer Kick Time Studios" [ref=f16e228] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.mg.katch.and.tame.animals
+          - generic [ref=f16e234]:
+            - generic [ref=f16e235]: Catch and Tame Animal Explorer
+            - generic [ref=f16e237]: Kick Time Studios
+      - listitem [ref=f16e239]:
+        - 'link "播放《Monster Trainer: Runner Squad》 Monster Trainer: Runner Squad XTEL., JSC 获评 4.2 颗星（最高 5 颗星）" [ref=f16e244] [cursor=pointer]':
+          - /url: /store/apps/details?id=negaxy.monstertrainer.runner.squad
+          - 'button "播放《Monster Trainer: Runner Squad》" [ref=f16e249]'
+          - generic [ref=f16e256]:
+            - generic [ref=f16e257]: "Monster Trainer: Runner Squad"
+            - generic [ref=f16e259]: XTEL., JSC
+            - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f16e262]:
+              - generic [ref=f16e263]: "4.2"
+              - generic [ref=f16e264]: star
+      - listitem [ref=f16e266]:
+        - link "OviPets IO HAZE PTE LTD" [ref=f16e271] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.iohaze.ovipets
+          - generic [ref=f16e277]:
+            - generic [ref=f16e278]: OviPets
+            - generic [ref=f16e280]: IO HAZE PTE LTD
+      - listitem [ref=f16e282]:
+        - link "Your Monster Pet Play2Gain Studios" [ref=f16e287] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.jojo.nano
+          - generic [ref=f16e293]:
+            - generic [ref=f16e294]: Your Monster Pet
+            - generic [ref=f16e296]: Play2Gain Studios
+      - listitem [ref=f16e298]:
+        - link "Moshi Monsters Egg Hunt Mind Candy Ltd 获评 3.7 颗星（最高 5 颗星）" [ref=f16e303] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.mindcandy.moshimonstersegghunt
+          - generic [ref=f16e309]:
+            - generic [ref=f16e310]: Moshi Monsters Egg Hunt
+            - generic [ref=f16e312]: Mind Candy Ltd
+            - generic "获评 3.7 颗星（最高 5 颗星）" [ref=f16e315]:
+              - generic [ref=f16e316]: "3.7"
+              - generic [ref=f16e317]: star
+      - listitem [ref=f16e319]:
+        - link "播放《Bulu Monster》 Bulu Monster Sigma Game Limited 获评 3.9 颗星（最高 5 颗星）" [ref=f16e324] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.sigmagame.imonster
+          - button "播放《Bulu Monster》" [ref=f16e329]
+          - generic [ref=f16e336]:
+            - generic [ref=f16e337]: Bulu Monster
+            - generic [ref=f16e339]: Sigma Game Limited
+            - generic "获评 3.9 颗星（最高 5 颗星）" [ref=f16e342]:
+              - generic [ref=f16e343]: "3.9"
+              - generic [ref=f16e344]: star
+      - listitem [ref=f16e346]:
+        - link "怪物X聯盟2 Epic game 获评 4.2 颗星（最高 5 颗星）" [ref=f16e351] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.petalliance2.sea
+          - generic [ref=f16e357]:
+            - generic [ref=f16e358]: 怪物X聯盟2
+            - generic [ref=f16e360]: Epic game
+            - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f16e363]:
+              - generic [ref=f16e364]: "4.2"
+              - generic [ref=f16e365]: star
+      - listitem [ref=f16e367]:
+        - 'link "Pack Hero: Pet Collector JoyPop Games" [ref=f16e372] [cursor=pointer]':
+          - /url: /store/apps/details?id=com.ycgame.Mini_Pocket_Master
+          - generic [ref=f16e378]:
+            - generic [ref=f16e379]: "Pack Hero: Pet Collector"
+            - generic [ref=f16e381]: JoyPop Games
+      - listitem [ref=f16e383]:
+        - link "播放《My Dragon - 虚拟宠物游戏》 My Dragon - 虚拟宠物游戏 Appsyoulove 获评 4.5 颗星（最高 5 颗星）" [ref=f16e388] [cursor=pointer]:
+          - /url: /store/apps/details?id=dragon.virtual.pet.game
+          - button "播放《My Dragon - 虚拟宠物游戏》" [ref=f16e393]
+          - generic [ref=f16e400]:
+            - generic [ref=f16e401]: My Dragon - 虚拟宠物游戏
+            - generic [ref=f16e403]: Appsyoulove
+            - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f16e406]:
+              - generic [ref=f16e407]: "4.5"
+              - generic [ref=f16e408]: star
+      - listitem [ref=f16e410]:
+        - link "Pet X Simulator Game GamesCraft Studio" [ref=f16e415] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.mini.pets.cute.animal.simulator.games
+          - generic [ref=f16e421]:
+            - generic [ref=f16e422]: Pet X Simulator Game
+            - generic [ref=f16e424]: GamesCraft Studio
+      - listitem [ref=f16e426]:
+        - link "播放《Pico Pets Puzzle Monsters Game》 Pico Pets Puzzle Monsters Game Tapps Games 获评 3.8 颗星（最高 5 颗星）" [ref=f16e431] [cursor=pointer]:
+          - /url: /store/apps/details?id=br.com.tapps.picopetspuzzle
+          - button "播放《Pico Pets Puzzle Monsters Game》" [ref=f16e436]
+          - generic [ref=f16e443]:
+            - generic [ref=f16e444]: Pico Pets Puzzle Monsters Game
+            - generic [ref=f16e446]: Tapps Games
+            - generic "获评 3.8 颗星（最高 5 颗星）" [ref=f16e449]:
+              - generic [ref=f16e450]: "3.8"
+              - generic [ref=f16e451]: star
+      - listitem [ref=f16e453]:
+        - link "播放《动物小精灵》 动物小精灵 Homa 获评 4.6 颗星（最高 5 颗星）" [ref=f16e458] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.yorfstudio.zookemon
+          - button "播放《动物小精灵》" [ref=f16e463]
+          - generic [ref=f16e470]:
+            - generic [ref=f16e471]: 动物小精灵
+            - generic [ref=f16e473]: Homa
+            - generic "获评 4.6 颗星（最高 5 颗星）" [ref=f16e476]:
+              - generic [ref=f16e477]: "4.6"
+              - generic [ref=f16e478]: star
+      - listitem [ref=f16e480]:
+        - link "播放《RetroMon - Virtual Pet Monster》 RetroMon - Virtual Pet Monster meizois 获评 4.3 颗星（最高 5 颗星）" [ref=f16e485] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.numbigames.VPM
+          - button "播放《RetroMon - Virtual Pet Monster》" [ref=f16e490]
+          - generic [ref=f16e497]:
+            - generic [ref=f16e498]: RetroMon - Virtual Pet Monster
+            - generic [ref=f16e500]: meizois
+            - generic "获评 4.3 颗星（最高 5 颗星）" [ref=f16e503]:
+              - generic [ref=f16e504]: "4.3"
+              - generic [ref=f16e505]: star
+      - listitem [ref=f16e507]:
+        - link "Monster Trips Chaos SharpenPlay Entertainment 获评 4.2 颗星（最高 5 颗星）" [ref=f16e512] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.sharpen.kdygen
+          - generic [ref=f16e518]:
+            - generic [ref=f16e519]: Monster Trips Chaos
+            - generic [ref=f16e521]: SharpenPlay Entertainment
+            - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f16e524]:
+              - generic [ref=f16e525]: "4.2"
+              - generic [ref=f16e526]: star
+      - listitem [ref=f16e528]:
+        - link "Pet Idle Prota Games 获评 4.1 颗星（最高 5 颗星）" [ref=f16e533] [cursor=pointer]:
+          - /url: /store/apps/details?id=com.alphaquest.pet
+          - generic [ref=f16e539]:
+            - generic [ref=f16e540]: Pet Idle
+            - generic [ref=f16e542]: Prota Games
+            - generic "获评 4.1 颗星（最高 5 颗星）" [ref=f16e545]:
+              - generic [ref=f16e546]: "4.1"
+              - generic [ref=f16e547]: star
+  - contentinfo [ref=f16e550]:
+    - generic [ref=f16e552]:
+      - generic [ref=f16e554]:
+        - text: Google Play
+        - link [ref=f16e556] [cursor=pointer]:
+          - /url: /store/pass/getstarted
+          - paragraph [ref=f16e557]: Play Pass
+        - link [ref=f16e559] [cursor=pointer]:
+          - /url: /store/points/enroll
+          - paragraph [ref=f16e560]: Play Points
+        - link [ref=f16e562] [cursor=pointer]:
+          - /url: https://play.google.com/about/giftcards
+          - paragraph [ref=f16e563]: 礼品卡
+        - link [ref=f16e565] [cursor=pointer]:
+          - /url: /redeem
+          - paragraph [ref=f16e566]: 兑换
+        - link [ref=f16e568] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/134336
+          - paragraph [ref=f16e569]: 退款政策
+      - generic [ref=f16e571]:
+        - text: 儿童与家庭
+        - link [ref=f16e573] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay?p=pff_parentguide
+          - paragraph [ref=f16e574]: 家长指南
+        - link [ref=f16e576] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/7007852
+          - paragraph [ref=f16e577]: 家庭共享
+    - generic [ref=f16e578]:
+      - link [ref=f16e580] [cursor=pointer]:
+        - /url: https://play.google.com/intl/zh-CN_hk/about/play-terms.html
+        - paragraph [ref=f16e581]: 服务条款
+      - link [ref=f16e583] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+        - paragraph [ref=f16e584]: 隐私权
+      - link [ref=f16e586] [cursor=pointer]:
+        - /url: https://support.google.com/googleplay/?p=about_play
+        - paragraph [ref=f16e587]: 关于 Google Play
+      - link [ref=f16e589] [cursor=pointer]:
+        - /url: http://developer.android.com/index.html
+        - paragraph [ref=f16e590]: 开发者
+      - link [ref=f16e592] [cursor=pointer]:
+        - /url: https://store.google.com/?playredirect=true&utm_source=play&utm_medium=google_oo&utm_campaign=GS106288
+        - paragraph [ref=f16e593]: Google Store
+      - generic [ref=f16e594]: 香港 (简体中文)

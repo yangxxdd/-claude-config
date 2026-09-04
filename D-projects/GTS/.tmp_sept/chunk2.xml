@@ -1,0 +1,64 @@
+<h1>方案A · 纯留存测试（3天）</h1>
+
+<h2>A1 计划概述</h2>
+<table>
+<thead><tr><th background-color="light-gray">项目</th><th background-color="light-gray">内容</th></tr></thead>
+<tbody>
+<tr><td>核心目的</td><td>验证素材方向 D1/D3 次留</td></tr>
+<tr><td>导量周期</td><td>2026/9/17 - 9/19（3天）</td></tr>
+<tr><td>核心监控</td><td>D1/D3 次留、CPI、CTR/CVR</td></tr>
+<tr><td>导入量级</td><td>3000 安装</td></tr>
+<tr><td>跑量地区</td><td>美国（纯美国，不跑菲律宾）</td></tr>
+<tr><td>渠道与系统</td><td>Meta / Android</td></tr>
+<tr><td>归因</td><td>Singular</td></tr>
+<tr><td>计划预算</td><td>$7,500</td></tr>
+</tbody>
+</table>
+
+<h2>A2 数据目标</h2>
+<table>
+<thead><tr><th background-color="light-gray">指标</th><th background-color="light-gray">优秀</th><th background-color="light-gray">合格</th><th background-color="light-gray">待改进</th><th background-color="light-gray">7月基线</th></tr></thead>
+<tbody>
+<tr><td>D1 次留</td><td>≥30%</td><td>25-30%</td><td>&lt;25%</td><td>21-23%</td></tr>
+<tr><td>D3 三留</td><td>≥13%</td><td>10-13%</td><td>&lt;10%</td><td>~8-10%</td></tr>
+<tr><td>CPI</td><td>≤$2.5</td><td>$2.5-3.0</td><td>&gt;$3.0</td><td>$3.07-3.23</td></tr>
+</tbody>
+</table>
+
+<h2>A3 投放配比</h2>
+<table>
+<thead><tr><th background-color="light-gray">Campaign</th><th background-color="light-gray">出价</th><th background-color="light-gray">结构</th><th background-color="light-gray">量级</th><th background-color="light-gray">单价</th><th background-color="light-gray">成本</th></tr></thead>
+<tbody>
+<tr><td>US Install 主导量</td><td>CBO</td><td>10 组（5视频+5图片）</td><td>2700</td><td>$2.5</td><td>$6,750</td></tr>
+<tr><td>US 清洁复测</td><td>ABO</td><td>3 支</td><td>300</td><td>$2.5</td><td>$750</td></tr>
+<tr><td><b>合计</b></td><td></td><td></td><td><b>3000</b></td><td></td><td><b>$7,500</b></td></tr>
+</tbody>
+</table>
+
+<h3>分日量级</h3>
+<table>
+<thead><tr><th background-color="light-gray">日期</th><th background-color="light-gray">DNU</th><th background-color="light-gray">预算</th></tr></thead>
+<tbody>
+<tr><td>9/17（Day1）</td><td>800</td><td>$2,000</td></tr>
+<tr><td>9/18（Day2）</td><td>1100</td><td>$2,750</td></tr>
+<tr><td>9/19（Day3）</td><td>1100</td><td>$2,750</td></tr>
+</tbody>
+</table>
+
+<h2>A4 广告结构</h2>
+<callout emoji="📐">
+<p><b>Campaign 1 · US Install 主导量（CBO，$6,750）</b></p>
+<p>10 个 Ad Set = 5 视频组 + 5 图片组，方向×格式隔离，保留 AN，模拟上线。</p>
+<p><b>Campaign 2 · US 清洁复测（ABO，$750）</b></p>
+<p>3 个 Ad Set：模拟经营原版 / 爽感战斗 / 特殊设备视角，固定变量，剔除 AN。</p>
+</callout>
+
+<h2>A5 关停规则</h2>
+<table>
+<thead><tr><th background-color="light-gray">条件</th><th background-color="light-gray">动作</th></tr></thead>
+<tbody>
+<tr><td>Install 花费 &gt; $50 且激活 = 0</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>Install CPI &gt; $4.0 且达一定量级</td><td>关闭该方向 Ad Set</td></tr>
+<tr><td>单日 DNU &lt; 20</td><td>不关闭，标记观察</td></tr>
+</tbody>
+</table>

@@ -1,0 +1,288 @@
+- generic [ref=f10e1]:
+  - banner [ref=f10e2]:
+    - navigation "页面标题" [ref=f10e3]:
+      - link "Google Play 徽标" [ref=f10e4] [cursor=pointer]:
+        - /url: /store/games
+        - generic [ref=f10e12]: google_logo Play
+      - navigation "主导航栏" [ref=f10e14]:
+        - tablist [ref=f10e16]:
+          - generic [ref=f10e19]:
+            - tab "游戏" [ref=f10e20] [cursor=pointer]
+            - tab "应用" [selected] [ref=f10e22] [cursor=pointer]
+            - tab "图书" [ref=f10e24] [cursor=pointer]
+            - tab "儿童" [ref=f10e26] [cursor=pointer]
+      - generic [ref=f10e28]:
+        - button "搜索" [ref=f10e30] [cursor=pointer]:
+          - generic [ref=f10e31]: search
+        - button "帮助中心" [ref=f10e33] [cursor=pointer]:
+          - generic [ref=f10e34]: help_outline
+        - button "打开账号菜单" [ref=f10e39] [cursor=pointer]
+  - generic [ref=f10e45]:
+    - generic [ref=f10e48]:
+      - generic [ref=f10e53]:
+        - generic [ref=f10e56]:
+          - heading "塔塔冒险队" [level=1] [ref=f10e58]
+          - generic [ref=f10e59]:
+            - link "FARLIGHT" [ref=f10e61] [cursor=pointer]:
+              - /url: /store/apps/developer?id=FARLIGHT
+            - generic [ref=f10e62]: 应用内购商品
+        - generic [ref=f10e64]:
+          - region "信息徽章"
+      - generic [ref=f10e66]:
+        - button "分享" [ref=f10e70] [cursor=pointer]
+        - button "添加到心愿单" [ref=f10e77] [cursor=pointer]
+    - generic [ref=f10e82]:
+      - generic [ref=f10e83]:
+        - generic [ref=f10e84]:
+          - list [ref=f10e88]:
+            - listitem [ref=f10e89]:
+              - button "屏幕截图图片" [ref=f10e91] [cursor=pointer]
+            - listitem [ref=f10e92]:
+              - button "屏幕截图图片" [ref=f10e94] [cursor=pointer]
+            - listitem [ref=f10e95]:
+              - button "屏幕截图图片" [ref=f10e97] [cursor=pointer]
+            - listitem [ref=f10e98]:
+              - button "屏幕截图图片" [ref=f10e100] [cursor=pointer]
+            - listitem [ref=f10e101]:
+              - button "屏幕截图图片" [ref=f10e103] [cursor=pointer]
+            - listitem [ref=f10e104]:
+              - button "屏幕截图图片" [ref=f10e106] [cursor=pointer]
+            - listitem [ref=f10e107]:
+              - button "屏幕截图图片" [ref=f10e109] [cursor=pointer]
+            - listitem [ref=f10e110]:
+              - button "屏幕截图图片" [ref=f10e112] [cursor=pointer]
+            - listitem [ref=f10e113]:
+              - button "屏幕截图图片" [ref=f10e115] [cursor=pointer]
+            - listitem [ref=f10e116]:
+              - button "屏幕截图图片" [ref=f10e118] [cursor=pointer]
+            - listitem [ref=f10e119]:
+              - button "屏幕截图图片" [ref=f10e121] [cursor=pointer]
+            - listitem [ref=f10e122]:
+              - button "屏幕截图图片" [ref=f10e124] [cursor=pointer]
+            - listitem [ref=f10e125]:
+              - button "屏幕截图图片" [ref=f10e127] [cursor=pointer]
+            - listitem [ref=f10e128]:
+              - button "屏幕截图图片" [ref=f10e130] [cursor=pointer]
+            - listitem [ref=f10e131]:
+              - button "屏幕截图图片" [ref=f10e133] [cursor=pointer]
+          - generic [ref=f10e136]:
+            - generic [ref=f10e138]:
+              - heading "游戏简介" [level=2] [ref=f10e140]
+              - button "查看“游戏简介”的更多相关信息" [ref=f10e142] [cursor=pointer]:
+                - generic [ref=f10e143]: arrow_forward
+            - generic [ref=f10e144]:
+              - generic [ref=f10e145]: 【收集！100+塔塔轻松拿下！】拒绝千篇一律的设计——流口水的火果蛙、委屈脸的鸭梨……个个萌度爆表。新玩家首月就有机会收集所有塔塔！【进化！萌度爆表但实力超标！】喂食，进化，实力增强！一路到霸气四阶状态！还能随机触发闪光形态，看看你能解锁多少？【对战！部署阵营，和臭臭一较高下！】属性相克、阵型部署、流派组合任你玩转，碾压蜂拥而至的臭臭大军！【建造！为塔塔打造专属小家】一砖一瓦，帮塔塔们打造一座暖意融融的小家！对了，尝试下和它们互动，比如把猫冰放进泳池里看看？
+              - generic [ref=f10e148]:
+                - generic [ref=f10e149]: 更新日期
+                - generic [ref=f10e150]: 2026年7月14日
+              - generic [ref=f10e151]:
+                - generic [ref=f10e153]:
+                  - generic [ref=f10e155]: 策略
+                  - link "策略" [ref=f10e156] [cursor=pointer]:
+                    - /url: /store/apps/category/GAME_STRATEGY
+                - generic [ref=f10e158]:
+                  - generic [ref=f10e160]: 塔防游戏
+                  - link "塔防游戏" [ref=f10e161] [cursor=pointer]:
+                    - /url: /store/search?q=%E5%A1%94%E9%98%B2%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f10e163]:
+                  - generic [ref=f10e165]: 单人
+                  - link "单人" [ref=f10e166] [cursor=pointer]:
+                    - /url: /store/search?q=%E5%8D%95%E4%BA%BA%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f10e168]:
+                  - generic [ref=f10e170]: 风格化
+                  - link "风格化" [ref=f10e171] [cursor=pointer]:
+                    - /url: /store/search?q=%E9%A3%8E%E6%A0%BC%E5%8C%96%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=f10e173]:
+                  - generic [ref=f10e175]: 沉浸式
+                  - link "沉浸式" [ref=f10e176] [cursor=pointer]:
+                    - /url: /store/search?q=%E6%B2%89%E6%B5%B8%E5%BC%8F%E6%B8%B8%E6%88%8F&c=apps
+          - generic [ref=f10e178]:
+            - generic [ref=f10e180]:
+              - heading "数据安全" [level=2] [ref=f10e182]
+              - generic [ref=f10e183] [cursor=pointer]:
+                - generic [ref=f10e184]: arrow_forward
+                - link "查看“数据安全”的更多相关信息" [ref=f10e185]:
+                  - /url: /store/apps/datasafety?id=com.farlightgames.pgame.gp
+            - generic [ref=f10e186]:
+              - text: 安全始于了解开发者如何收集和分享数据。数据隐私保护和安全措施可能会因您的使用情况、所在地区和用户年龄而异。此类信息由开发者提供，可能会随时间更新。
+              - generic [ref=f10e187]:
+                - generic [ref=f10e190]:
+                  - text: 此应用可能会与第三方分享这些类型的数据
+                  - generic [ref=f10e191]: 网页浏览
+                - generic [ref=f10e194]:
+                  - text: 此应用可能会收集这些类型的数据
+                  - generic [ref=f10e195]: 个人信息、财务信息和另外 6 种数据
+                - generic [ref=f10e196]: 数据在传输过程中会加密
+                - generic [ref=f10e199]: 您可以要求开发者删除数据
+                - generic [ref=f10e204]:
+                  - generic [ref=f10e206]: 查看详情
+                  - link "查看关于数据安全的更多详情" [ref=f10e207] [cursor=pointer]:
+                    - /url: /store/apps/datasafety?id=com.farlightgames.pgame.gp
+          - generic [ref=f10e209]:
+            - heading "新变化" [level=2] [ref=f10e213]
+            - generic [ref=f10e214]: 1. 新增火元素塔塔泡泡蝌 + 四阶进化：水滴蜥——御水宗师，嘟嘟菇——极乐魔菇2. 围猎臭臭小重做：大幅提高击杀概率与奖励，调整金猎币产出，删除宝箱3. 新增主角形象和头像，聊天频道搜索升级，试炼任务新增筛选及活动日程4. 修复战斗问题：板砖臭臭越塔、绿甲虫原地冲锋、火拳虾/烈焰金刚虾灼烧伤害异常
+        - link "举报不当内容" [ref=f10e219] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/?p=report_content
+          - generic [ref=f10e220]: flag
+          - text: 举报不当内容
+      - generic [ref=f10e221]:
+        - generic [ref=f10e222]:
+          - img "内容分级" [ref=f10e223]
+          - generic [ref=f10e224]:
+            - generic [ref=f10e225]: 3 岁以上
+            - generic [ref=f10e226]: 用户互动、游戏内购买(包括随机道具)
+            - link "详细了解内容分级" [ref=f10e227] [cursor=pointer]:
+              - /url: https://support.google.com/googleplay?p=appgame_ratings
+              - text: 了解详情
+        - generic [ref=f10e231]:
+          - heading "应用支持" [level=2] [ref=f10e233]
+          - button "展开" [ref=f10e235] [cursor=pointer]:
+            - generic [ref=f10e236]: expand_more
+        - generic [ref=f10e238]:
+          - generic [ref=f10e240]:
+            - heading "FARLIGHT的其他产品" [level=2] [ref=f10e242]
+            - generic [ref=f10e244] [cursor=pointer]:
+              - generic [ref=f10e245]: arrow_forward
+              - link "查看“FARLIGHT的其他产品”的更多相关信息" [ref=f10e246]:
+                - /url: /store/apps/collection/cluster?gsr=SltqGGttSm9abEVRVEc4ZkJ3RlBqblNqOHc9PbICOwoeChpjb20uZmFybGlnaHRnYW1lcy5wZ2FtZS5ncBAHEhcIAhITNjMzODI4NzM5NDMxMjg0MDg1NhgAsBIA:S:ANO1ljJEtWo
+          - generic [ref=f10e248]:
+            - link "Crystal Legends FARLIGHT 获评 3.6 颗星（最高 5 颗星）" [ref=f10e250] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.farlightgames.dgame.gp.apac
+              - generic [ref=f10e253]:
+                - generic [ref=f10e254]: Crystal Legends
+                - generic [ref=f10e256]: FARLIGHT
+                - generic "获评 3.6 颗星（最高 5 颗星）" [ref=f10e259]:
+                  - generic [ref=f10e260]: "3.6"
+                  - generic [ref=f10e261]: star
+            - link "剑与远征：启程 FARLIGHT 获评 4.4 颗星（最高 5 颗星）" [ref=f10e264] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.farlightgames.igame.gp
+              - generic [ref=f10e267]:
+                - generic [ref=f10e268]: 剑与远征：启程
+                - generic [ref=f10e270]: FARLIGHT
+                - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f10e273]:
+                  - generic [ref=f10e274]: "4.4"
+                  - generic [ref=f10e275]: star
+            - link "萬龍覺醒 FARLIGHT 获评 4.4 颗星（最高 5 颗星）" [ref=f10e278] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.farlightgames.samo.gp.tw
+              - generic [ref=f10e281]:
+                - generic [ref=f10e282]: 萬龍覺醒
+                - generic [ref=f10e284]: FARLIGHT
+                - generic "获评 4.4 颗星（最高 5 颗星）" [ref=f10e287]:
+                  - generic [ref=f10e288]: "4.4"
+                  - generic [ref=f10e289]: star
+            - link "众神派对-Dislyte FARLIGHT 获评 4.1 颗星（最高 5 颗星）" [ref=f10e292] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.lilithgames.xgame.gp
+              - generic [ref=f10e295]:
+                - generic [ref=f10e296]: 众神派对-Dislyte
+                - generic [ref=f10e298]: FARLIGHT
+                - generic "获评 4.1 颗星（最高 5 颗星）" [ref=f10e301]:
+                  - generic [ref=f10e302]: "4.1"
+                  - generic [ref=f10e303]: star
+            - link "Farlight 84 FARLIGHT 获评 3.3 颗星（最高 5 颗星）" [ref=f10e306] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.miraclegames.farlight84
+              - generic [ref=f10e309]:
+                - generic [ref=f10e310]: Farlight 84
+                - generic [ref=f10e312]: FARLIGHT
+                - generic "获评 3.3 颗星（最高 5 颗星）" [ref=f10e315]:
+                  - generic [ref=f10e316]: "3.3"
+                  - generic [ref=f10e317]: star
+        - generic [ref=f10e320]:
+          - generic [ref=f10e322]:
+            - heading "类似游戏" [level=2] [ref=f10e324]
+            - generic [ref=f10e326] [cursor=pointer]:
+              - generic [ref=f10e327]: arrow_forward
+              - link "查看“类似游戏”的更多相关信息" [ref=f10e328]:
+                - /url: /store/apps/collection/cluster?gsr=SmlqGFZmWGhTVFRyWnNtUTJxQXA3dksxcFE9PcICSQoeChpjb20uZmFybGlnaHRnYW1lcy5wZ2FtZS5ncBAHGAgwATgAShsIAhAAGg_loZTloZTlhpLpmanpmJ8gACgAMABQAFgBYACwEgA%3D:S:ANO1ljJhdZg
+          - generic [ref=f10e330]:
+            - link "灵龙谷 - 孵化与养成 Runaway Play 获评 4.6 颗星（最高 5 颗星）" [ref=f10e332] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.runawayplay.dragons
+              - generic [ref=f10e335]:
+                - generic [ref=f10e336]: 灵龙谷 - 孵化与养成
+                - generic [ref=f10e338]: Runaway Play
+                - generic "获评 4.6 颗星（最高 5 颗星）" [ref=f10e341]:
+                  - generic [ref=f10e342]: "4.6"
+                  - generic [ref=f10e343]: star
+            - link "Pokémon GO Scopely Explore, Inc. 获评 3.6 颗星（最高 5 颗星）" [ref=f10e346] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.nianticlabs.pokemongo
+              - generic [ref=f10e349]:
+                - generic [ref=f10e350]: Pokémon GO
+                - generic [ref=f10e352]: Scopely Explore, Inc.
+                - generic "获评 3.6 颗星（最高 5 颗星）" [ref=f10e355]:
+                  - generic [ref=f10e356]: "3.6"
+                  - generic [ref=f10e357]: star
+            - link "Voidpet 地牢 Voidpet 获评 4.5 颗星（最高 5 颗星）" [ref=f10e360] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.voidpet.dungeon
+              - generic [ref=f10e363]:
+                - generic [ref=f10e364]: Voidpet 地牢
+                - generic [ref=f10e366]: Voidpet
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=f10e369]:
+                  - generic [ref=f10e370]: "4.5"
+                  - generic [ref=f10e371]: star
+            - link "卡皮巴拉 Go! Habby 获评 4.7 颗星（最高 5 颗星）" [ref=f10e374] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.habby.capybara
+              - generic [ref=f10e377]:
+                - generic [ref=f10e378]: 卡皮巴拉 Go!
+                - generic [ref=f10e380]: Habby
+                - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f10e383]:
+                  - generic [ref=f10e384]: "4.7"
+                  - generic [ref=f10e385]: star
+            - link "放置塔防召唤师：神话英雄 RPG PIXIO 获评 4.7 颗星（最高 5 颗星）" [ref=f10e388] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.pixio.google.mtd
+              - generic [ref=f10e391]:
+                - generic [ref=f10e392]: 放置塔防召唤师：神话英雄 RPG
+                - generic [ref=f10e394]: PIXIO
+                - generic "获评 4.7 颗星（最高 5 颗星）" [ref=f10e397]:
+                  - generic [ref=f10e398]: "4.7"
+                  - generic [ref=f10e399]: star
+            - link "Pokémon TCG Pocket The Pokémon Company 获评 4.2 颗星（最高 5 颗星）" [ref=f10e402] [cursor=pointer]:
+              - /url: /store/apps/details?id=jp.pokemon.pokemontcgp
+              - generic [ref=f10e405]:
+                - generic [ref=f10e406]: Pokémon TCG Pocket
+                - generic [ref=f10e408]: The Pokémon Company
+                - generic "获评 4.2 颗星（最高 5 颗星）" [ref=f10e411]:
+                  - generic [ref=f10e412]: "4.2"
+                  - generic [ref=f10e413]: star
+  - contentinfo [ref=f10e416]:
+    - generic [ref=f10e418]:
+      - generic [ref=f10e420]:
+        - text: Google Play
+        - link [ref=f10e422] [cursor=pointer]:
+          - /url: /store/pass/getstarted
+          - paragraph [ref=f10e423]: Play Pass
+        - link [ref=f10e425] [cursor=pointer]:
+          - /url: /store/points/enroll
+          - paragraph [ref=f10e426]: Play Points
+        - link [ref=f10e428] [cursor=pointer]:
+          - /url: https://play.google.com/about/giftcards
+          - paragraph [ref=f10e429]: 礼品卡
+        - link [ref=f10e431] [cursor=pointer]:
+          - /url: /redeem
+          - paragraph [ref=f10e432]: 兑换
+        - link [ref=f10e434] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/134336
+          - paragraph [ref=f10e435]: 退款政策
+      - generic [ref=f10e437]:
+        - text: 儿童与家庭
+        - link [ref=f10e439] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay?p=pff_parentguide
+          - paragraph [ref=f10e440]: 家长指南
+        - link [ref=f10e442] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/7007852
+          - paragraph [ref=f10e443]: 家庭共享
+    - generic [ref=f10e444]:
+      - link [ref=f10e446] [cursor=pointer]:
+        - /url: https://play.google.com/intl/zh-CN_hk/about/play-terms.html
+        - paragraph [ref=f10e447]: 服务条款
+      - link [ref=f10e449] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+        - paragraph [ref=f10e450]: 隐私权
+      - link [ref=f10e452] [cursor=pointer]:
+        - /url: https://support.google.com/googleplay/?p=about_play
+        - paragraph [ref=f10e453]: 关于 Google Play
+      - link [ref=f10e455] [cursor=pointer]:
+        - /url: http://developer.android.com/index.html
+        - paragraph [ref=f10e456]: 开发者
+      - link [ref=f10e458] [cursor=pointer]:
+        - /url: https://store.google.com/?playredirect=true&utm_source=play&utm_medium=google_oo&utm_campaign=GS106288
+        - paragraph [ref=f10e459]: Google Store
+      - generic [ref=f10e460]: 香港 (简体中文)

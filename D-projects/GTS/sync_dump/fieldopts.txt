@@ -1,0 +1,12 @@
+=== 字段: 标记 | type: select
+   (无 options, property keys: [] )
+=== 字段: 国家 | type: select
+   (无 options, property keys: [] )
+=== 字段: 素材名称 | type: text
+   (无 options, property keys: [] )
+=== 字段: 素材方向 | type: select
+   (无 options, property keys: [] )
+=== 字段: 出价方式 | type: select
+   (无 options, property keys: [] )
+=== 字段: 素材类型 | type: select
+   (无 options, property keys: [] )

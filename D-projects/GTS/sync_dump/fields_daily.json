@@ -1,0 +1,351 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "expression": "ROUND([s_r7_cnt]/[s_安装]*100,2)",
+        "id": "fldF93edxK",
+        "name": "s_R7%",
+        "type": "formula"
+      },
+      {
+        "expression": "ROUND([m_花费]/[s_r1_cnt],2)",
+        "id": "fldQ92HAWM",
+        "name": "s_次留成本",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "fldf64KhW4",
+        "name": "m_CVR%",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([m_花费]/[b_r7_cnt],2)",
+        "id": "fldu8CWM9Y",
+        "name": "b_7留成本",
+        "type": "formula"
+      },
+      {
+        "expression": "ROUND([m_花费]/[s_r3_cnt],2)",
+        "id": "fldbxadbix",
+        "name": "s_3留成本",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "flds5H9J9D",
+        "name": "b_r3_cnt",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([m_花费]/[s_r7_cnt],2)",
+        "id": "fldd55L3MS",
+        "name": "s_7留成本",
+        "type": "formula"
+      },
+      {
+        "id": "fld6d3MEZl",
+        "name": "ID",
+        "style": {
+          "rules": [
+            {
+              "text": "NO.",
+              "type": "text"
+            },
+            {
+              "length": 3,
+              "type": "incremental_number"
+            }
+          ]
+        },
+        "type": "auto_number"
+      },
+      {
+        "default_value": null,
+        "id": "fldq93mbZs",
+        "multiple": false,
+        "name": "国家",
+        "options": [
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "美国"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "菲律宾"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldK8soEBz",
+        "name": "s_r3_cnt",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fld0k1rmLl",
+        "name": "m_展示",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldBMJHwrf",
+        "name": "m_CPI",
+        "style": {
+          "currency_code": "USD",
+          "precision": 2,
+          "type": "currency"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([b_r3_cnt]/[b_安装]*100,2)",
+        "id": "fld85WNkTu",
+        "name": "b_R3%",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "fldjKrK2f2",
+        "name": "b_r7_cnt",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldfuXbUPo",
+        "name": "m_花费",
+        "style": {
+          "currency_code": "USD",
+          "precision": 2,
+          "type": "currency"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldwQMiiMi",
+        "name": "s_r7_cnt",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([m_花费]/[b_r3_cnt],2)",
+        "id": "fldf3Hjyk7",
+        "name": "b_3留成本",
+        "type": "formula"
+      },
+      {
+        "expression": "ROUND([b_r7_cnt]/[b_安装]*100,2)",
+        "id": "fld0EeUght",
+        "name": "b_R7%",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "fldYyep7TT",
+        "name": "s_CPI",
+        "style": {
+          "currency_code": "USD",
+          "precision": 2,
+          "type": "currency"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldxYM6MlC",
+        "name": "m_点击",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldzazgO4P",
+        "name": "m_安装",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "flduqQ1dK1",
+        "name": "m_CPM",
+        "style": {
+          "currency_code": "USD",
+          "precision": 2,
+          "type": "currency"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldvn5MSjT",
+        "name": "m_CPC",
+        "style": {
+          "currency_code": "USD",
+          "precision": 2,
+          "type": "currency"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fldR5K9cYq",
+        "name": "s_安装",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([m_花费]/[b_安装],2)",
+        "id": "fldQbjR5hW",
+        "name": "b_CPI",
+        "type": "formula"
+      },
+      {
+        "expression": "ROUND([s_r1_cnt]/[s_安装]*100,2)",
+        "id": "fldfmx1ZIE",
+        "name": "s_R1%",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "fld8OfdIXx",
+        "name": "日期",
+        "style": {
+          "format": "yyyy/MM/dd"
+        },
+        "type": "datetime"
+      },
+      {
+        "default_value": null,
+        "id": "fldfEtiHAy",
+        "name": "b_安装",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "default_value": null,
+        "id": "fld0UU7Bub",
+        "name": "s_r1_cnt",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([s_r3_cnt]/[s_安装]*100,2)",
+        "id": "fldXi89krO",
+        "name": "s_R3%",
+        "type": "formula"
+      },
+      {
+        "expression": "ROUND([b_r1_cnt]/[b_安装]*100,2)",
+        "id": "fld6AmmGUk",
+        "name": "b_R1%",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "fldFwVrzp9",
+        "name": "m_CTR%",
+        "style": {
+          "percentage": false,
+          "precision": 2,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      },
+      {
+        "expression": "ROUND([m_花费]/[b_r1_cnt],2)",
+        "id": "fldQnFlIIP",
+        "name": "b_次留成本",
+        "type": "formula"
+      },
+      {
+        "default_value": null,
+        "id": "fldu0i31Bk",
+        "name": "b_r1_cnt",
+        "style": {
+          "percentage": false,
+          "precision": 0,
+          "thousands_separator": false,
+          "type": "plain"
+        },
+        "type": "number"
+      }
+    ],
+    "total": 34
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.92",
+      "message": "lark-cli 1.0.92 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

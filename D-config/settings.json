@@ -1,0 +1,73 @@
+﻿{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "{{DEEPSEEK_API_KEY}}",
+    "ANTHROPIC_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL": "deepseek-v4-flash[1M]",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL_NAME": "deepseek-v4-flash[1m]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-flash-vision-exp[1M]",
+    "ANTHROPIC_METADATA_USER_ID": "yangxd",
+    "DISABLE_AUTOUPDATER": "1",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "deepseek-v4-flash-vision-exp"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "Bash(netsh * show *)",
+      "Bash(reg query *)",
+      "Bash(dir *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(which *)",
+      "Bash(python --version)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(git status)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git branch *)",
+      "Bash(lark-cli docs +fetch *)",
+      "Bash(lark-cli wiki *)",
+      "Bash(lark-cli sheets spreadsheets get *)",
+      "Bash(lark-cli drive +download *)",
+      "Bash(lark-cli api GET *)",
+      "Bash(lark-cli docs +create *)",
+      "Bash(lark-cli docs +update *)",
+      "Bash(lark-cli wiki +move *)",
+      "Bash(lark-cli wiki +node-create *)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "fable",
+  "enabledMcpjsonServers": [
+    "qwen-vision"
+  ],
+  "enabledPlugins": {
+    "playwright@claude-plugins-official": true,
+    "claude-mem@thedotmack": true
+  },
+  "pluginConfigs": {
+    "playwright@claude-plugins-official": {
+      "mcpServers": {
+        "playwright": {
+          "args": [
+            "@playwright/mcp@latest",
+            "--browser",
+            "chrome",
+            "--no-isolated",
+            "--user-data-dir",
+            "C:/Users/yangxd/.claude/chrome-profile"
+          ]
+        }
+      }
+    }
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "light-daltonized"
+}
+

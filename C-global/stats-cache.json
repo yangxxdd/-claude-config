@@ -1,0 +1,372 @@
+{
+  "version": 4,
+  "lastComputedDate": "2026-07-21",
+  "dailyActivity": [
+    {
+      "date": "2026-06-15",
+      "messageCount": 131,
+      "sessionCount": 1,
+      "toolCallCount": 26
+    },
+    {
+      "date": "2026-06-22",
+      "messageCount": 593,
+      "sessionCount": 36,
+      "toolCallCount": 64
+    },
+    {
+      "date": "2026-06-23",
+      "messageCount": 1095,
+      "sessionCount": 65,
+      "toolCallCount": 144
+    },
+    {
+      "date": "2026-06-24",
+      "messageCount": 1062,
+      "sessionCount": 69,
+      "toolCallCount": 141
+    },
+    {
+      "date": "2026-06-25",
+      "messageCount": 618,
+      "sessionCount": 41,
+      "toolCallCount": 53
+    },
+    {
+      "date": "2026-06-26",
+      "messageCount": 899,
+      "sessionCount": 54,
+      "toolCallCount": 85
+    },
+    {
+      "date": "2026-06-29",
+      "messageCount": 859,
+      "sessionCount": 52,
+      "toolCallCount": 122
+    },
+    {
+      "date": "2026-06-30",
+      "messageCount": 380,
+      "sessionCount": 25,
+      "toolCallCount": 42
+    },
+    {
+      "date": "2026-07-01",
+      "messageCount": 1098,
+      "sessionCount": 70,
+      "toolCallCount": 136
+    },
+    {
+      "date": "2026-07-02",
+      "messageCount": 902,
+      "sessionCount": 55,
+      "toolCallCount": 81
+    },
+    {
+      "date": "2026-07-03",
+      "messageCount": 622,
+      "sessionCount": 42,
+      "toolCallCount": 75
+    },
+    {
+      "date": "2026-07-06",
+      "messageCount": 1767,
+      "sessionCount": 165,
+      "toolCallCount": 121
+    },
+    {
+      "date": "2026-07-07",
+      "messageCount": 1719,
+      "sessionCount": 111,
+      "toolCallCount": 321
+    },
+    {
+      "date": "2026-07-08",
+      "messageCount": 3063,
+      "sessionCount": 155,
+      "toolCallCount": 579
+    },
+    {
+      "date": "2026-07-09",
+      "messageCount": 2695,
+      "sessionCount": 15,
+      "toolCallCount": 615
+    },
+    {
+      "date": "2026-07-10",
+      "messageCount": 617,
+      "sessionCount": 2,
+      "toolCallCount": 135
+    },
+    {
+      "date": "2026-07-11",
+      "messageCount": 62,
+      "sessionCount": 0,
+      "toolCallCount": 15
+    },
+    {
+      "date": "2026-07-12",
+      "messageCount": 36,
+      "sessionCount": 0,
+      "toolCallCount": 9
+    },
+    {
+      "date": "2026-07-13",
+      "messageCount": 525,
+      "sessionCount": 2,
+      "toolCallCount": 129
+    },
+    {
+      "date": "2026-07-14",
+      "messageCount": 1011,
+      "sessionCount": 2,
+      "toolCallCount": 490
+    },
+    {
+      "date": "2026-07-15",
+      "messageCount": 497,
+      "sessionCount": 2,
+      "toolCallCount": 121
+    },
+    {
+      "date": "2026-07-16",
+      "messageCount": 531,
+      "sessionCount": 3,
+      "toolCallCount": 177
+    },
+    {
+      "date": "2026-07-17",
+      "messageCount": 1320,
+      "sessionCount": 13,
+      "toolCallCount": 295
+    },
+    {
+      "date": "2026-07-20",
+      "messageCount": 1144,
+      "sessionCount": 7,
+      "toolCallCount": 295
+    },
+    {
+      "date": "2026-07-21",
+      "messageCount": 551,
+      "sessionCount": 6,
+      "toolCallCount": 119
+    }
+  ],
+  "dailyModelTokens": [
+    {
+      "date": "2026-06-15",
+      "tokensByModel": {
+        "deepseek-v4-pro": 557755
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "tokensByModel": {
+        "deepseek-v4-pro": 565490
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "tokensByModel": {
+        "deepseek-v4-pro": 905260
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1734441
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "tokensByModel": {
+        "deepseek-v4-pro": 575550
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1449992
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1167168
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "tokensByModel": {
+        "deepseek-v4-pro": 552949
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1098990
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1469236
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "tokensByModel": {
+        "deepseek-v4-pro": 577922
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "tokensByModel": {
+        "deepseek-v4-pro": 939839
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1685670
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "tokensByModel": {
+        "deepseek-v4-pro": 4134299,
+        "kimi-k2.6": 64553
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "tokensByModel": {
+        "deepseek-v4-pro": 4918300
+      }
+    },
+    {
+      "date": "2026-07-10",
+      "tokensByModel": {
+        "deepseek-v4-pro": 2787903
+      }
+    },
+    {
+      "date": "2026-07-11",
+      "tokensByModel": {
+        "deepseek-v4-pro": 90285
+      }
+    },
+    {
+      "date": "2026-07-12",
+      "tokensByModel": {
+        "deepseek-v4-pro": 58702
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1522915
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "tokensByModel": {
+        "deepseek-v4-pro": 2872111
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1086393
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "tokensByModel": {
+        "deepseek-v4-pro": 1312650
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "tokensByModel": {
+        "deepseek-v4-pro": 2638287,
+        "mimo-v2.5-pro": 641867
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "tokensByModel": {
+        "mimo-v2.5-pro": 240330,
+        "deepseek-v4-pro": 3050933
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "tokensByModel": {
+        "kimi-k2.6": 137333,
+        "deepseek-v4-pro": 1440589
+      }
+    }
+  ],
+  "modelUsage": {
+    "deepseek-v4-pro": {
+      "inputTokens": 32446623,
+      "outputTokens": 6747006,
+      "cacheReadInputTokens": 1320252928,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0,
+      "maxOutputTokens": 0
+    },
+    "mimo-v2.5-pro": {
+      "inputTokens": 873335,
+      "outputTokens": 8862,
+      "cacheReadInputTokens": 3741376,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0,
+      "maxOutputTokens": 0
+    },
+    "kimi-k2.6": {
+      "inputTokens": 188279,
+      "outputTokens": 13607,
+      "cacheReadInputTokens": 1378816,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0,
+      "contextWindow": 0,
+      "maxOutputTokens": 0
+    }
+  },
+  "totalSessions": 993,
+  "totalMessages": 23797,
+  "longestSession": {
+    "sessionId": "42328df3-1ff0-4b97-9cb2-c7bd6b338c29",
+    "duration": 965611636,
+    "messageCount": 154,
+    "timestamp": "2026-06-15T01:46:54.401Z"
+  },
+  "firstSessionDate": "2026-06-15T01:46:54.401Z",
+  "hourCounts": {
+    "2": 1,
+    "8": 9,
+    "9": 78,
+    "10": 207,
+    "11": 125,
+    "12": 1,
+    "13": 19,
+    "14": 58,
+    "15": 66,
+    "16": 104,
+    "17": 196,
+    "18": 34,
+    "19": 39,
+    "20": 40,
+    "21": 12,
+    "22": 1,
+    "23": 3
+  }
+}

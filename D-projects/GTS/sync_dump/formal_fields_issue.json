@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "fields": [
+      {
+        "default_value": null,
+        "id": "fldlUh46jZ",
+        "name": "问题描述",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldi4HKBUL",
+        "name": "编号",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldlFyts80",
+        "name": "处理措施",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      },
+      {
+        "default_value": null,
+        "id": "fldlfo9yKA",
+        "name": "发现日期",
+        "style": {
+          "format": "yyyy/MM/dd"
+        },
+        "type": "datetime"
+      },
+      {
+        "id": "fldHt9JyC0",
+        "name": "ID",
+        "style": {
+          "rules": [
+            {
+              "text": "NO.",
+              "type": "text"
+            },
+            {
+              "length": 3,
+              "type": "incremental_number"
+            }
+          ]
+        },
+        "type": "auto_number"
+      },
+      {
+        "default_value": null,
+        "id": "fldgHKlGff",
+        "multiple": false,
+        "name": "状态",
+        "options": [
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "🔴 待解决"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "🟡 处理中"
+          },
+          {
+            "hue": "Yellow",
+            "lightness": "Lighter",
+            "name": "🟢 已解决"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fld8mSL9Zw",
+        "multiple": false,
+        "name": "严重度",
+        "options": [
+          {
+            "hue": "Lime",
+            "lightness": "Lighter",
+            "name": "🔴 严重"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "🟡 观察"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldHFctBFQ",
+        "multiple": false,
+        "name": "问题类型",
+        "options": [
+          {
+            "hue": "Red",
+            "lightness": "Lighter",
+            "name": "CPI超标"
+          },
+          {
+            "hue": "Carmine",
+            "lightness": "Lighter",
+            "name": "0激活"
+          },
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "留存不达标"
+          },
+          {
+            "hue": "Blue",
+            "lightness": "Lighter",
+            "name": "CTR/CVR异常"
+          },
+          {
+            "hue": "Turquoise",
+            "lightness": "Lighter",
+            "name": "环比波动大"
+          },
+          {
+            "hue": "Gray",
+            "lightness": "Lighter",
+            "name": "其他"
+          }
+        ],
+        "type": "select"
+      },
+      {
+        "default_value": null,
+        "id": "fldWgNKu9M",
+        "name": "素材名称",
+        "style": {
+          "type": "plain"
+        },
+        "type": "text"
+      }
+    ],
+    "total": 9
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.93",
+      "message": "lark-cli 1.0.93 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}

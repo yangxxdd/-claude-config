@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""GTS 素材需求重写版 v2 —— 保持原需求格式（画面描述+中英文提示词），用 v3 标准优化内容"""
+import csv
+
+# ============ Sheet 1: 重写-图片需求（5条）============
+h1 = ["序号", "需求名称", "图片尺寸", "创意标准", "画面场景描述(给美术·优化)", "AI生图提示词(中文)", "AI生图提示词(英文)", "参考"]
+
+img = [
+[1, "P-美漫分镜-帮派火并", "1080×1080", "视觉冲击",
+"美漫分镜风格（粗黑墨线描边+网点纸印刷质感+暗色平面化背景）。深夜街头帮派火并的爆发瞬间：前景两名黑西装帮派成员持汤姆逊冲锋枪近距离互射，枪口火焰迸溅，照亮两人因嘶吼而扭曲的脸；硝烟弥漫整条街，弹壳在空中定格飞溅。中景同伴持枪掩体掩护。背景暗色平面化城市街区，不出现线框或全息投影。低角度仰视构图强化压迫感，高对比打光。",
+"美式漫画插画风格，深夜街头帮派火并的爆发瞬间，浓重的粗黑墨线描边，网点纸印刷质感：两名身穿黑西装的帮派成员手持汤姆逊冲锋枪近距离互射，枪口火焰迸溅照亮两人嘶吼扭曲的凶狠面孔，硝烟弥漫整条街，弹壳在空中定格飞溅，低角度仰视动态构图，漫画画格框隐约可见，背景是暗色平面化城市街区，不出现任何线框或全息投影元素，高对比打光，强烈的暴力张力，不要任何文字。",
+"American comic book illustration style, a late-night street gang shootout at its explosive peak, bold black ink outlines, halftone print texture: two gangsters in black suits fire Thompson submachine guns at each other point-blank, muzzle flashes lighting up their snarling distorted faces, smoke filling the street, shell casings frozen mid-air, low-angle dynamic composition, faint comic panel borders, dark flat city block background, no wireframes or holographic projections, high-contrast lighting, intense violent tension, no text.",
+"7月美漫分镜素材（install-GTS-罪恶之城-hxj）"],
+
+[2, "P-美漫分镜-地盘争夺", "1080×1080", "代入/想玩",
+"美漫地图战术概念图：俯视城市街区被红蓝绿三色帮派地盘划分，一块亮黄色高亮争夺区散发着诱惑感，战略方向箭头标注即将开打的进攻方向，街道网格+坐标，监控UI风格边框（沿用7月TURF PATROL黄色箭头风格）。强化'这块地盘值得抢'的代入感，粗黑描边+网点纸质感。",
+"美式漫画风格的战术地图插画，俯视视角的城市街区地图，街道被红蓝绿不同颜色的帮派地盘划分，一块亮黄色高亮标注的争夺区域散发着诱惑的光芒，带有战略方向箭头标注进攻方向，地图边框是监控界面风格带坐标网格，建筑以蓝色半透明线框表示，漫画分镜排布，粗黑描边，网点纸质感，高对比，不要任何文字。",
+"American comic style tactical map illustration, top-down view of a city block map, streets divided into red, blue and green gang territories, one bright yellow highlighted contested zone glowing with temptation, strategic direction arrows marking the attack route, surveillance-UI style border with coordinate grid, buildings shown as blue semi-transparent wireframes, comic panel layout, bold black outlines, halftone texture, high contrast, no text.",
+"7月美漫分镜地图素材"],
+
+[3, "P-美漫分镜-角色升级", "1080×1080", "视觉冲击+好奇",
+"美漫风命运反转对比图：同一黑帮角色左右两格——左侧落魄到极点的街头小卒（破衣、手铐、垂头、被踩在脚下），右侧意气风发的黑帮大佬（定制条纹西装、金表、雪茄、LV60标识），中间闪电状升级光效从弱到强爆发连接。左右落差拉到极致，命运过山车视觉化。",
+"美式漫画分镜风格的角色命运反转对比插画，同一个黑帮角色的两个极端：左边是穿着破烂衣服、戴着手铐、垂头丧气被踩在脚下的街头小卒，右边是穿着定制条纹西装、戴着金表、抽着雪茄、意气风发的黑帮大佬，两人之间是闪电形状的升级光芒从弱到强爆发，画面分成左右对比两格，戏剧化的轮廓光，粗黑描边，漫画网点，漫画扉页质感，不要任何文字。",
+"American comic style character fate-reversal comparison illustration, the same gangster in two extremes: on the left a down-and-out street thug in ragged clothes and handcuffs, head hanging, trampled underfoot; on the right a triumphant mob boss in a custom pinstripe suit, gold watch and cigar; a lightning-shaped upgrade glow erupting between them, split into two contrasting panels, dramatic rim lighting, bold black outlines, halftone dots, comic cover quality, no text.",
+"晋级失败被捕素材风格"],
+
+[4, "P-黑帮经营-炸鸡店迭代", "1080×1080", "情绪/好笑（反差萌）",
+"反差萌黑帮经营：身形魁梧、满脸刀疤的黑帮大哥穿黑西装+粉色围裙，在临街炸鸡档口一本正经地认真炸鸡，表情极度严肃却透着憨态；金黄酥脆炸鸡在空中飞溅，身后夜晚霓虹招牌，顾客排队，暖黄灯光。'黑帮大佬做炸鸡'的违和反差拉满，卡通漫画风格。",
+"卡通插画风格，反差萌的黑帮经营场景：一位身形魁梧、满脸刀疤的黑帮大哥穿着黑色西装系着粉色围裙，在临街小吃档口一本正经地认真炸鸡，表情极度严肃却透着憨态，金黄酥脆的炸鸡在空中飞舞，身后是夜晚的霓虹招牌，有顾客在排队等待，暖黄色的灯光，画面搞笑又温馨，细节丰富，不要任何文字。",
+"Cartoon illustration style, an endearing contrast mafia business scene: a burly scar-faced gang boss in a black suit and pink apron earnestly deep-frying chicken at a street-side stall, an extremely serious expression that is somehow adorable, golden crispy fried chicken flying in the air, neon signs glowing at night behind him, customers queuing, warm yellow light, funny and heartwarming, rich detail, no text.",
+"7月黑帮炸鸡店素材（install-GTS-GTS-黑帮炸鸡店-hxj）"],
+
+[5, "P-黑帮经营-披萨店迭代", "1080×1080", "情绪/好笑（反差萌）",
+"反差萌黑帮经营：纹身满臂的黑帮大哥穿黑西装+围裙在披萨店内把面团高高抛起、转出专业手势，柜台和烤炉摆满刚出炉披萨，暖色店内灯光，表情又酷又搞笑。'黑帮大哥抛披萨'的违和反差拉满，卡通漫画风格。",
+"卡通插画风格，反差萌的黑帮披萨店场景：一位纹身满臂的黑帮大哥穿着黑色西装系着围裙，把披萨面团高高抛起并转出专业手势，柜台和烤炉里摆满刚出炉的披萨，店内是暖黄色的温馨灯光，黑帮大哥的表情又酷又搞笑，细节丰富，不要任何文字。",
+"Cartoon illustration style, an endearing contrast mafia pizzeria scene: a tattooed gang boss in a black suit and apron tossing pizza dough high into the air with a professional spin, counters and ovens full of freshly baked pizzas, warm yellow lighting inside, the boss looking both cool and comical, rich detail, no text.",
+"7月黑帮披萨店素材（install-黑帮披萨店-hxj）"],
+]
+
+with open("D:/claude-projects/projects/GTS/rewrite_img_v2.csv", "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerows([h1] + img)
+print("图片 sheet 行数:", len(img) + 1)
+print("done img")

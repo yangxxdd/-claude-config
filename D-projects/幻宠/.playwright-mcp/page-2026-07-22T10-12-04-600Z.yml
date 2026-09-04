@@ -1,0 +1,360 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - navigation "页面标题" [ref=e3]:
+      - link "Google Play 徽标" [ref=e4] [cursor=pointer]:
+        - /url: /store/games
+        - generic [ref=e12]: google_logo Play
+      - navigation "主导航栏" [ref=e14]:
+        - tablist [ref=e16]:
+          - generic [ref=e19]:
+            - tab "遊戲" [ref=e20] [cursor=pointer]
+            - tab "應用程式" [selected] [ref=e22] [cursor=pointer]
+            - tab "圖書" [ref=e24] [cursor=pointer]
+            - tab "兒童" [ref=e26] [cursor=pointer]
+      - generic [ref=e28]:
+        - button "搜索" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: search
+        - button "帮助中心" [ref=e33] [cursor=pointer]:
+          - generic [ref=e34]: help_outline
+        - button "打开账号菜单" [ref=e39] [cursor=pointer]
+  - generic [ref=e45]:
+    - generic [ref=e48]:
+      - generic [ref=e53]:
+        - generic [ref=e56]:
+          - 'heading "Palmon: Survival" [level=1] [ref=e58]'
+          - generic [ref=e59]:
+            - link "LILITH TECHNOLOGY HONG KONG LIMITED" [ref=e61] [cursor=pointer]:
+              - /url: /store/apps/developer?id=LILITH+TECHNOLOGY+HONG+KONG+LIMITED
+            - generic [ref=e62]: 应用内购商品
+        - region "信息徽章" [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - generic "获评 4.8 颗星（最高 5 颗星）" [ref=e70]:
+                - text: "4.8"
+                - generic [ref=e71]: star
+              - generic [ref=e72]: 16.5万条评价
+            - generic [ref=e73]:
+              - generic [ref=e74]: 500万+
+              - generic [ref=e75]: 次下载
+      - generic [ref=e76]:
+        - button "安装" [ref=e84]
+        - generic [ref=e88]:
+          - button "分享" [ref=e92] [cursor=pointer]
+          - button "添加到心愿单" [ref=e99] [cursor=pointer]
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - button "屏幕截图图片" [ref=e113] [cursor=pointer]
+            - listitem [ref=e114]:
+              - button "屏幕截图图片" [ref=e116] [cursor=pointer]
+            - listitem [ref=e117]:
+              - button "屏幕截图图片" [ref=e119] [cursor=pointer]
+            - listitem [ref=e120]:
+              - button "屏幕截图图片" [ref=e122] [cursor=pointer]
+            - listitem [ref=e123]:
+              - button "屏幕截图图片" [ref=e125] [cursor=pointer]
+            - listitem [ref=e126]:
+              - button "屏幕截图图片" [ref=e128] [cursor=pointer]
+            - listitem [ref=e129]:
+              - button "屏幕截图图片" [ref=e131] [cursor=pointer]
+            - listitem [ref=e132]:
+              - button "屏幕截图图片" [ref=e134] [cursor=pointer]
+            - listitem [ref=e135]:
+              - button "屏幕截图图片" [ref=e137] [cursor=pointer]
+            - listitem [ref=e138]:
+              - button "屏幕截图图片" [ref=e140] [cursor=pointer]
+            - listitem [ref=e141]:
+              - button "屏幕截图图片" [ref=e143] [cursor=pointer]
+            - listitem [ref=e144]:
+              - button "屏幕截图图片" [ref=e146] [cursor=pointer]
+            - listitem [ref=e147]:
+              - button "屏幕截图图片" [ref=e149] [cursor=pointer]
+            - listitem [ref=e150]:
+              - button "屏幕截图图片" [ref=e152] [cursor=pointer]
+            - listitem [ref=e153]:
+              - button "屏幕截图图片" [ref=e155] [cursor=pointer]
+          - generic [ref=e158]:
+            - generic [ref=e160]:
+              - heading "游戏简介" [level=2] [ref=e162]
+              - button "查看“游戏简介”的更多相关信息" [ref=e164] [cursor=pointer]:
+                - generic [ref=e165]: arrow_forward
+            - generic [ref=e166]:
+              - generic [ref=e167]: 欢迎来到我们的怪物捕捉生存与建造模拟游戏。踏上史诗般的冒险之旅，探索充满神秘强大生物——帕兰提斯的世界！[捕捉与战斗]捕捉不同的帕兰提斯，探索它们隐藏的能力。小心——稀有的帕兰提斯奖励丰厚，但同时也更具威胁。你准备好迎接精彩挑战，成为终极帕兰提斯大师了吗？[建造你的家园]收集帕兰提斯，利用它们的力量生火、发电、耕种丰饶的农田、建造先进的工厂，以及更多挑战。与这些非凡的生物一起，打造你自己繁荣昌盛的家园。[探索与生存]驯服帕兰提斯，探索神秘荒凉的帕兰提斯大陆。在揭开秘密的同时，对抗偷猎者和邪恶势力，探索这个世界中惊心动魄的谜团和机遇。
+              - generic [ref=e170]:
+                - generic [ref=e171]: 更新日期
+                - generic [ref=e172]: 2026年7月17日
+              - generic [ref=e173]:
+                - generic [ref=e175]:
+                  - generic [ref=e177]: 策略
+                  - link "策略" [ref=e178] [cursor=pointer]:
+                    - /url: /store/apps/category/GAME_STRATEGY
+                - generic [ref=e180]:
+                  - generic [ref=e182]: 建造与对战
+                  - link "建造与对战" [ref=e183] [cursor=pointer]:
+                    - /url: /store/search?q=%E5%BB%BA%E9%80%A0%E6%88%98%E4%BA%89%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=e185]:
+                  - generic [ref=e187]: 单人
+                  - link "单人" [ref=e188] [cursor=pointer]:
+                    - /url: /store/search?q=%E5%8D%95%E4%BA%BA%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=e190]:
+                  - generic [ref=e192]: 风格化
+                  - link "风格化" [ref=e193] [cursor=pointer]:
+                    - /url: /store/search?q=%E9%A3%8E%E6%A0%BC%E5%8C%96%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=e195]:
+                  - generic [ref=e197]: 怪兽
+                  - link "怪兽" [ref=e198] [cursor=pointer]:
+                    - /url: /store/search?q=%E6%80%AA%E5%85%BD%E6%B8%B8%E6%88%8F&c=apps
+                - generic [ref=e200]:
+                  - generic [ref=e202]: 沉浸式
+                  - link "沉浸式" [ref=e203] [cursor=pointer]:
+                    - /url: /store/search?q=%E6%B2%89%E6%B5%B8%E5%BC%8F%E6%B8%B8%E6%88%8F&c=apps
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - heading "数据安全" [level=2] [ref=e209]
+              - generic [ref=e210] [cursor=pointer]:
+                - generic [ref=e211]: arrow_forward
+                - link "查看“数据安全”的更多相关信息" [ref=e212]:
+                  - /url: /store/apps/datasafety?id=com.funfizz.palmon.gp
+            - generic [ref=e213]:
+              - text: 安全始于了解开发者如何收集和分享数据。数据隐私保护和安全措施可能会因您的使用情况、所在地区和用户年龄而异。此类信息由开发者提供，可能会随时间更新。
+              - generic [ref=e214]:
+                - generic [ref=e217]:
+                  - text: 此应用可能会与第三方分享这些类型的数据
+                  - generic [ref=e218]: 应用活动、网页浏览和应用信息和性能
+                - generic [ref=e221]:
+                  - text: 此应用可能会收集这些类型的数据
+                  - generic [ref=e222]: 个人信息、财务信息和另外 6 种数据
+                - generic [ref=e223]: 数据在传输过程中会加密
+                - generic [ref=e226]: 您可以要求开发者删除数据
+                - generic [ref=e231]:
+                  - generic [ref=e233]: 查看详情
+                  - link "查看关于数据安全的更多详情" [ref=e234] [cursor=pointer]:
+                    - /url: /store/apps/datasafety?id=com.funfizz.palmon.gp
+          - generic [ref=e236]:
+            - generic [ref=e238]:
+              - heading "评分和评价" [level=2] [ref=e240]
+              - button "查看“评分和评价”的更多相关信息" [ref=e242] [cursor=pointer]:
+                - generic [ref=e243]: arrow_forward
+              - button "评分和评价已经过验证" [ref=e247]:
+                - generic [ref=e251]: info_outline
+            - generic [ref=e252]:
+              - list [ref=e256]:
+                - listitem [ref=e257]:
+                  - button "手机" [pressed] [ref=e258] [cursor=pointer]:
+                    - generic [ref=e260]:
+                      - generic [ref=e261]: phone_android
+                      - generic [ref=e263]: 手机
+                - listitem [ref=e264]:
+                  - button "Chromebook" [ref=e265] [cursor=pointer]:
+                    - generic [ref=e267]:
+                      - generic [ref=e268]: laptop
+                      - generic [ref=e270]: Chromebook
+                - listitem [ref=e271]:
+                  - button "平板电脑" [ref=e272] [cursor=pointer]:
+                    - generic [ref=e274]:
+                      - generic [ref=e275]: tablet_android
+                      - generic [ref=e277]: 平板电脑
+              - generic [ref=e278]:
+                - generic [ref=e281]:
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: "4.8"
+                    - img "获评 4.8 颗星（最高 5 颗星）" [ref=e284]
+                    - generic [ref=e315]: 15.9万条评价
+                  - generic [ref=e316]:
+                    - img "143,212 条 5 星评价" [ref=e317]:
+                      - generic [ref=e318]: "5"
+                    - img "7,880 条 4 星评价" [ref=e321]:
+                      - generic [ref=e322]: "4"
+                    - img "3,083 条 3 星评价" [ref=e325]:
+                      - generic [ref=e326]: "3"
+                    - img "3,083 条 2 星评价" [ref=e329]:
+                      - generic [ref=e330]: "2"
+                    - img "1,370 条 1 星评价" [ref=e333]:
+                      - generic [ref=e334]: "1"
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - generic [ref=e340]: Ka Ka
+                      - button "更多评价操作" [ref=e346] [cursor=pointer]:
+                        - generic [ref=e347]: more_vert
+                    - generic [ref=e348]:
+                      - img "获评 5 颗星（最高 5 颗星）" [ref=e349]
+                      - text: 2026年2月22日
+                  - generic [ref=e380]: 画面精美，动态宠物，游戏玩法丰富，内置翻译，交流愉快！有点小瑕疵，就是偶尔会自动退出，这个很少出现，这种类型游戏影响不大。礼包价格设定，也是不错。
+                  - generic [ref=e381]:
+                    - generic [ref=e382]: 3 人认为该评价有用
+                    - generic [ref=e383]:
+                      - generic [ref=e384]: 您认为该评价有用吗？
+                      - generic [ref=e386]:
+                        - button "是" [ref=e387] [cursor=pointer]
+                        - button "否" [ref=e391] [cursor=pointer]
+                  - generic [ref=e395]:
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: LILITH TECHNOLOGY HONG KONG LIMITED
+                      - generic [ref=e398]: 2026年2月23日
+                    - generic [ref=e399]: We truly appreciate your highly recommendation and support! We will keep moving forward! Hope you enjoy the journey in game:)) (*^▽^*)
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - generic [ref=e403]:
+                      - generic [ref=e404]: 血无情冷
+                      - button "更多评价操作" [ref=e410] [cursor=pointer]:
+                        - generic [ref=e411]: more_vert
+                    - generic [ref=e412]:
+                      - img "获评 5 颗星（最高 5 颗星）" [ref=e413]
+                      - text: 2026年4月9日
+                  - generic [ref=e444]: 暂时看来是不错，不知道能不能玩的久
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: 1 人认为该评价有用
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: 您认为该评价有用吗？
+                      - generic [ref=e450]:
+                        - button "是" [ref=e451] [cursor=pointer]
+                        - button "否" [ref=e455] [cursor=pointer]
+                  - generic [ref=e459]:
+                    - generic [ref=e460]:
+                      - generic [ref=e461]: LILITH TECHNOLOGY HONG KONG LIMITED
+                      - generic [ref=e462]: 2026年4月10日
+                    - generic [ref=e463]: We truly appreciate your highly recommendation and support! We will keep moving forward! Hope you enjoy the journey in game:)) (*^▽^*)
+                - generic [ref=e465]:
+                  - generic [ref=e466]:
+                    - generic [ref=e467]:
+                      - generic [ref=e468]: Khaiyun Wang
+                      - button "更多评价操作" [ref=e474] [cursor=pointer]:
+                        - generic [ref=e475]: more_vert
+                    - generic [ref=e476]:
+                      - img "获评 2 颗星（最高 5 颗星）" [ref=e477]
+                      - text: 2025年6月27日
+                  - generic [ref=e508]: 整体蛮好玩的，只是帕萌瓶难收集，收服帕萌的几率又非常低，想要收服帕萌又要充值，希望这点可以改进，谢谢。
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: 2 人认为该评价有用
+                    - generic [ref=e511]:
+                      - generic [ref=e512]: 您认为该评价有用吗？
+                      - generic [ref=e514]:
+                        - button "是" [ref=e515] [cursor=pointer]
+                        - button "否" [ref=e519] [cursor=pointer]
+                  - generic [ref=e523]:
+                    - generic [ref=e524]:
+                      - generic [ref=e525]: LILITH TECHNOLOGY HONG KONG LIMITED
+                      - generic [ref=e526]: 2025年6月27日
+                    - generic [ref=e527]: Thank you for your feedback, we will try our best to constantly optimizing our game in order to bring better experience for our precious players.
+                - button "查看所有评价" [ref=e532]
+        - link "举报不当内容" [ref=e539] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/?p=report_content
+          - generic [ref=e540]: flag
+          - text: 举报不当内容
+      - generic [ref=e541]:
+        - generic [ref=e542]:
+          - img "内容分级" [ref=e543]
+          - generic [ref=e544]:
+            - generic [ref=e545]: 7 岁以上
+            - generic [ref=e546]: 暗示暴力、轻微暴力
+            - generic [ref=e547]: 用户互动、游戏内购买(包括随机道具)
+            - link "详细了解内容分级" [ref=e548] [cursor=pointer]:
+              - /url: https://support.google.com/googleplay?p=appgame_ratings
+              - text: 了解详情
+        - generic [ref=e552]:
+          - heading "应用支持" [level=2] [ref=e554]
+          - button "展开" [ref=e556] [cursor=pointer]:
+            - generic [ref=e557]: expand_more
+        - generic [ref=e559]:
+          - generic [ref=e561]:
+            - heading "类似游戏" [level=2] [ref=e563]
+            - generic [ref=e565] [cursor=pointer]:
+              - generic [ref=e566]: arrow_forward
+              - link "查看“类似游戏”的更多相关信息" [ref=e567]:
+                - /url: /store/apps/collection/cluster?gsr=SmVqGE52ZVkrNjZkdWxtR3NpTEM4MlBsK1E9PcICRQoZChVjb20uZnVuZml6ei5wYWxtb24uZ3AQBxgIMAE4AEocCAIQABoQUGFsbW9uOiBTdXJ2aXZhbCAAKAAwAFAAWAFgALASAA%3D%3D:S:ANO1ljLbVM4
+          - generic [ref=e569]:
+            - link "王国之歌（Top Heroes） RiverGame 获评 4.7 颗星（最高 5 颗星）" [ref=e571] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.greenmushroom.boomblitz.gp
+              - generic [ref=e574]:
+                - generic [ref=e575]: 王国之歌（Top Heroes）
+                - generic [ref=e577]: RiverGame
+                - generic "获评 4.7 颗星（最高 5 颗星）" [ref=e580]:
+                  - generic [ref=e581]: "4.7"
+                  - generic [ref=e582]: star
+            - 'link "Avatar: Realms Collide Tilting Point 获评 3.8 颗星（最高 5 颗星）" [ref=e585] [cursor=pointer]':
+              - /url: /store/apps/details?id=com.angames.android.google.avatarbendingtheworld
+              - generic [ref=e588]:
+                - generic [ref=e589]: "Avatar: Realms Collide"
+                - generic [ref=e591]: Tilting Point
+                - generic "获评 3.8 颗星（最高 5 颗星）" [ref=e594]:
+                  - generic [ref=e595]: "3.8"
+                  - generic [ref=e596]: star
+            - link "灵龙谷 - 孵化与养成 Runaway Play 获评 4.6 颗星（最高 5 颗星）" [ref=e599] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.runawayplay.dragons
+              - generic [ref=e602]:
+                - generic [ref=e603]: 灵龙谷 - 孵化与养成
+                - generic [ref=e605]: Runaway Play
+                - generic "获评 4.6 颗星（最高 5 颗星）" [ref=e608]:
+                  - generic [ref=e609]: "4.6"
+                  - generic [ref=e610]: star
+            - 'link "Negamon Lite: Monster Battle Teraxel Limited 获评 4.8 颗星（最高 5 颗星）" [ref=e613] [cursor=pointer]':
+              - /url: /store/apps/details?id=ngx.monster.battle.master.trainer.island
+              - generic [ref=e616]:
+                - generic [ref=e617]: "Negamon Lite: Monster Battle"
+                - generic [ref=e619]: Teraxel Limited
+                - generic "获评 4.8 颗星（最高 5 颗星）" [ref=e622]:
+                  - generic [ref=e623]: "4.8"
+                  - generic [ref=e624]: star
+            - link "Kingshot Century Games PTE. LTD. 获评 4.5 颗星（最高 5 颗星）" [ref=e627] [cursor=pointer]:
+              - /url: /store/apps/details?id=com.run.tower.defense
+              - generic [ref=e630]:
+                - generic [ref=e631]: Kingshot
+                - generic [ref=e633]: Century Games PTE. LTD.
+                - generic "获评 4.5 颗星（最高 5 颗星）" [ref=e636]:
+                  - generic [ref=e637]: "4.5"
+                  - generic [ref=e638]: star
+            - 'link "Foundation: Galactic Frontier FunPlus International AG 获评 3.8 颗星（最高 5 颗星）" [ref=e641] [cursor=pointer]':
+              - /url: /store/apps/details?id=com.games.foundation
+              - generic [ref=e644]:
+                - generic [ref=e645]: "Foundation: Galactic Frontier"
+                - generic [ref=e647]: FunPlus International AG
+                - generic "获评 3.8 颗星（最高 5 颗星）" [ref=e650]:
+                  - generic [ref=e651]: "3.8"
+                  - generic [ref=e652]: star
+  - contentinfo [ref=e655]:
+    - generic [ref=e657]:
+      - generic [ref=e659]:
+        - text: Google Play
+        - link [ref=e661] [cursor=pointer]:
+          - /url: /store/pass/getstarted
+          - paragraph [ref=e662]: Play Pass
+        - link [ref=e664] [cursor=pointer]:
+          - /url: /store/points/enroll
+          - paragraph [ref=e665]: Play Points
+        - link [ref=e667] [cursor=pointer]:
+          - /url: https://play.google.com/about/giftcards
+          - paragraph [ref=e668]: 禮品卡
+        - link [ref=e670] [cursor=pointer]:
+          - /url: /redeem
+          - paragraph [ref=e671]: 兌換
+        - link [ref=e673] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/134336
+          - paragraph [ref=e674]: 退款政策
+      - generic [ref=e676]:
+        - text: 兒童與合家歡
+        - link [ref=e678] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay?p=pff_parentguide
+          - paragraph [ref=e679]: 家長指南
+        - link [ref=e681] [cursor=pointer]:
+          - /url: https://support.google.com/googleplay/answer/7007852
+          - paragraph [ref=e682]: 家庭共享功能
+    - generic [ref=e683]:
+      - link [ref=e685] [cursor=pointer]:
+        - /url: https://play.google.com/intl/zh-HK_hk/about/play-terms.html
+        - paragraph [ref=e686]: 服務條款
+      - link [ref=e688] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+        - paragraph [ref=e689]: 私隱權
+      - link [ref=e691] [cursor=pointer]:
+        - /url: https://support.google.com/googleplay/?p=about_play
+        - paragraph [ref=e692]: 關於 Google Play
+      - link [ref=e694] [cursor=pointer]:
+        - /url: http://developer.android.com/index.html
+        - paragraph [ref=e695]: 開發人員
+      - link [ref=e697] [cursor=pointer]:
+        - /url: https://store.google.com/?playredirect=true&utm_source=play&utm_medium=google_oo&utm_campaign=GS106288
+        - paragraph [ref=e698]: Google Store
+      - generic [ref=e699]: 香港 (中文（香港）)

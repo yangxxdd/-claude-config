@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('C:/Users/yangxd/.claude/plugins/installed_plugins.json'\\)\\)\")",
+      "WebFetch(domain:guangdada.net)",
+      "Bash(pip show *)",
+      "Bash(npx playwright *)",
+      "Bash(python *)",
+      "Bash(powershell -Command \"Get-Process chrome -ErrorAction SilentlyContinue | Select-Object Id, ProcessName | Format-Table\" 2>&1)",
+      "Bash(curl -s http://localhost:9222/json/version)",
+      "Bash(claude skills *)",
+      "WebSearch",
+      "WebFetch(domain:store.steampowered.com)",
+      "WebFetch(domain:www.google.com)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "qwen-vision"
+  ]
+}

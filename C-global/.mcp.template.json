@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "browser-use": {
+      "command": "python",
+      "args": ["-m", "mcp_server_browser_use"],
+      "env": {
+        "MCP_LLM_PROVIDER": "deepseek",
+        "MCP_LLM_MODEL_NAME": "deepseek-chat",
+        "MCP_LLM_API_KEY": "{{DEEPSEEK_API_KEY}}",
+        "MCP_BROWSER_HEADLESS": "false",
+        "MCP_BROWSER_KEEP_OPEN": "false",
+        "MCP_AGENT_TOOL_MAX_STEPS": "40",
+        "MCP_AGENT_TOOL_USE_VISION": "false"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""把 2 条门徒立绘从'静态展示'改成'抽卡钩子版'：单卡=金光爆SSR瞬间，群像=十连连爆结果"""
+import csv
+
+rows = [
+[6, "P-门徒抽卡-绯夜SSR爆出瞬间(限时UP)", "1080×1080", "悬念(抽不抽得到)+爽感(金光爆SSR)+稀缺(限时UP)",
+"抽卡瞬间(爽感钩子)：手机游戏抽卡界面，玩家手指按下抽卡按钮，画面金光爆发——SSR门徒'绯夜'从耀眼的金色光芒中登场浮现(半身)，深色和服+蛇纹刺青，手持折扇。UI元素：顶部'限时UP'倒计时(24H)，SSR金色稀有度框，底部'概率UP'标签和发光抽卡按钮。金色粒子爆裂特效，SSR爆出的爽感瞬间。",
+"手机游戏抽卡界面，抽卡结果金光爆发的瞬间，一位冷艳的日式黑帮女性门徒从耀眼的金色光芒中登场浮现，半身，身穿优雅深色和服，手臂肩颈有蛇纹刺青，手持折扇，SSR金色稀有度框围绕，顶部有'限时UP'倒计时标签(24H)，底部有'概率UP'标签和发光抽卡按钮，金色粒子爆裂特效，SSR爆出的爽感瞬间，竖版构图，二次元游戏UI风格，戏剧化打光，除SSR、限时UP、24H、概率UP外不要其他任何文字。",
+"Mobile game gacha summoning interface, the golden light explosion moment when the result is revealed, a coldly beautiful Japanese-style mafia female disciple emerging from dazzling golden light, half-body, elegant dark kimono, snake tattoos on arms and shoulders, holding a folding fan, framed by a gold SSR rarity border, a 'Limited UP' countdown timer (24H) at the top, a 'Rate UP' tag and a glowing summon button at the bottom, golden particle burst effects, the thrilling SSR drop moment, vertical composition, anime game UI style, dramatic lighting, no other text except SSR, Limited UP, 24H and Rate UP.",
+"门徒抽卡UI + 首充门徒绯夜立绘"],
+
+[7, "P-门徒十连抽卡-连爆四门徒(爽感)", "1080×1080", "爽感(十连连爆)+悬念(抽到几个SSR)+稀缺",
+"十连抽卡结果展示(爽感钩子)：手机游戏十连抽卡结果界面，四张卡牌翻开，金光连续爆出四个门徒——R级西装打手、SR级机车党、SR级神枪手、SSR级绯夜(和服蛇纹)，SSR卡金光最盛。UI元素：顶部'十连招募'标题，每张卡牌下方稀有度标(R/SR/SR/SSR)，底部'再抽十连'发光按钮。金色光效按稀有度递增，SSR爆出的爽感瞬间。",
+"手机游戏十连抽卡结果界面，四张卡牌翻开，金光连续爆出四个门徒，从低稀有度到高稀有度依次是：R级西装打手、SR级机车党、SR级神枪手、SSR级穿和服有蛇纹刺青的冷艳女性门徒，SSR卡的金光最盛。UI元素：顶部'十连招募'标题，每张卡牌下方有稀有度标识(R、SR、SR、SSR)，底部一个发光'再抽十连'按钮。金色光效按稀有度递增，SSR爆出的爽感瞬间。竖版构图，二次元游戏UI风格，戏剧化打光，除十连招募、R、SR、SSR、再抽十连外不要其他任何文字。",
+"Mobile game 10-pull gacha result screen, four cards flipped open, golden light bursting out four disciples in ascending rarity: an R-rank thug in a suit, an SR-rank biker in leather, an SR-rank sniper in a trench coat, and an SSR-rank coldly beautiful kimono-clad female disciple with snake tattoos, the SSR card glowing brightest. UI elements: a '10x Recruit' title at the top, rarity badges (R, SR, SR, SSR) under each card, a glowing 'Recruit Again' button at the bottom. Golden light effects increasing by rarity, the thrilling SSR drop moment. Vertical composition, anime game UI style, dramatic lighting, no other text except 10x Recruit, R, SR, SSR and Recruit Again.",
+"门徒抽卡UI + 门徒群像"],
+]
+
+with open("D:/claude-projects/projects/GTS/rewrite_mentu4.csv", "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerows(rows)
+print("重写行数:", len(rows))
+print("done")

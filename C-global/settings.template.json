@@ -1,0 +1,59 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "{{DEEPSEEK_API_KEY}}",
+    "ANTHROPIC_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_METADATA_USER_ID": "yangxd",
+    "DISABLE_AUTOUPDATER": "1"
+  },
+  "effortLevel": "max",
+  "permissions": {
+    "allow": [
+      "Bash(netsh * show *)",
+      "Bash(reg query *)",
+      "Bash(dir *)",
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(grep *)",
+      "Bash(cat *)",
+      "Bash(echo *)",
+      "Bash(which *)",
+      "Bash(python --version)",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "Bash(git status)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git branch *)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "enabledMcpjsonServers": [
+    "qwen-vision"
+  ],
+  "skipDangerousModePermissionPrompt": true,
+  "pluginConfigs": {
+    "playwright@claude-plugins-official": {
+      "mcpServers": {
+        "playwright": {
+          "args": [
+            "@playwright/mcp@latest",
+            "--browser",
+            "chrome",
+            "--user-data-dir",
+            "%USERPROFILE%/.claude/playwright-profile"
+          ]
+        }
+      }
+    }
+  },
+  "enabledPlugins": {
+    "playwright@claude-plugins-official": true,
+    "claude-mem@thedotmack": true
+  },
+  "theme": "dark-daltonized",
+  "includeCoAuthoredBy": false
+}

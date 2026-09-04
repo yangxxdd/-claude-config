@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "has_more": false,
+    "items": [
+      {
+        "block_id": "chtcnZitsadljltbyCrDofHi6ne",
+        "name": "总花费",
+        "position": {
+          "h": 2,
+          "w": 4,
+          "x": 0,
+          "y": 0
+        },
+        "type": "statistics"
+      },
+      {
+        "block_id": "chtcnctBc2ucdyzmTm45ApqaN2v",
+        "name": "总安装",
+        "position": {
+          "h": 2,
+          "w": 4,
+          "x": 4,
+          "y": 0
+        },
+        "type": "statistics"
+      },
+      {
+        "block_id": "chtcnfCS0vaTN83qhddHxtWgkGc",
+        "name": "花费 by 素材",
+        "position": {
+          "h": 9,
+          "w": 4,
+          "x": 4,
+          "y": 2
+        },
+        "type": "bar"
+      },
+      {
+        "block_id": "chtcnrsdC7mhGKKwkpWgwABILlb",
+        "name": "安装 by 素材",
+        "position": {
+          "h": 9,
+          "w": 4,
+          "x": 0,
+          "y": 2
+        },
+        "type": "bar"
+      },
+      {
+        "block_id": "chtcnDo7tV9f57pSITDZd9VORYg",
+        "name": "CPI by 素材",
+        "position": {
+          "h": 5,
+          "w": 4,
+          "x": 8,
+          "y": 0
+        },
+        "type": "column"
+      },
+      {
+        "block_id": "chtcncLdAcXe7ZdAj3Y1XfB33Bh",
+        "name": "次留R1 by 素材",
+        "position": {
+          "h": 6,
+          "w": 4,
+          "x": 8,
+          "y": 5
+        },
+        "type": "column"
+      }
+    ],
+    "total": 6
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.67",
+      "latest": "1.0.93",
+      "message": "lark-cli 1.0.93 available, current 1.0.67, run: lark-cli update"
+    }
+  }
+}
